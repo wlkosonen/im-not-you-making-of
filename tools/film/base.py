@@ -55,7 +55,9 @@ PINS = [
     (66.81, "2026-11-10T18:30:00Z"),  # chorus 1: the battles, the opening batch, s067, the red lens, the editor
     (80.06, "2026-11-11T05:50:50Z"),  # verse 2, then the break: the 11 Nov compaction on the silence
     (82.31, "2026-11-11T05:53:00Z"),
-    (104.38, "2026-11-11T23:30:00Z"),  # chorus 2: the mid batches, the cut, the end, the review
+    (88.00, "2026-11-11T09:40:00Z"),   # the morning's batches (mid-1, the s032 retake, the s046 redo)
+    (89.60, "2026-11-11T19:18:00Z"),   # the day without calls (09:40-19:18) passes in a second and a half
+    (104.38, "2026-11-11T23:30:00Z"),  # the evening: mid-2, mid-3, the nuclear end, the fill, Lati's cut  # chorus 2: the mid batches, the cut, the end, the review
     (116.08, "2026-11-12T00:33:57Z"),  # "Me": the 12 Nov compaction
     (128.59, "2026-11-12T01:30:00Z"),  # the bridge's battle: the four graphics agents' first pass
     (130.78, "2026-11-12T06:30:00Z"),  # the night (no calls 01:39-06:32) passes in two seconds, to the accent at 130.78
