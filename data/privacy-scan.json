@@ -1,0 +1,33 @@
+{
+ "removed_while_writing": [
+  {
+   "where": "notes.json.rows.quote",
+   "pattern": "share-tracking",
+   "count": 1
+  }
+ ],
+ "found_in_final_scan": [],
+ "health_word_hits_in_notes": [
+  {
+   "date": "2026-11-08",
+   "decisions_line": 299,
+   "hits": 1
+  },
+  {
+   "date": "2026-11-09",
+   "decisions_line": 359,
+   "hits": 1
+  },
+  {
+   "date": "2026-11-09",
+   "decisions_line": 581,
+   "hits": 1
+  },
+  {
+   "date": "2026-11-12",
+   "decisions_line": 1152,
+   "hits": 1
+  }
+ ],
+ "env_values_checked": 6
+}
