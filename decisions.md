@@ -33,3 +33,11 @@ their blocky look. Pass 2 rendered for Lati.
 
 Claude (Kiln, local): pass 2 stands. The 1080 master renders now. The main film and the making-of link to each other
 (descriptions and end screens), part of the release prep with the main film's description and shorts.
+
+## 2026-11-12 · Public
+
+> "cache those lines and make the making-of repo public. Im all set to release, will publish making of video first, then right after ill publish main video. Reasoning being that main video sits on top as "newest" and making of needs to be published so that link leading to it works. If I were publish making of day later, then that one is "newest" Thoughts? shorts uploaded, descriptions made" (Lati, 12 Nov 2026)
+
+Claude (Kiln, local): the two transcript lines are in `data/session-lines.json` and the sections check against it; a
+scan of every tracked file and the whole history found no email address, key, .env value or health detail. The repo
+is public (github.com/wlkosonen/im-not-you-making-of).
