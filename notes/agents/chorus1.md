@@ -44,7 +44,9 @@ about it as the caption; master cropped to 1600x900 from the top so its burned-i
   window stays open.
 - 56.87-58.98 s006-r-h2-1, "pretty cool." (598, to Flint, 10 Nov 06:52Z). Master 0:08.79.
 - 64.62-66.81 s050 (the red lens, locked render; opens from the `s050-claudia` cell, the lip-synced face it carries:
-  decisions 731), "works, hal is done." (738, 15:47Z). Master 1:18.62.
+  decisions 731), "works, hal is done." (738, 15:47Z). Pass 2, Kiln's note ("a moving mouth on no vocal reads
+  wrong"): a held still, one frame of the master at 1:20.33, where her mouth is closest to closed in s050's span
+  (78.62-81.16; picked from face crops at 12 fps, then frame by frame). Title `s050-claudia @ 1:20.33`.
 
 **Verse 2, 66.81-80.06: what went wrong.** The wall shrinks to a strip (24 x 3) in 0.25 s; then `WHAT WENT WRONG`
 in red and the sources line. Eleven items, one per half bar (66.81 ... 77.83), in date order; each a red header
@@ -62,9 +64,9 @@ when their item prints (Grok cells; s037-1; the four failed jobs).
 8. 11 Nov 21:41 s060-c: FAILED: the ledger's error ("...output audio may be related to copyright restrictions.") and mid-2-run.md "our own vocal; failed jobs cost 0".
 9. 11 Nov 23:29 The nuclear end, again: plates first: "plates to review first, ... without confirmation." (1016) and Kiln "I ran motion before he had seen the plates ($2.79 on two takes neither of which works)."
 10. 11 Nov 23:29 s108-anime, s108-real: "realistic is too realistic in terms of style and explosions are equally spaced." (1016).
-11. 11 Nov 23:45 edit/timeline.json: the V3 s069 still: Kiln "the V3 s069 still at 1:52.08 was your edit, a held frame after your ×3 launch, not a placeholder." Source: Kiln's session, his reply of 11 Nov 21:45Z (records 49395-49432, found with the memory search). decisions.md only says "Kept: Lati's s069 edits on V3"; data/ doesn't hold this line. Hardcoded, checked by eye against the transcript.
+11. 11 Nov 23:45 edit/timeline.json: the V3 s069 still: Kiln "the V3 s069 still at 1:52.08 was your edit, a held frame after your ×3 launch, not a placeholder.", then in cyan its source: "Kiln's session, 11 Nov 21:45Z". decisions.md only says "Kept: Lati's s069 edits on V3". Pass 2: checked at load by `kiln_line()` against the transcript (it streams the jsonl once and caches the paragraph, record uuid a3dd7b2e… and time 2026-11-11T21:45:55.569Z in `media/chorus1/cache/kiln-lines.json`); the item's time and the source label come from that record.
 
-Every other excerpt is asserted at load against notes.json, spend.json or the film-3 file it comes from; a change in
+Every excerpt is asserted at load against notes.json, spend.json or the film-3 file it comes from; a change in
 the record stops the render rather than showing a wrong line.
 
 **The break, 80.06-82.31:** the centre clears; a cursor block at the list's top blinks on each beat. The base whites
@@ -84,7 +86,7 @@ verse-2 list drew over the shrinking wall (now after it settles); back-to-back i
 the log printed an invented time for the Grok takes (now `test1`). The summary line's spot (y ~810) stays clear: the
 window ends at y 790, the list at 790.
 
-## Open
-- s050's insert at 64.62-66.81 plays a lip-synced face where the song has no vocal. In the master it's in sync at
-  78.62 ("I'm afraid I can't do that"), which falls in verse 2; I kept the rule (where it was approved). Lati to judge.
-- The wall stops at 72 cells (11 Nov 05:53Z). If chorus 2 continues it, `takes()` and `cell_rect()` are reusable.
+## Pass 2 (Kiln's answers, 12 Nov)
+s069 kept, now checked against the transcript and labelled with its source; s050 held on one frame; chorus 2 has its
+own takes strip, so the wall ends here. Checked frames 65.5, 78.5 and 79.9. Render: `media/chorus1/pass2.mp4`,
+44.69-82.31, 902 of 902 frames.

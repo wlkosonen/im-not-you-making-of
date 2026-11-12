@@ -70,3 +70,20 @@ the window); the code view's anchors found the first match in the file instead o
 
 ## Render
 `media/bridge/pass1.mp4`: 82.31-128.59 at 720, --only sec_c_bridge, 1111 frames (expected 1111), with the song.
+
+## Pass 2 (Kiln's answers, 12 Nov)
+- Kiln added two pins to base.py: (88.00, 09:40Z) and (89.60, 19:18Z). New placement, checked by printing the
+  schedule: the morning notes land 82.45-88.37, the version saved 21:18:36 at 89.64, and the evening is spread over
+  89.6-104.4 (versions 89.64, 90.48, 93.05 ... 103.83; notes about 1 s apart).
+- Inserts, each on the first beat after its note, none overlapping: s032 83.41-85.61; s046 87.83-88.93 (shortened
+  to 2 beats, because the Grok note follows 0.6 s after s046's); Grok opening 88.93-90.59; pilots 95.01-96.10;
+  nuclear end 98.87-101.06.
+- The diagonal leader from the insert window to its clip crossed the whole timeline when the clip was far left
+  (the Grok opening at 0:00). It's now a cyan box around the clip in the cut, drawn only when the displayed
+  version holds the clip at that start time.
+- Calm cockpit: kept as the record has it (Kiln).
+- Frame checks: 85.3, 87.9, 88.5, 89.8, 92.7, 95.5, 98.4, 99.6, 102.0, 103.5 (media/bridge/check2, sheet2_*.jpg).
+  Nothing collides; the notes log scrolls one note at a time.
+- `tools/data/timeline_history.py` (asked for by Kiln): every committed version of the timeline as one JSON, through
+  extract.py's privacy filter. Not wired in; tested only with --out media/bridge/cache/timeline-history.json:
+  23 versions, 2133 clip rows, 0 privacy hits. data/ untouched.

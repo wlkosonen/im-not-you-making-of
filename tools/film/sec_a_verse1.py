@@ -198,7 +198,7 @@ class Quote(Entry):
         self.t0, self.cps = t0, cps
         r = notes()[line]
         self.u = utc(r["ts"])
-        self.head = f"{stamp_local(self.u)}  " + (who or ("LATI → FLINT" if r["to"] == "Flint" else "LATI"))
+        self.head = f"{stamp_local(self.u)}  " + (who or ("LATI to FLINT" if r["to"] == "Flint" else "LATI"))
         self.text = excerpt(line, start, end)
         self.lines = wrap(self.text, QCHARS)
         self.kiln = wrap(kiln, QCHARS - 6) if kiln else []
@@ -418,8 +418,8 @@ class BoardV1(Entry):
         self.shots = st["shots"]
         self.cols, self.cw, self.ch, self.gap = 16, 48, 27, 4.5
         self.rows = (len(self.shots) + self.cols - 1) // self.cols
-        n = sum(1 for s in self.shots if kind(s["status"], s["frame"]) == "plate")
-        self.caption = f"production/board/board.json   {len(self.shots)} shots   {n} with a plate"
+        n = sum(1 for s in self.shots if s["status"].startswith("picked"))
+        self.caption = f"production/board/board.json   {len(self.shots)} shots   picked {n}"
 
     def height(self, t):
         return (SLH + self.rows * (self.ch + self.gap) + 12) * ease((t - self.t0) / 0.18)
@@ -547,10 +547,10 @@ def board_timeline():
 
 
 def board_cell(i, t):
-    """(kind, frame, when it last changed) of card i at t; a new state lands across the cards within 0.15 s"""
+    """(kind, frame, when it last changed) of card i at t; a new state lands across the cards within 0.08 s"""
     cur, since = None, None
     for ts, shots in board_timeline():
-        when = ts + 0.15 * i / len(shots)
+        when = ts + 0.08 * i / len(shots)
         if when > t:
             break
         s = shots[i]
@@ -564,15 +564,15 @@ def board_cell(i, t):
 def draw_board(c, t, a):
     tl = board_timeline()
     shots = [s for ts, s in tl if ts <= t][-1]
-    n_plate = sum(1 for i in range(len(shots)) if board_cell(i, t)[0] == "plate")
-    B.crt(c, f"production/board/board.json   v2   {len(shots)} shots   {n_plate} with a plate", VX0, VY0, px=SPX,
+    n_pick = sum(1 for s in shots if s["status"].startswith("picked"))
+    B.crt(c, f"production/board/board.json   v2   {len(shots)} shots   picked {n_pick}", VX0, VY0, px=SPX,
           rows_=SROWS, color=B.CYAN, alpha=0.8 * a, glow=False)
     y0 = VY0 + SLH + 8
     hi = 42.48 <= t  # Lati's "DEFINETELY s034-1 and s034-2": the shot framed
     for i, s in enumerate(shots):
         r, k = divmod(i, BCOLS)
         cx, cy = VX0 + k * (BCW + BGAP), y0 + r * (BCH + BGAP)
-        rev = (t - (T_BOARD + 0.12 + 0.03 * r + 0.004 * k)) / 0.1
+        rev = (t - (T_BOARD + 0.04 + 0.03 * r + 0.004 * k)) / 0.1
         if rev <= 0:
             continue
         kd, fr, since = board_cell(i, t)
@@ -598,16 +598,16 @@ def layout(entries, t):
     return out, y
 
 
-def draw_stack(c, entries, t, top, height, a, extra=0.0):
+def draw_stack(c, entries, t, top, height, a):
     placed, total = layout(entries, t)
-    off = max(0.0, total - height) + extra
+    off = max(0.0, total - height)
     for y, e in placed:
         yy = top + y - off
         if yy > top + height + 10 or yy + 900 < top - 10:
             continue
         e.draw(c, VX0, yy, t, a)
     busy = any(e.busy(t) for _, e in placed)
-    if placed and not busy and int(t * 2.5) % 2 == 0 and extra == 0:  # the idle cursor
+    if placed and not busy and int(t * 2.5) % 2 == 0:  # the idle cursor
         yy = top + total - off
         if yy < top + height - 20:
             c.drawRect(skia.Rect.MakeXYWH(VX0, yy + 2, 11, SROWS * SPX + 2), skia.Paint(Color=col(B.AMBER, 0.85 * a)))
@@ -622,10 +622,9 @@ def draw(c, t, base):
     E, pane = schedule()
     c.save()
     c.clipRect(skia.Rect(VX0 - 12, VY0 - 8, VX1 + 12, VY1))
-    if t < T_BOARD + 0.45:
-        extra = (VH + 40) * ease((t - T_BOARD) / 0.35) if t >= T_BOARD else 0.0
-        draw_stack(c, E, t, VY0, VH, a, extra)
-    if t >= T_BOARD:
+    if t < T_BOARD:
+        draw_stack(c, E, t, VY0, VH, a)
+    else:  # a clear, on the beat: the board prints from the top
         draw_board(c, t, a)
         c.save()
         c.clipRect(skia.Rect(VX0 - 12, PANE_Y - 6, VX1 + 12, VY1))
