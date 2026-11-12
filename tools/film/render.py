@@ -30,10 +30,19 @@ def main():
     ap.add_argument("--tail", type=float, default=0.0)
     ap.add_argument("--size", type=int, default=720, choices=(720, 1080))
     ap.add_argument("--out", default=None)
+    ap.add_argument("--only", default="", help="load only these sections, e.g. sec_b_motion")
     a = ap.parse_args()
+    import fcntl
+    (ROOT / "media").mkdir(exist_ok=True)
+    lock = open(ROOT / "media/render.lock", "w")  # one render at a time (agents share the CPU)
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        print("waiting for another render (media/render.lock)", file=sys.stderr)
+        fcntl.flock(lock, fcntl.LOCK_EX)
     H = a.size
     W = H * 16 // 9
-    base.load_sections()
+    base.load_sections([x for x in a.only.split(",") if x] or None)
     f0, f1 = round(a.t0 * FPS), round(a.t1 * FPS)
     tail = round(a.tail * FPS)
     out = ROOT / (a.out or f"media/render/making-of-{a.t0:g}-{a.t1:g}.mp4")

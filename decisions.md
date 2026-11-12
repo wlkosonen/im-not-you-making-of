@@ -11,3 +11,10 @@ Append-only; Lati's words verbatim, dated. Newest entry on a subject wins.
 Claude (Kiln, local): film 3 only (1 Nov 2026, the first commit, to the master of 12 Nov). Kiln directs and codes,
 agents as needed; Lati checks. Private: keys and Lati's email address; and, by Kiln's choice from Lati's word of
 31 Oct, his health stays his to mention. Everything else on screen is the record as it is.
+
+## 2026-11-12 · Base test: the gauge, the compactions, the terminal
+
+> "Checked the test take, honestly looks damn good, compactions land. Visually, this reads quite novel, and the sizing of elements might be just as good as this, reads as a terminal, and not uinoverlay, which i think is cool." (Lati, 12 Nov 2026, on making-of-test1: 1:14-1:30 and 1:52-1:59)
+
+Claude (Kiln, local): the base stands as it is, sizes included: a terminal, not a UI overlay. The centre goes to four
+section agents (notes/agents.md).
