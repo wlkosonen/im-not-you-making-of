@@ -74,12 +74,17 @@ def wrap(text, n):
     return textwrap.wrap(text, n, break_on_hyphens=False, break_long_words=False)
 
 
-def excerpt(line, start=None, end=None):
-    """Lati's words exactly as notes.json has them; cut only at the ends, each cut marked with an ellipsis"""
+def excerpt(line, start=None, end=None, parts=None):
+    """Lati's words exactly as notes.json has them; every cut is marked with an ellipsis. parts: [(start, end), ...]
+    pieces in order (a cut between two pieces is marked too)"""
     q = notes()[line]["quote"]
-    i = q.index(start) if start else 0
-    j = q.index(end, i) + len(end) if end else len(q)
-    return ("… " if i > 0 else "") + q[i:j].strip() + (" …" if j < len(q) else "")
+    out, pos = "", 0
+    for k, (a, b) in enumerate(parts or [(start, end)]):
+        i = q.index(a, pos) if a else 0
+        j = q.index(b, i) + len(b) if b else len(q)
+        out += ("… " if i > pos or (k == 0 and i > 0) else "") + q[i:j].strip() + " "
+        pos = j
+    return out.strip() + (" …" if pos < len(q) else "")
 
 
 # ---------- pictures: the main film's pixel voice (32-colour palette, Bayer dither), scanlines inside the pixels
@@ -194,12 +199,12 @@ class Entry:
 class Quote(Entry):
     """Lati's words: a header (when, who), the words typing in, and optionally Kiln's reply in clay"""
 
-    def __init__(self, t0, line, start=None, end=None, kiln=None, cps=150, who=None, note=None):
+    def __init__(self, t0, line, start=None, end=None, kiln=None, cps=150, who=None, note=None, parts=None):
         self.t0, self.cps = t0, cps
         r = notes()[line]
         self.u = utc(r["ts"])
         self.head = f"{stamp_local(self.u)}  " + (who or ("LATI to FLINT" if r["to"] == "Flint" else "LATI"))
-        self.text = excerpt(line, start, end)
+        self.text = excerpt(line, start, end, parts)
         self.lines = wrap(self.text, QCHARS)
         self.kiln = wrap(kiln, QCHARS - 6) if kiln else []
         self.note = note  # a heading line (decisions.md, Kiln's words) in red, for what went wrong
@@ -209,7 +214,7 @@ class Quote(Entry):
             self.ls.append(t0 + 0.12 + n / cps)
             n += len(ln) + 1
         self.t_end = t0 + 0.12 + n / cps
-        self.ks = [self.t_end + 0.15 + 0.12 * k for k in range(len(self.kiln) + (1 if note else 0))]
+        self.ks = [self.t_end + 0.06 + 0.1 * k for k in range(len(self.kiln) + (1 if note else 0))]
 
     def busy(self, t):
         return t < self.t_end + 0.1
@@ -337,10 +342,10 @@ class Grid(Entry):
 class ClipQuote(Entry):
     """an insert from one of film 3's takes in a window (a beat to a bar), Lati's words beside it"""
 
-    def __init__(self, t0, path, src0, dur, caption, line, start=None, end=None, kiln=None, w=300, h=168, px=3):
+    def __init__(self, t0, path, src0, dur, caption, line, start=None, end=None, kiln=None, w=300, h=168, px=3, cps=150):
         self.t0, self.path, self.src0, self.dur, self.caption = t0, path, src0, dur, caption
         self.w, self.h, self.px = w, h, px
-        self.q = _qlines(Quote(t0 + 0.25, line, start, end, kiln=kiln), 28)
+        self.q = _qlines(Quote(t0 + 0.25, line, start, end, kiln=kiln, cps=cps), 28)
 
     def busy(self, t):
         return self.q.busy(t)
@@ -372,7 +377,7 @@ def _qlines(q, width):
         q.ls.append(q.t0 + 0.12 + n / q.cps)
         n += len(ln) + 1
     q.t_end = q.t0 + 0.12 + n / q.cps
-    q.ks = [q.t_end + 0.15 + 0.12 * k for k in range(len(q.kiln) + (1 if q.note else 0))]
+    q.ks = [q.t_end + 0.06 + 0.1 * k for k in range(len(q.kiln) + (1 if q.note else 0))]
     return q
 
 
@@ -482,11 +487,11 @@ def schedule():
         # 1 Nov: the message that opened film 3 (18:35Z, 8 min before the first commit)
         (0.00, Quote(0.00, 44, end="empty repo.", cps=120)),
         # the quiet days, on the beat nearest each local midnight (song_at: 0.13, 1.08, 2.04, 2.99, 3.94, 4.90)
-        (0.33, Day(0.33, 2)), (1.41, Day(1.41, 3)), (2.52, Day(2.52, 4)), (3.08, Day(3.08, 5)), (4.18, Day(4.18, 6)),
+        (0.89, Day(0.89, 2)), (1.41, Day(1.41, 3)), (2.52, Day(2.52, 4)), (3.08, Day(3.08, 5)), (4.18, Day(4.18, 6)),
         (5.61, Day(5.61, 7)),  # 7 Nov lands on the first accent
         # 7 Nov
         (6.42, Quote(6.42, 59, start="Anyhow, I think")),                                          # 16:23, 6.23
-        (6.97, Quote(6.97, 65, start="This song is not", end="as a whole.", kiln="agreed.")),      # 16:34, 6.50
+        (7.53, Quote(7.53, 65, start="This song is not", end="as a whole.", kiln="agreed.", cps=180)),  # 16:34, 6.50
         (8.08, Grid(8.08, F + "look-test-1/", [F + "look-test-1/A-en-seedream5pro.jpg", F + "look-test-1/A-ja-seedream5pro.jpg"],
                     2, 300, 169, px=3, labels=["R1·1", "R1·2"], gap=14, pick_t=8.59, picks=[0, 1])),  # sheet 17:30, 7.92
         (8.59, Quote(8.59, 77, end="80s feel of R1·2.")),                                          # 17:39, 8.20
@@ -500,20 +505,21 @@ def schedule():
                      aside_t=14.71, count="picked 15")),                                            # 19:45, 11.46; picks 19:58
         (12.50, Grid(12.50, F + "dataset-3/  20", ds3, 20, 36, 48, px=2, gap=6, pick_t=13.05, picks=p3 + [i88],
                      rejects=[i89], reject_t=13.05, aside_t=14.71, count="picked 13 · D89 out")),   # 20:25, 12.33; picks 20:33-20:40
-        (14.16, Grid(14.16, F + "looktest-2/", lt2, 12, 62, 90, px=2, gap=6.2, rejects=range(len(lt2)), reject_t=14.71)),  # 21:20, 13.92
-        (14.71, Quote(14.71, 161, end="style and composition.", note="LoRA set aside")),           # 21:28, 14.16; set aside 21:33
+        (13.61, Grid(13.61, F + "looktest-2/", lt2, 12, 62, 90, px=2, gap=6.2, rejects=range(len(lt2)), reject_t=14.16)),  # 21:20, 13.92
+        (14.16, Quote(14.16, 161, end="style and composition.", note="LoRA set aside")),           # 21:28, 14.16; set aside 21:33
         (15.29, Day(15.29, 8)),                                                                     # midnight, 14.96
         (15.85, Grid(15.85, F + "ships-grok/", grok, 6, 132, 74, px=2, labels=[Path(g).stem for g in grok], gap=9.6,
                      pick_t=16.95, picks=[0, 1, 2, 4])),                                            # 22:41, 16.03; Grok2 23:00, 16.52
-        (16.40, Quote(16.40, 191, start="its ill-adviced", cps=180)),                               # 22:40, 16.02
+        (16.12, Quote(16.12, 191, parts=[("its ill-adviced", "in there."), ("replaced those", None)], cps=140)),  # 22:40, 16.02
         (16.95, ClipQuote(16.95, "media/motion/test-1/rough-1.mp4", 1.9, 1.1, "media/motion/test-1/rough-1.mp4",
-                          203, start="1-2 second shot")),                                           # 23:12-23:13, 16.84-16.88
-        (17.51, Quote(17.51, 209, start="But. We should", kiln="motion stops until the board exists.")),  # 23:16, 16.94
+                          203, start="1-2 second shot", cps=230)),                                  # 23:12-23:13, 16.84-16.88
+        (17.51, Quote(17.51, 209, parts=[("But. We should", "storyboard first"), ("we are getting", None)],
+                      kiln="motion stops until the board exists.", cps=190)),                       # 23:16, 16.94
         # 8 Nov
         (18.08, Grid(18.08, "media/plates/her-1/  40", her, 10, 78, 44, px=2, gap=6, pick_t=18.64,
                      picks=[i for i, p in enumerate(her) if stem(p) in her_picks], count="picked 18")),  # 00:24, 18.27; picks 00:30, 18.32
-        (19.18, Quote(19.18, 297, start="multiple options", end="abundance is what works.")),      # 01:30, 18.79
-        (19.71, Grid(19.71, F + f"designs-1/  {len(d1)}", d1, 14, 54, 54, px=2, gap=6, pick_t=24.14,
+        (18.64, Quote(18.64, 297, start="multiple options", end="abundance is what works.")),      # 01:30, 18.79
+        (19.18, Grid(19.18, F + f"designs-1/  {len(d1)}", d1, 14, 54, 54, px=2, gap=6, pick_t=24.14,
                      picks=[i for i, p in enumerate(d1) if stem(p) in d1_picks], count=f"picked {len(d1_picks)}")),  # 01:45, 18.90; picks 12:27, 23.91
         (24.14, Quote(24.14, 305, start="Maybe", end="more apt.")),                                 # 12:27, 23.91
         (24.70, Grid(24.70, F + "designs-1/", gem, 4, 198, 111, px=3, labels=[stem(g) for g in gem], gap=16,
@@ -521,7 +527,7 @@ def schedule():
         (25.25, Quote(25.25, 317, start="I-1 is also")),
         # 9 Nov
         (28.57, Day(28.57, 9)),                                                                     # midnight, 28.37
-        (29.13, Quote(29.13, 347, start="could you update", end="chronological order.")),          # 23:28Z, 29.06 (the accent)
+        (29.13, Quote(29.13, 347, start="could you update", end="to this plan?", cps=180)),        # 23:28Z, 29.06 (the accent)
         (29.68, BoardV1(29.68)),                                                                    # 4db0458 23:30Z, 29.10
         (34.72, Quote(34.72, 353, start="it was my intention", end="is a great idea.")),            # to Flint 11:22Z, 34.62
         (36.41, Grid(36.41, "media/board/notes-9-nov/", notes9, 4, 150, 200, px=2, gap=12)),         # 14:08Z, 36.21
@@ -580,8 +586,8 @@ def draw_board(c, t, a):
             draw_pic(c, pic(fr, BCW, BCH, 2), cx, cy, BCW, BCH, reveal=rev, dim=1.0 if kd == "plate" else 0.28,
                      grey=0.0 if kd == "plate" else 0.65, alpha=a)
         c.drawRect(skia.Rect.MakeXYWH(cx, cy, BCW, BCH), stroke(B.CYAN, (0.55 if kd == "plate" else 0.22) * a, 1.0))
-        if since is not None and 0 <= t - since < 0.3:  # a new plate lands: a white flash on its card
-            c.drawRect(skia.Rect.MakeXYWH(cx, cy, BCW, BCH), skia.Paint(Color=col(B.WHITE, 0.8 * (1 - (t - since) / 0.3) * a)))
+        if since is not None and 0 <= t - since < 0.2:  # a new plate lands: a white flash on its card
+            c.drawRect(skia.Rect.MakeXYWH(cx, cy, BCW, BCH), skia.Paint(Color=col(B.WHITE, 0.8 * (1 - (t - since) / 0.2) * a)))
         if hi and s["id"] == "s034":
             c.drawRect(skia.Rect.MakeXYWH(cx - 3, cy - 3, BCW + 6, BCH + 6), stroke(B.AMBER, a, 2.4))
 

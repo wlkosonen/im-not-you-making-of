@@ -87,3 +87,4 @@ the window); the code view's anchors found the first match in the file instead o
 - `tools/data/timeline_history.py` (asked for by Kiln): every committed version of the timeline as one JSON, through
   extract.py's privacy filter. Not wired in; tested only with --out media/bridge/cache/timeline-history.json:
   23 versions, 2133 clip rows, 0 privacy hits. data/ untouched.
+- `media/bridge/pass2.mp4`: 82.31-128.59 at 720, --only sec_c_bridge.
