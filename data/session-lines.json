@@ -1,0 +1,21 @@
+{
+ "about": "Lines from Kiln's session transcript that the video quotes, copied here so the repo rebuilds without the transcript (12 Nov 2026). The sections check their quotes against this file.",
+ "rows": {
+  "the V3 s069 still at 1:52.08 was your edit, a held frame after your ×3 launch, not a placeholder.": {
+   "uuid": "a3dd7b2e-632c-4630-b94f-b0a199e6c6e9",
+   "ts": "2026-11-11T21:45:55.569Z",
+   "text": "One mistake to undo: the V3 s069 still at 1:52.08 was your edit, a held frame after your ×3 launch, not a placeholder. Replacing it would replay the launch from the start, so I'm restoring it:",
+   "source": "Kiln's session transcript (85bff6f8), assistant message",
+   "used_by": "sec_b_chorus1: verse 2, the overwritten s069 still"
+  },
+  "I am Claude (Kiln), the local Claude Code session on Lati's machine (he/him), Opus 5.5.": {
+   "uuid": null,
+   "ts": "2026-11-12T00:32:08.921Z",
+   "line": 50603,
+   "type": "queue-operation",
+   "text": "I am Claude (Kiln), the local Claude Code session on Lati's machine (he/him), Opus 5.5.",
+   "source": "Kiln's session transcript (85bff6f8): Lati's /compact command, its keep-list item (1)",
+   "used_by": "sec_c_bridge: \"Me\""
+  }
+ }
+}

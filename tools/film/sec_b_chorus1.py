@@ -162,6 +162,13 @@ def kiln_line(excerpt):
     """a line of Kiln's own, checked against his session transcript: the jsonl (600+ MB) is streamed once and the
     paragraph holding the excerpt cached with its record's uuid and time (media/chorus1/cache/kiln-lines.json).
     Returns the record's time (UTC epoch s)."""
+    # the repo's own copy first (data/session-lines.json, Kiln, 12 Nov), so it rebuilds without the transcript
+    d = Path(__file__).resolve().parents[2] / "data/session-lines.json"
+    if d.exists():
+        rows = json.loads(d.read_text())["rows"]
+        if excerpt in rows:
+            assert excerpt in rows[excerpt]["text"]
+            return _ts(rows[excerpt]["ts"])
     p = CACHE / "kiln-lines.json"
     found = json.loads(p.read_text()) if p.exists() else {}
     if excerpt not in found:

@@ -537,6 +537,8 @@ def code_view(c, t, B):
 # Lati's /compact of 12 Nov 2026, 00:32:08 UTC (the boundary 00:33:53): the keep-list's first item, verbatim
 # (Kiln's transcript 85bff6f8-…jsonl, line 50614: "Keep, verbatim where quoted: (1) I am Claude (Kiln), …").
 ME_LINE = "I am Claude (Kiln), the local Claude Code session on Lati's machine (he/him), Opus 5.5."
+assert ME_LINE in json.loads((Path(__file__).resolve().parents[2] / "data/session-lines.json").read_text())["rows"], \
+    "the Me line must be in data/session-lines.json (copied from the transcript)"
 ME_END = 118.14
 
 
