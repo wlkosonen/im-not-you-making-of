@@ -58,6 +58,7 @@ PINS = [
     (104.38, "2026-11-11T23:30:00Z"),  # chorus 2: the mid batches, the cut, the end, the review
     (116.08, "2026-11-12T00:33:57Z"),  # "Me": the 12 Nov compaction
     (128.59, "2026-11-12T01:30:00Z"),  # the bridge's battle: the four graphics agents' first pass
+    (130.78, "2026-11-12T06:30:00Z"),  # the night (no calls 01:39-06:32) passes in two seconds, to the accent at 130.78
     (168.17, "2026-11-12T08:29:00Z"),  # the final chorus: Lati's notes, the fixes, the polish, the master
     (171.2, "2026-11-12T08:50:52Z"),   # the making-of begins
 ]
@@ -207,7 +208,12 @@ def load_sections(only=None):
             print(f"section {f.stem} skipped:\n{traceback.format_exc(limit=3)}", file=sys.stderr)
 
 
+TAIL = 172.6  # after the making-of's first commit line: black for the end screens, as the main film
+
+
 def frame(t, W, H):
+    if t >= TAIL:
+        return np.zeros((H, W, 3), np.uint8)
     img = np.zeros((H, W, 4), np.uint8)
     surf = skia.Surface(img)
     c = surf.getCanvas()
