@@ -524,7 +524,7 @@ def schedule():
         (24.14, Quote(24.14, 305, start="Maybe", end="more apt.")),                                 # 12:27, 23.91
         (24.70, Grid(24.70, F + "designs-1/", gem, 4, 198, 111, px=3, labels=[stem(g) for g in gem], gap=16,
                      pick_t=24.70, picks=[0, 1, 2, 3])),                                            # redo 12:39, picks 12:52 (24.10)
-        (25.25, Quote(25.25, 317, start="I-1 is also")),
+        (24.98, Quote(24.98, 317, start="I-1 is also")),                                          # 12:52, 24.10 (after its grid)
         # 9 Nov
         (28.57, Day(28.57, 9)),                                                                     # midnight, 28.37
         (29.13, Quote(29.13, 347, start="could you update", end="to this plan?", cps=180)),        # 23:28Z, 29.06 (the accent)
