@@ -26,3 +26,10 @@ section agents (notes/agents.md).
 Claude (Kiln, local): the small text (under 40 units tall) is now drawn as a sharp monospace at the output resolution
 with the same advance and baseline, so no layout moves; the large CRT letters (clock, counters, the lyric line) keep
 their blocky look. Pass 2 rendered for Lati.
+
+## 2026-11-12 · Pass 2: the verdict; the two videos link to each other
+
+> "10/10 Kiln. Slowclap. Paired with main video that directs in the description or end plate to this one.. and them linking to eachother.. Spectacular." (Lati, 12 Nov 2026, on making-of-pass2)
+
+Claude (Kiln, local): pass 2 stands. The 1080 master renders now. The main film and the making-of link to each other
+(descriptions and end screens), part of the release prep with the main film's description and shorts.
