@@ -117,8 +117,24 @@ def context_at(u):
 
 
 # ---------- furniture
+@lru_cache(16)
+def _mono(size):
+    return skia.Font(skia.Typeface("DejaVu Sans Mono", skia.FontStyle.Bold()), size)
+
+
 def crt(c, text, x, y, px=3, rows_=9, color=AMBER, alpha=1.0, glow=True):
-    return G.crt_text(c, text, x, y, px=px, rows=rows_, color=color, alpha=alpha, glow=glow)
+    """terminal text. Large (40+ units tall): the main film's blocky CRT letters. Smaller: a sharp monospace drawn at
+    the output resolution with the same advance and baseline, so layouts don't move (Lati, 12 Nov: the small text
+    "is very hard to read, it needs more resolution")"""
+    if px * rows_ >= 40 or not text:
+        return G.crt_text(c, text, x, y, px=px, rows=rows_, color=color, alpha=alpha, glow=glow)
+    f = _mono(rows_ * 1.15 * px)
+    paint = skia.Paint(Color=col(color, alpha), AntiAlias=True)
+    if glow:
+        c.drawString(text, x + px, y + rows_ * px, f, skia.Paint(Color=col(color, 0.45 * alpha), AntiAlias=True,
+                                                                 ImageFilter=skia.ImageFilters.Blur(px * 1.2, px * 1.2)))
+    c.drawString(text, x + px, y + rows_ * px, f, paint)
+    return (int(f.measureText(text) / px) + 4) * px
 
 
 def clock_readout(c, t):
