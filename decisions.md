@@ -18,3 +18,11 @@ agents as needed; Lati checks. Private: keys and Lati's email address; and, by K
 
 Claude (Kiln, local): the base stands as it is, sizes included: a terminal, not a UI overlay. The centre goes to four
 section agents (notes/agents.md).
+
+## 2026-11-12 · Pass 1: the small text
+
+> "Cpnceptually and visually, this is awesome. Just one thing, i did not notice it from initial plate, but even zoomed in, text is very hard to read, it needs more resolution:" (Lati, 12 Nov 2026, on making-of-pass1, with a screenshot of section D's notes log)
+
+Claude (Kiln, local): the small text (under 40 units tall) is now drawn as a sharp monospace at the output resolution
+with the same advance and baseline, so no layout moves; the large CRT letters (clock, counters, the lyric line) keep
+their blocky look. Pass 2 rendered for Lati.
