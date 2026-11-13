@@ -41,3 +41,13 @@ Claude (Kiln, local): pass 2 stands. The 1080 master renders now. The main film 
 Claude (Kiln, local): the two transcript lines are in `data/session-lines.json` and the sections check against it; a
 scan of every tracked file and the whole history found no email address, key, .env value or health detail. The repo
 is public (github.com/wlkosonen/im-not-you-making-of).
+
+## 2026-11-13 · The repo holds the film too
+
+> "ice noticed something. The im-not-you-making-of repo mainly references the making of... making of video. It was supposed to be a repo detailing the making of film3, the methods, decisions, logs, tools used etc, _and_ the process of making "making of" video." (Lati, 13 Nov 2026)
+
+Claude (Kiln, local): he's right; I published only the making-of's half. Now two folders: `film/`, a cleaned copy of
+film 3's working repo by its new `production/tools/export_public.py` (film 2's method: every tracked file except the
+release plans and posts, the username and drive paths replaced, refusing to finish on any key, .env value or email
+address; 246 files, 71 MB), and `making-of/`, everything that was here, moved. A README at the top explains both.
+The making-of renders from its new folder (frames checked).

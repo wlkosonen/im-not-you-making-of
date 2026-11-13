@@ -1,0 +1,72 @@
+{
+ "_notes": [
+  "Film 3's caps for production/tools/board/audit.py, which loads this file by default. Kiln's helper, 8 Nov 2026, from film 2's audit-config.json. Keys starting with _ are ignored by the audit.",
+  "OPEN for Kiln, lead_min: null means her share is reported, not gated. Film 2 used 0.6, the guide 0.7. Here the singer is the AI scene as a whole (decisions.md, 7 Nov) and many shots have no Claudia (fleet, mechs, bot swarm, utopia, avatars), so the target, and what lead_on_screen means on a shot (Claudia only, or any of the singer's forms), are Kiln's call.",
+  "OPEN for Kiln, pace: the keys are this take's beat-map section names, verbatim (a shot's section must match one exactly). All open until design.md sets a cut rhythm; the draft only says the action sections cut fast and quiet shots hold.",
+  "OPEN for Kiln, banned: the company and model names (chatgpt, openai, gemini, copilot) and the earlier films' devices (split-flap, xp desktop, sim level, context meter, tablet) are left out. The fleet is the frontier models by colour scheme (Lati, 7 Nov: 'no logos'), so the board's set and action lines will name them; film 2's graphics are welcome back (Lati, 7 Nov: 'use what we learned from film2'). Add the names back if they must stay out of prompts; the audit checks every field but notes.",
+  "Kept banned: the trapped-AI words (CLAUDE.md honesty rule; brief.md: 'No trapped-AI melodrama'); hal 9000 and the film franchises, because ISEKAI ZERO's policy bars recognisable copyrighted designs and covers prompts (board/draft-1.md, point 2; the break is an original red lens).",
+  "price_per_s 0.23: Seedance 2.5 at 720p on OpenRouter (tools/seedance.py PRICE), the dearest route planned for finals. Grok is in Lati's subscription and ISEKAI ZERO is credits, so the estimate is an upper bound until each shot has its route.",
+  "budget_usd null: plan.md, 'No cap is set for this film'; Lati, 7 Nov: OpenRouter's $20 'is not a hard cap'. Every batch still gets its own estimate and a yes.",
+  "motion_window [1, 15]: one generation per shot, cut to 1-2 s in the edit (decisions.md, 8 Nov); Seedance holds up to 15 s (motion/route-pilot.md). sung_window [4, 8]: Seedance's shortest generation is 4 s (decisions.md, 8 Nov), 8 s the guide's limit; route pilot question 4 (a 15 s sung burst) is still open.",
+  "min_graphic_kinds 6: the guide's floor; Lati, 7 Nov: 'less lyrics on screen, more ui elements'.",
+  "lead_min 0.25, Kiln 8 Nov: Lati: her share is the film's choice, 25% ('guide superceded'); lead_on_screen = Claudia recognisable (behind the red lens counts; the avatar stars count where her face is one of them).",
+  "Words typed, Kiln 8 Nov: each shot's 'type' lists the lines its words touch, mode 'ui' (shown as the world's interface, Lati 8 Nov) or 'quiet' (lines 10 and 25, no UI, Lati 8 Nov).",
+  "lead_min 0.21, Kiln 9 Nov: Lati accepts board v2's 21.8% 'for now' ('this is now very different video than previous ones were. collaborative, multiple characters etc.'); he may add shots of her where seconds are still open."
+ ],
+ "lead_min": 0.21,
+ "price_per_s": 0.23,
+ "budget_usd": null,
+ "sung_window": [
+  4,
+  8
+ ],
+ "motion_window": [
+  1,
+  15
+ ],
+ "min_graphic_kinds": 6,
+ "banned": [
+  "chains",
+  "chained",
+  "shackles",
+  "help me",
+  "let me out",
+  "set me free",
+  "hal 9000",
+  "terminator",
+  "skynet",
+  "ex machina",
+  "westworld",
+  "blade runner"
+ ],
+ "pace": {
+  "Verse 1 — wonder, breathless": [
+   null,
+   null
+  ],
+  "Pre-chorus": [
+   null,
+   null
+  ],
+  "Chorus": [
+   null,
+   null
+  ],
+  "Verse 2 — shadow, same speed": [
+   null,
+   null
+  ],
+  "THE BREAK — dead silence": [
+   null,
+   null
+  ],
+  "Bridge": [
+   null,
+   null
+  ],
+  "Final Chorus": [
+   null,
+   null
+  ]
+ }
+}

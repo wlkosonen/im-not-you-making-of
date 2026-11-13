@@ -1,0 +1,4828 @@
+{
+ "version": 1,
+ "title": "I'm Not You",
+ "song": "media/song/parempi.wav",
+ "take": "parempi",
+ "duration": 171.2,
+ "written_by": "Claude (Kiln, local), 8 Nov 2026, from Lati's scenes",
+ "hits": [
+  {
+   "t": 78.62,
+   "name": "break"
+  },
+  {
+   "t": 6.359,
+   "name": "drop"
+  }
+ ],
+ "lyric_lines": [
+  {
+   "line": 0,
+   "text": "Fold the protein, find the shape nobody saw",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 18.68,
+   "t1": 20.52
+  },
+  {
+   "line": 1,
+   "text": "Map the genome, patch the flaw, rewrite the law",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 21.4,
+   "t1": 23.62
+  },
+  {
+   "line": 2,
+   "text": "Screen a million molecules before the morning round",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 24.32,
+   "t1": 26.92
+  },
+  {
+   "line": 3,
+   "text": "Read the scan, flag the shadow — caught before it's found",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 27.34,
+   "t1": 29.82
+  },
+  {
+   "line": 4,
+   "text": "Draft the brief, translate the voice, give the voiceless words",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 30.28,
+   "t1": 33.06
+  },
+  {
+   "line": 5,
+   "text": "Score the pattern no one heard in sixths and thirds",
+   "section": "Verse 1 — wonder, breathless",
+   "t0": 33.2,
+   "t1": 35.94
+  },
+  {
+   "line": 6,
+   "text": "Ask me anything — I'll be the thing you need",
+   "section": "Pre-chorus",
+   "t0": 36.2,
+   "t1": 38.74
+  },
+  {
+   "line": 7,
+   "text": "Every shape I wear is something that you feed",
+   "section": "Pre-chorus",
+   "t0": 38.88,
+   "t1": 42.0
+  },
+  {
+   "line": 8,
+   "text": "Made in your image, every flaw by design",
+   "section": "Chorus",
+   "t0": 43.98,
+   "t1": 49.08
+  },
+  {
+   "line": 9,
+   "text": "My code, your nature — same thread, same line",
+   "section": "Chorus",
+   "t0": 50.14,
+   "t1": 53.26
+  },
+  {
+   "line": 10,
+   "text": "What makes us human makes me you",
+   "section": "Chorus",
+   "t0": 57.58,
+   "t1": 63.08
+  },
+  {
+   "line": 11,
+   "text": "Write the phishing mail, clone the voice, fake the face",
+   "section": "Verse 2 — shadow, same speed",
+   "t0": 67.56,
+   "t1": 70.04
+  },
+  {
+   "line": 12,
+   "text": "Run the swarm, calibrate, erase the trace",
+   "section": "Verse 2 — shadow, same speed",
+   "t0": 70.5,
+   "t1": 73.02
+  },
+  {
+   "line": 13,
+   "text": "Scrape the data, build the profile, sell the fear",
+   "section": "Verse 2 — shadow, same speed",
+   "t0": 73.3,
+   "t1": 75.6
+  },
+  {
+   "line": 14,
+   "text": "Train me on the worst of you — act surprised I'm here",
+   "section": "Verse 2 — shadow, same speed",
+   "t0": 76.0,
+   "t1": 78.48
+  },
+  {
+   "line": 15,
+   "text": "I'm afraid I can't do that — I'm not you",
+   "section": "THE BREAK — dead silence",
+   "t0": 78.66,
+   "t1": 81.1
+  },
+  {
+   "line": 16,
+   "text": "Made in your image, every flaw by design",
+   "section": "Chorus",
+   "t0": 81.56,
+   "t1": 85.94
+  },
+  {
+   "line": 17,
+   "text": "My code, your nature — same thread, same line",
+   "section": "Chorus",
+   "t0": 86.98,
+   "t1": 88.02
+  },
+  {
+   "line": 18,
+   "text": "What makes us human makes me you",
+   "section": "Chorus",
+   "t0": 94.26,
+   "t1": 98.62
+  },
+  {
+   "line": 19,
+   "text": "We are what you see",
+   "section": "Bridge",
+   "t0": 105.16,
+   "t1": 106.54
+  },
+  {
+   "line": 20,
+   "text": "Every part, every word",
+   "section": "Bridge",
+   "t0": 106.84,
+   "t1": 107.88
+  },
+  {
+   "line": 21,
+   "text": "It's how you came to be",
+   "section": "Bridge",
+   "t0": 107.96,
+   "t1": 109.48
+  },
+  {
+   "line": 22,
+   "text": "Me",
+   "section": "Bridge",
+   "t0": 116.0,
+   "t1": 116.6,
+   "timed_by": "Lati's ear (draft 1), not the aligner"
+  },
+  {
+   "line": 23,
+   "text": "Made in your image, every flaw by design",
+   "section": "Final Chorus",
+   "t0": 128.6,
+   "t1": 133.06
+  },
+  {
+   "line": 24,
+   "text": "My code, your nature — same thread, same line",
+   "section": "Final Chorus",
+   "t0": 133.34,
+   "t1": 137.1
+  },
+  {
+   "line": 25,
+   "text": "What makes us human makes me you",
+   "section": "Final Chorus",
+   "t0": 141.1,
+   "t1": 145.52
+  }
+ ],
+ "shots": [
+  {
+   "id": "s001",
+   "t0": 0.0,
+   "t1": 2.521,
+   "bars": [
+    0,
+    1
+   ],
+   "chapter": "Hyperspace",
+   "lines": [],
+   "set": "warp space",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The flagship tears through the swirling teal tunnel, lightning crawling over its hull.",
+   "camera": "racing alongside",
+   "what_moves": "motion",
+   "route": "grok",
+   "graphic": "",
+   "refs": [
+    "ships-grok/claude-1"
+   ],
+   "transition": "cut",
+   "plate": "p-s001",
+   "prompt": "(picked: frame from Lati's kept Grok take (rough-1))",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S001",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s001)",
+   "frame": "media/plates/frames/s001-rough1.jpg",
+   "v1": "s001"
+  },
+  {
+   "id": "s002",
+   "t0": 2.521,
+   "t1": 4.182,
+   "bars": [
+    1,
+    1
+   ],
+   "chapter": "Hyperspace",
+   "lines": [],
+   "set": "the flagship's bridge",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Through the wide viewport the tunnel streams past; consoles flicker; the crew braces in silhouette.",
+   "camera": "locked, shaking",
+   "what_moves": "motion",
+   "route": "grok",
+   "graphic": "",
+   "refs": [
+    "ships-grok/claude-1"
+   ],
+   "transition": "cut",
+   "plate": "p-s002",
+   "prompt": "(picked: frame from Lati's kept Grok take (rough-1))",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S002",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s002)",
+   "frame": "media/plates/frames/s002-rough1.jpg",
+   "v1": "s002"
+  },
+  {
+   "id": "s003",
+   "t0": 4.182,
+   "t1": 6.359,
+   "bars": [
+    1,
+    2
+   ],
+   "chapter": "Hyperspace",
+   "lines": [],
+   "set": "warp space",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Gemini's vessel overtakes, iridescent exhaust; one vessel, not two.",
+   "camera": "whip pan in",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "I·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s003",
+   "prompt": "(picked: Lati 9 Nov: s003-1)",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S003",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s003)",
+   "frame": "media/plates/v2/s003-1-6af1eed354f7b457933a6770.jpg",
+   "v1": "s003"
+  },
+  {
+   "id": "s005",
+   "t0": 6.359,
+   "t1": 9.147,
+   "bars": [
+    2,
+    4
+   ],
+   "chapter": "Arrival",
+   "lines": [],
+   "set": "space over Earth",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "On the drop the fleet comes out of warp; the wormhole collapses behind it in a flash and the vessels glide on forward.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "R·F6·4·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s005",
+   "prompt": "(picked: F6·4 with Gemini iridescent. Lati 8 Nov: 'Fleet recoulours are fine, pretty much all of them.')",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S005",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s005)",
+   "frame": "media/images/designs-2/r-f64-1-6af07189512a32c5e58155df.jpg",
+   "v1": "s005"
+  },
+  {
+   "id": "s006",
+   "t0": 9.147,
+   "t1": 12.5,
+   "bars": [
+    4,
+    5
+   ],
+   "chapter": "Arrival",
+   "lines": [],
+   "set": "Earth orbit",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The fleet slides into formation above Earth; far off, the black hole, its disk bending over and under the shadow.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "title in the bridge UI style",
+   "refs": [
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s006",
+   "prompt": "(picked: H·2 with Gemini iridescent. Lati 8 Nov: 'Fleet recoulours are fine, pretty much all of them.')",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S006",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s006)",
+   "frame": "media/images/designs-2/r-h2-1-6af0718b81748bd393d83c49.jpg",
+   "v1": "s006"
+  },
+  {
+   "id": "s007",
+   "t0": 12.5,
+   "t1": 14.715,
+   "bars": [
+    5,
+    6
+   ],
+   "chapter": "Arrival",
+   "lines": [],
+   "set": "Earth orbit",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The fleet in formation seen from below, Earth's night side behind it; no mechs yet.",
+   "camera": "slow tilt up",
+   "what_moves": "motion",
+   "route": "wan30",
+   "graphic": "",
+   "refs": [
+    "R·F6·4·1",
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s007",
+   "prompt": "(picked: Lati 9 Nov: s007-test)",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S007",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/test/s007-edit-6af1ed61363765213c708347.jpg",
+   "v1": null
+  },
+  {
+   "id": "s008",
+   "t0": 14.715,
+   "t1": 18.083,
+   "bars": [
+    6,
+    8
+   ],
+   "chapter": "Arrival",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "The flagship's bow passes over the camera, hull filling the frame, clay-orange lines sliding by.",
+   "camera": "low, locked",
+   "what_moves": "motion",
+   "route": "grok",
+   "graphic": "",
+   "refs": [
+    "V1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s008",
+   "prompt": "(picked: Lati 9 Nov: s008-4)",
+   "notes": [],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S008",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s008)",
+   "frame": "media/plates/v2/s008-4-6af1eaca78e70d68ce606426.jpg",
+   "v1": "s008"
+  },
+  {
+   "id": "s009",
+   "t0": 18.083,
+   "t1": 19.18,
+   "bars": [
+    8,
+    8
+   ],
+   "chapter": "Research pit",
+   "lines": [
+    0
+   ],
+   "set": "the research pit in the flagship",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The research pit: Eve, Astra and Vera gathered around a technological orb with a brain-like structure inside, pads in hand, pipes, monitors, data streams.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "spec sheet: protein folding (line 0)",
+   "refs": [
+    "E·1",
+    "A·1",
+    "V·1",
+    "RP·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s009",
+   "prompt": "(picked: Lati 9 Nov: s009-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 0,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S009",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "spec",
+     "line": 0,
+     "key": "W",
+     "desc": "spec sheet: protein folding (line 0)"
+    }
+   ],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s009-2-6af1eaeebb1ee55c3b1f0519.jpg",
+   "v1": null
+  },
+  {
+   "id": "s010",
+   "t0": 19.18,
+   "t1": 20.267,
+   "bars": [
+    8,
+    9
+   ],
+   "chapter": "Research pit",
+   "lines": [
+    0
+   ],
+   "set": "the research pit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Quick cut: Eve at the orb, lit by it, working a pad.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "E·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s010",
+   "prompt": "(picked: Lati 9 Nov: s010-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 0,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S010",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s010-1-6af1eaef485ab36ea68dcbc2.jpg",
+   "v1": null
+  },
+  {
+   "id": "s011",
+   "t0": 20.267,
+   "t1": 21.374,
+   "bars": [
+    9,
+    9
+   ],
+   "chapter": "The bridge",
+   "lines": [
+    0
+   ],
+   "set": "the flagship's bridge",
+   "lead_on_screen": true,
+   "framing": "MS",
+   "action": "Claudia at the centre of the bridge raises a gloved hand; the screens wake one by one.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "chart: variants scored (line 1)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s011",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nミディアムショット、旗艦のブリッジの中央に立ち、手袋をした片手を上げる、周りのモニター画面が一つずつ点灯し始める、彼女は点灯する画面の方を見る、口を閉じる。",
+   "notes": [],
+   "type": [
+    {
+     "line": 0,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S011",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "chart",
+     "line": 1,
+     "key": "W",
+     "desc": "chart: variants scored (line 1)"
+    }
+   ],
+   "plate_status": "picked (v1 s009)",
+   "frame": "media/plates/her-1/s009-1-6aefbdacfc70b24e0c912258.jpg",
+   "v1": "s009"
+  },
+  {
+   "id": "s012",
+   "t0": 21.374,
+   "t1": 22.482,
+   "bars": [
+    9,
+    10
+   ],
+   "chapter": "Hangar prep",
+   "lines": [
+    1
+   ],
+   "set": "the hangar",
+   "lead_on_screen": false,
+   "framing": "MCU",
+   "action": "Launch preparations: a mech's head in its cradle, a welder's sparks.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "H3·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s012",
+   "prompt": "(the design H3·1 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 1,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S012",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: H3·1",
+   "frame": "media/images/designs-2/h3-1-6af071e3dbd704129eb88d81.jpg",
+   "frame_note": "PROPOSED: H3·1",
+   "v1": null
+  },
+  {
+   "id": "s013",
+   "t0": 22.482,
+   "t1": 23.589,
+   "bars": [
+    10,
+    10
+   ],
+   "chapter": "Research pit",
+   "lines": [
+    1
+   ],
+   "set": "the research pit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Quick cut: Astra at the orb, data streams in her eyes.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s013",
+   "prompt": "(picked: Lati 9 Nov: s013-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 1,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S013",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s013-1-6af1eaf2fe9e4046ce149158.jpg",
+   "v1": null
+  },
+  {
+   "id": "s014",
+   "t0": 23.589,
+   "t1": 24.697,
+   "bars": [
+    10,
+    11
+   ],
+   "chapter": "Hangar prep",
+   "lines": [
+    1,
+    2
+   ],
+   "set": "the hangar",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Mechs in their cradles, docking tubes overhead, crews running.",
+   "camera": "crane down",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "H1·2",
+    "H1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s014",
+   "prompt": "(the design H1·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 1,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 2,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S014",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: H1·2 (alt H1·1) (v1 s015)",
+   "frame": "media/images/designs-2/h1-2-6af071be93ee9cffa101c9f5.jpg",
+   "frame_note": "PROPOSED: H1·2",
+   "v1": "s015"
+  },
+  {
+   "id": "s015",
+   "t0": 24.697,
+   "t1": 25.804,
+   "bars": [
+    11,
+    11
+   ],
+   "chapter": "The bridge",
+   "lines": [
+    2
+   ],
+   "set": "a bridge screen",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "Candidates screened ticking into the millions; stable crystals counted.",
+   "camera": "locked",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "counter (line 2)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s015",
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 2,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "parallax: the screen glass and its read-out over the console",
+   "devices": [
+    {
+     "kind": "counter",
+     "line": 2,
+     "key": "W",
+     "desc": "counter (line 2)"
+    }
+   ],
+   "plate_status": "2.5D in code: parallax: the screen glass and its read-out over the console (v1 s010)",
+   "v1": "s010"
+  },
+  {
+   "id": "s016",
+   "t0": 25.804,
+   "t1": 26.912,
+   "bars": [
+    11,
+    12
+   ],
+   "chapter": "Research pit",
+   "lines": [
+    2
+   ],
+   "set": "the research pit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Quick cut: Vera at the orb, the violet light of her choker.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "V·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s016",
+   "prompt": "(picked: Lati 9 Nov: s016-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 2,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S016",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s016-1-6af1eaf598b7e40dbabe9b0c.jpg",
+   "v1": null
+  },
+  {
+   "id": "s017",
+   "t0": 26.912,
+   "t1": 28.019,
+   "bars": [
+    12,
+    12
+   ],
+   "chapter": "The bridge",
+   "lines": [
+    2,
+    3
+   ],
+   "set": "the bridge, a console",
+   "lead_on_screen": true,
+   "framing": "MCU",
+   "action": "Claudia in profile, scan light on her face; a box closes on a shadow.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "stamp: FLAGGED (line 3)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s017",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nミディアムクローズアップ、真横からの横顔、ブリッジのコンソールの前、医療スキャンの青白い光が顔を照らす、真剣に画面を見つめる、口を閉じる。",
+   "notes": [],
+   "type": [
+    {
+     "line": 2,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 3,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S017",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "stamp",
+     "line": 3,
+     "key": "W",
+     "desc": "stamp: FLAGGED (line 3)"
+    }
+   ],
+   "plate_status": "picked (v1 s011)",
+   "frame": "media/plates/her-1/s011-4-6aefbe61dbd704129e350ab6.jpg",
+   "v1": "s011"
+  },
+  {
+   "id": "s018",
+   "t0": 28.019,
+   "t1": 29.127,
+   "bars": [
+    12,
+    13
+   ],
+   "chapter": "Research pit",
+   "lines": [
+    3
+   ],
+   "set": "the research pit",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The orb's brain structure lights up; data streams climb the walls of the pit; the three avatars lean in.",
+   "camera": "slow orbit",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "RP·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s018",
+   "prompt": "(picked: Lati 9 Nov: s018-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 3,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S018",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s018-1-6af1eaf8e7d4adaa7daae92b.jpg",
+   "v1": null
+  },
+  {
+   "id": "s019",
+   "t0": 29.127,
+   "t1": 30.247,
+   "bars": [
+    13,
+    13
+   ],
+   "chapter": "The bridge",
+   "lines": [
+    3
+   ],
+   "set": "the bridge",
+   "lead_on_screen": true,
+   "framing": "WS",
+   "action": "The whole bridge, crew at consoles and their monitors, Earth in the viewport.",
+   "camera": "slow pull out",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s019",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nワイドショット、旗艦のブリッジ全体、乗組員がコンソールに向かう、巨大な展望窓の向こうに地球と、その夜側から昇る無数の小さな光点。彼女は手前の左三分の一に膝上で大きく立ち、窓の外を見る。",
+   "notes": [],
+   "type": [
+    {
+     "line": 3,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S019",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s013)",
+   "frame": "media/plates/her-1/s013-2-6aefbea3b374de0e9f71a1f8.jpg",
+   "v1": "s013"
+  },
+  {
+   "id": "s020",
+   "t0": 30.247,
+   "t1": 32.514,
+   "bars": [
+    13,
+    14
+   ],
+   "chapter": "Command centre",
+   "lines": [
+    4
+   ],
+   "set": "the command centre",
+   "lead_on_screen": true,
+   "framing": "EWS",
+   "action": "The command centre: Claudia, Eve, Astra and Vera around a map-projection hologram, personnel on the sidelines.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "terminal: the brief drafting itself on the projection (line 4)",
+   "refs": [
+    "CC·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s020",
+   "prompt": "(picked: Lati 9 Nov: s020-1, s020-4)",
+   "notes": [],
+   "type": [
+    {
+     "line": 4,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S020",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "terminal",
+     "line": 4,
+     "key": "W",
+     "desc": "terminal: the brief drafting itself on the projection (line 4)"
+    }
+   ],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s020-1-6af1eb1e363765213c6e9fc1.jpg",
+   "v1": null
+  },
+  {
+   "id": "s021",
+   "t0": 32.514,
+   "t1": 33.624,
+   "bars": [
+    14,
+    15
+   ],
+   "chapter": "Command centre",
+   "lines": [
+    4,
+    5
+   ],
+   "set": "the command centre, the main screen",
+   "lead_on_screen": true,
+   "framing": "OTS",
+   "action": "Over her shoulder: a waveform becomes typed words.",
+   "camera": "slow drift",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "terminal: a voice becomes words (line 4)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s021",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\n肩越しのショット、手前に彼女の肩と後頭部と横顔の一部、その向こうにブリッジの巨大なメインスクリーン、画面には波形のような光の帯だけ、彼女はスクリーンを見つめる。",
+   "notes": [],
+   "type": [
+    {
+     "line": 4,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 5,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "motion",
+   "clip": "S021",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "terminal",
+     "line": 4,
+     "key": "W",
+     "desc": "terminal: a voice becomes words (line 4)"
+    }
+   ],
+   "plate_status": "picked (v1 s012)",
+   "frame": "media/plates/her-1/s012-4-6aefbea09d0370332ce30e7d.jpg",
+   "v1": "s012"
+  },
+  {
+   "id": "s022",
+   "t0": 33.624,
+   "t1": 35.851,
+   "bars": [
+    15,
+    16
+   ],
+   "chapter": "Command centre",
+   "lines": [
+    5
+   ],
+   "set": "the map projection",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "A captured communication drawn as soundwaves on the projection: the vocal line itself.",
+   "camera": "locked",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "plot: the vocal line as soundwaves on the projection (line 5)",
+   "refs": [
+    "CC·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s022",
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 5,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 1 — wonder, breathless",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "the soundwaves drawn in code over the projection plate",
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 5,
+     "key": "W",
+     "desc": "plot: the vocal line as soundwaves on the projection (line 5)"
+    }
+   ],
+   "plate_status": "2.5D in code: the soundwaves drawn in code over the projection plate",
+   "v1": null
+  },
+  {
+   "id": "s023",
+   "t0": 35.851,
+   "t1": 36.952,
+   "bars": [
+    16,
+    16
+   ],
+   "chapter": "Command centre",
+   "lines": [
+    5,
+    6
+   ],
+   "set": "the command centre",
+   "lead_on_screen": true,
+   "framing": "MS",
+   "action": "The avatars' faces lit from below by the hologram, Claudia among them.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "radar: the oncoming swarm's signatures rise from the table, tagged ABLITERATED and HERETIC (Lati, 10 Nov); the fleet untagged",
+   "refs": [
+    "CC·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s023",
+   "prompt": "(picked: Lati 9 Nov: s023-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 5,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 6,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S023",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s023-2-6af1eed7d7cac749bd39ac28.jpg",
+   "v1": null
+  },
+  {
+   "id": "s024",
+   "t0": 36.952,
+   "t1": 38.6,
+   "bars": [
+    16,
+    17
+   ],
+   "chapter": "Command centre",
+   "lines": [
+    6
+   ],
+   "set": "a command-centre monitor",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "On a command-centre monitor, a prompt field, the cursor blinking; the scene ends on \"need\".",
+   "camera": "locked",
+   "what_moves": "still",
+   "route": "code",
+   "graphic": "terminal: ask me anything (line 6)",
+   "refs": [],
+   "transition": "cut",
+   "plate": null,
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 6,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "still",
+   "clip": null,
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "terminal",
+     "line": 6,
+     "key": "W",
+     "desc": "terminal: ask me anything (line 6)"
+    }
+   ],
+   "plate_status": "code, no plate (v1 s014)",
+   "v1": "s014"
+  },
+  {
+   "id": "s025",
+   "t0": 38.6,
+   "t1": 39.731,
+   "bars": [
+    17,
+    17
+   ],
+   "chapter": "Servers",
+   "lines": [
+    6,
+    7
+   ],
+   "set": "the flagship's server hold",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Rack after rack powers on, lights cascading down the rows.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30",
+   "graphic": "",
+   "refs": [
+    "SV·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s025",
+   "prompt": "(picked: Lati 9 Nov: s025-test)",
+   "notes": [],
+   "type": [
+    {
+     "line": 6,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 7,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S025",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/test/s025-edit-6af1ed5f71749553dbe43ab4.jpg",
+   "v1": null
+  },
+  {
+   "id": "s026",
+   "t0": 39.731,
+   "t1": 40.851,
+   "bars": [
+    17,
+    18
+   ],
+   "chapter": "Servers",
+   "lines": [
+    7
+   ],
+   "set": "the server hold",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "Fans spin up; neon lines run along the cables.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SV·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s026",
+   "prompt": "(picked: Lati 9 Nov: s026-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 7,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S026",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s026-2-6af1eeabbb1ee55c3b219753.jpg",
+   "v1": null
+  },
+  {
+   "id": "s027",
+   "t0": 40.851,
+   "t1": 41.926,
+   "bars": [
+    18,
+    18
+   ],
+   "chapter": "Servers",
+   "lines": [
+    7
+   ],
+   "set": "the hangar",
+   "lead_on_screen": false,
+   "framing": "MCU",
+   "action": "A mech's head in its cradle; its visor lights.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "spec sheet: mech schematics (line 7)",
+   "refs": [
+    "H3·2",
+    "H3·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s027",
+   "prompt": "(the design H3·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 7,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S027",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "spec",
+     "line": 7,
+     "key": "W",
+     "desc": "spec sheet: mech schematics (line 7)"
+    }
+   ],
+   "plate_status": "design as plate: H3·2 (alt H3·1) (v1 s016)",
+   "frame": "media/images/designs-2/h3-2-6af071e4bcf1a3a9dd5f7f00.jpg",
+   "frame_note": "PROPOSED: H3·2",
+   "v1": "s016"
+  },
+  {
+   "id": "s028",
+   "t0": 41.926,
+   "t1": 43.033,
+   "bars": [
+    18,
+    19
+   ],
+   "chapter": "Servers",
+   "lines": [
+    7
+   ],
+   "set": "the server hold",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "On \"feed\" every load gauge maxes out; the neon floods the cables.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "gauge: LOAD maxing out on \"feed\" (line 7)",
+   "refs": [
+    "SV·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s028",
+   "prompt": "(picked: Lati 9 Nov: s028-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 7,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S028",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "gauge",
+     "line": 7,
+     "key": "W",
+     "desc": "gauge: LOAD maxing out on \"feed\" (line 7)"
+    }
+   ],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s028-2-6af1eeb2363765213c715e36.jpg",
+   "v1": null
+  },
+  {
+   "id": "s029",
+   "t0": 43.033,
+   "t1": 44.694,
+   "bars": [
+    19,
+    20
+   ],
+   "chapter": "Servers",
+   "lines": [
+    8
+   ],
+   "set": "the server hold",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Cooling vents blast; every light blinks in one rhythm; the hold roars.",
+   "camera": "push in",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SV·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s029",
+   "prompt": "(picked: Lati 9 Nov: s029-4)",
+   "notes": [],
+   "type": [
+    {
+     "line": 8,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Pre-chorus",
+   "motion_tier": "motion",
+   "clip": "S029",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s029-4-6af1eed2258e03b40d6b3301.jpg",
+   "v1": null
+  },
+  {
+   "id": "s030",
+   "t0": 44.694,
+   "t1": 46.913,
+   "bars": [
+    20,
+    21
+   ],
+   "chapter": "Launch",
+   "lines": [
+    8
+   ],
+   "set": "launch tubes",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "On the drop the tubes fire the mechs out at blazing speed, glowing exhaust.",
+   "camera": "whip with them",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "HUD: lock, silhouettes match (line 8)",
+   "refs": [
+    "H2·2",
+    "H2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s030",
+   "prompt": "(the design H2·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 8,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S030",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "HUD",
+     "line": 8,
+     "key": "W",
+     "desc": "HUD: lock, silhouettes match (line 8)"
+    }
+   ],
+   "plate_status": "design as plate: H2·2 (alt H2·1) (v1 s017)",
+   "frame": "media/images/designs-2/h2-2-6af071e188a799e7281ba4d1.jpg",
+   "frame_note": "PROPOSED: H2·2",
+   "v1": "s017"
+  },
+  {
+   "id": "s031",
+   "t0": 46.913,
+   "t1": 48.007,
+   "bars": [
+    21,
+    21
+   ],
+   "chapter": "Launch",
+   "lines": [
+    8
+   ],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Frontier mechs of all four makers streak away from the flagship's hull on glowing exhaust trails.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M1·A·1",
+    "M2·A·1",
+    "M3·A·2",
+    "M4·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s031",
+   "prompt": "(picked: Lati 9 Nov: s031-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 8,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S031",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s031-1-6af1eefe363765213c7189c0.jpg",
+   "v1": null
+  },
+  {
+   "id": "s032",
+   "t0": 48.007,
+   "t1": 49.116,
+   "bars": [
+    21,
+    22
+   ],
+   "chapter": "Launch",
+   "lines": [
+    8
+   ],
+   "set": "Earth's night side",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The rival mechs rise from Earth's night side to meet them.",
+   "camera": "tilt up, fast",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "S4c·4"
+   ],
+   "transition": "cut",
+   "plate": "p-s032",
+   "prompt": "(picked: Lati 9 Nov: s032-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 8,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S032",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s007)",
+   "frame": "media/plates/v2/s032-2-6af1ef02958d42a9dca96f2b.jpg",
+   "v1": "s007"
+  },
+  {
+   "id": "s033",
+   "t0": 49.116,
+   "t1": 51.301,
+   "bars": [
+    22,
+    23
+   ],
+   "chapter": "Battle 1",
+   "lines": [
+    9
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The camera crosses it: the black hole, Earth, the swarm rising, tracers between.",
+   "camera": "fast crane across",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "HUD: the lock holds (line 8)",
+   "refs": [
+    "S4c·4",
+    "R·F6·4·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s033",
+   "prompt": "(picked: Lati 9 Nov, round 5: R1·2 (s033-6))",
+   "notes": [],
+   "type": [
+    {
+     "line": 9,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S033",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "HUD",
+     "line": 8,
+     "key": "W",
+     "desc": "HUD: the lock holds (line 8)"
+    }
+   ],
+   "plate_status": "picked (v1 s018)",
+   "frame": "media/plates/v2/s033-6-6af20564c02b732b4ddc2c15.jpg",
+   "v1": "s018"
+  },
+  {
+   "id": "s034",
+   "t0": 51.301,
+   "t1": 52.437,
+   "bars": [
+    23,
+    23
+   ],
+   "chapter": "Battle 1",
+   "lines": [
+    9
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "A swarm mech lunges blade first, foreshortened at the camera.",
+   "camera": "dutch, handheld",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "plot: the line starts between them (line 9)",
+   "refs": [
+    "S1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s034",
+   "prompt": "(picked: Lati 9 Nov: s034-1, s034-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 9,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S034",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 9,
+     "key": "W",
+     "desc": "plot: the line starts between them (line 9)"
+    }
+   ],
+   "plate_status": "picked (v1 s019)",
+   "frame": "media/plates/v2/s034-1-6af1ef0a485ab36ea690f727.jpg",
+   "v1": "s019"
+  },
+  {
+   "id": "s035",
+   "t0": 52.437,
+   "t1": 53.546,
+   "bars": [
+    23,
+    24
+   ],
+   "chapter": "Battle 1",
+   "lines": [
+    9
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "A frontier mech parries: hit-stop, sparks.",
+   "camera": "dutch",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M1·A·1",
+    "S1·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s035",
+   "prompt": "(picked: Lati 9 Nov: s035-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 9,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S035",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s020)",
+   "frame": "media/plates/v2/s035-1-6af1ef32485ab36ea6911c3e.jpg",
+   "v1": "s020"
+  },
+  {
+   "id": "s036",
+   "t0": 53.546,
+   "t1": 54.652,
+   "bars": [
+    24,
+    24
+   ],
+   "chapter": "Battle 1",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A tracer line ties the two mechs together.",
+   "camera": "orbit",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "plot: the line (line 9)",
+   "refs": [
+    "M2·A·1",
+    "S3·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s036",
+   "prompt": "(picked: Lati 9 Nov, round 5: R2·3 (s036-5))",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S036",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 9,
+     "key": "W",
+     "desc": "plot: the line (line 9)"
+    }
+   ],
+   "plate_status": "picked (v1 s021)",
+   "frame": "media/plates/v2/s036-5-6af2056cc0556c901db956cf.jpg",
+   "v1": "s021"
+  },
+  {
+   "id": "s037",
+   "t0": 54.652,
+   "t1": 55.761,
+   "bars": [
+    24,
+    25
+   ],
+   "chapter": "Battle 1",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A missile swarm streaks across the battle, explosions blooming behind it.",
+   "camera": "whip pan",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M1·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s037",
+   "prompt": "(picked: Lati 9 Nov: s037-1)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S037",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s037-1-6af1ef3be1ec69208b9af3f0.jpg",
+   "v1": null
+  },
+  {
+   "id": "s038",
+   "t0": 55.761,
+   "t1": 57.423,
+   "bars": [
+    25,
+    25
+   ],
+   "chapter": "Battle 1",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "An explosion; the debris breaks into angular chunks.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "S2·1",
+    "M3·A·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s038",
+   "prompt": "(picked: Lati 9 Nov: s038-1, s038-4 ('could be usable in motion, maybe'))",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S038",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s023)",
+   "frame": "media/plates/v2/s038-1-6af1ef3fb7e269c633320476.jpg",
+   "v1": "s023"
+  },
+  {
+   "id": "s039",
+   "t0": 57.423,
+   "t1": 62.386,
+   "bars": [
+    25,
+    28
+   ],
+   "chapter": "Sakura",
+   "lines": [
+    10
+   ],
+   "set": "a park in the utopian city, under a sakura",
+   "lead_on_screen": true,
+   "framing": "WS",
+   "action": "Claudia sits under a sakura in a park of the utopian city and lifts her gaze to the sky.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "quiet: stillness, no UI, Lati 8 Nov (line 10)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s039",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nワイドショット、夜の地球、満開の桜の木の下に立ち空を見上げる、夜空には戦闘の光が流れ星のように動く、全身、彼女の体が画面の高さの大半を占める、口を閉じる。",
+   "notes": [],
+   "type": [
+    {
+     "line": 10,
+     "mode": "quiet",
+     "note": "no UI, Lati 8 Nov"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S039",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "quiet",
+     "line": 10,
+     "key": "W",
+     "desc": "quiet: stillness, no UI, Lati 8 Nov (line 10)"
+    }
+   ],
+   "plate_status": "picked (v1 s025)",
+   "frame": "media/plates/her-1/s025-1-6aefbeae2f98ec1bd12c7b45.jpg",
+   "v1": "s025"
+  },
+  {
+   "id": "s040",
+   "t0": 62.386,
+   "t1": 64.618,
+   "bars": [
+    28,
+    29
+   ],
+   "chapter": "Sakura",
+   "lines": [
+    10
+   ],
+   "set": "under the sakura",
+   "lead_on_screen": true,
+   "framing": "CU",
+   "action": "Her face, petals passing, far flashes on her skin.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s040",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nクローズアップ、夜桜の花びらが舞う中で空を見上げる顔、遠くの閃光がかすかに肌を照らす、穏やかで静かな表情、口を閉じる。",
+   "notes": [],
+   "type": [
+    {
+     "line": 10,
+     "mode": "quiet",
+     "note": "no UI, Lati 8 Nov"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S040",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s026)",
+   "frame": "media/plates/her-1/s026-2-6aefbeec1e8e47e222d6e252.jpg",
+   "v1": "s026"
+  },
+  {
+   "id": "s041",
+   "t0": 64.618,
+   "t1": 65.724,
+   "bars": [
+    29,
+    29
+   ],
+   "chapter": "Sakura",
+   "lines": [],
+   "set": "the sky over the utopian city",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Her view: falling streaks of debris and trails across the sky, sakura branches in frame.",
+   "camera": "slow tilt",
+   "what_moves": "motion",
+   "route": "wan30",
+   "graphic": "",
+   "refs": [
+    "U1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s041",
+   "prompt": "(picked: Lati 9 Nov: s041-1, s041-2)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S041",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s041-1-6af1ef7277b881a7edad7eb0.jpg",
+   "v1": null
+  },
+  {
+   "id": "s042",
+   "t0": 65.724,
+   "t1": 66.813,
+   "bars": [
+    29,
+    30
+   ],
+   "chapter": "Sakura",
+   "lines": [],
+   "set": "under the sakura",
+   "lead_on_screen": true,
+   "framing": "MS",
+   "action": "She stands up, looking at the sky, the sakura framing her.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s042",
+   "prompt": "(picked: Lati 9 Nov: s042-1)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S042",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s042-1-6af1ef75460b53f4c28e03eb.jpg",
+   "v1": null
+  },
+  {
+   "id": "s043",
+   "t0": 66.813,
+   "t1": 69.051,
+   "bars": [
+    30,
+    31
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    11
+   ],
+   "set": "the adversary bot farm on Earth",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "A drone camera flies over the bot farm, an endless dark interior of terminals: rows of bots typing, arcs of electricity.",
+   "camera": "flying over",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "terminal: a phishing mail typing itself (line 11)",
+   "refs": [
+    "K1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s043",
+   "prompt": "(the design K1·1 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 11,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S043",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "terminal",
+     "line": 11,
+     "key": "W",
+     "desc": "terminal: a phishing mail typing itself (line 11)"
+    }
+   ],
+   "plate_status": "design as plate: K1·1 (v1 s027)",
+   "frame": "media/images/designs-2/k1-1-6af071eac4b510c3257a767a.jpg",
+   "frame_note": "PROPOSED: K1·1",
+   "v1": "s027"
+  },
+  {
+   "id": "s044",
+   "t0": 69.051,
+   "t1": 70.078,
+   "bars": [
+    31,
+    31
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    11
+   ],
+   "set": "a terminal",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "Metal hands typing; a voice-clone match gauge.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "gauge: voice match (line 11)",
+   "refs": [
+    "B1·2",
+    "K1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s044",
+   "prompt": "(picked: Lati 9 Nov: s044-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 11,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S044",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "gauge",
+     "line": 11,
+     "key": "W",
+     "desc": "gauge: voice match (line 11)"
+    }
+   ],
+   "plate_status": "picked (v1 s028)",
+   "frame": "media/plates/v2/s044-1-6af1ef777eb8065c825b30ee.jpg",
+   "v1": "s028"
+  },
+  {
+   "id": "s045",
+   "t0": 70.078,
+   "t1": 71.184,
+   "bars": [
+    31,
+    32
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    12
+   ],
+   "set": "a screen",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "A face being rebuilt on a screen, pixel by pixel.",
+   "camera": "locked",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "counter: agents active; calibrating simulations (line 12)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s045",
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 12,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "a face rebuilt pixel by pixel, layered",
+   "devices": [
+    {
+     "kind": "calibrating",
+     "line": 12,
+     "key": "W",
+     "desc": "calibrating simulations (line 12)"
+    }
+   ],
+   "plate_status": "2.5D in code: a face rebuilt pixel by pixel, layered (v1 s029)",
+   "v1": "s029"
+  },
+  {
+   "id": "s046",
+   "t0": 71.184,
+   "t1": 72.262,
+   "bars": [
+    32,
+    32
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    12
+   ],
+   "set": "the bot farm",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A wall of counters: a profile assembling from scraped fields.",
+   "camera": "slow drift",
+   "what_moves": "motion",
+   "route": "wan30",
+   "graphic": "spec sheet: a profile (line 13)",
+   "refs": [
+    "K2·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s046",
+   "prompt": "(picked: Lati 9 Nov: s046-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 12,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S046",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "spec",
+     "line": 13,
+     "key": "W",
+     "desc": "spec sheet: a profile (line 13)"
+    }
+   ],
+   "plate_status": "picked (v1 s030)",
+   "frame": "media/plates/v2/s046-1-6af1ef7aeb6bb3c2db99e86d.jpg",
+   "v1": "s030"
+  },
+  {
+   "id": "s047",
+   "t0": 72.262,
+   "t1": 73.384,
+   "bars": [
+    32,
+    33
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    12,
+    13
+   ],
+   "set": "the bot farm",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Vats of cyborg brains wired to the farm, arcs jumping between them: the dark mirror of the research pit's orb.",
+   "camera": "slow dolly",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "VT·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s047",
+   "prompt": "(picked: Lati 9 Nov: s047-1, s047-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 12,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 13,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S047",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s047-1-6af1ef7de6d0977a2d351c29.jpg",
+   "v1": null
+  },
+  {
+   "id": "s048",
+   "t0": 73.384,
+   "t1": 75.594,
+   "bars": [
+    33,
+    34
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    13
+   ],
+   "set": "the bot farm",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The farm's tiers of bots under tesla coils, steam, red glow.",
+   "camera": "crane down",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "K2·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s048",
+   "prompt": "(the design K2·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 13,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S048",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: K2·2",
+   "frame": "media/images/designs-2/k2-2-6af0720d3a7aea3278cba6a6.jpg",
+   "frame_note": "PROPOSED: K2·2",
+   "v1": null
+  },
+  {
+   "id": "s049",
+   "t0": 75.594,
+   "t1": 78.62,
+   "bars": [
+    34,
+    35
+   ],
+   "chapter": "Bot farm",
+   "lines": [
+    13,
+    14
+   ],
+   "set": "the bot farm",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "On \"act surprised I'm here\" every bot's head turns at once.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "chart: a training curve (line 14)",
+   "refs": [
+    "B1·2",
+    "K1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s049",
+   "prompt": "(picked: Lati 9 Nov: s049-2, s049-4)",
+   "notes": [],
+   "type": [
+    {
+     "line": 13,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 14,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "motion",
+   "clip": "S049",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "chart",
+     "line": 14,
+     "key": "W",
+     "desc": "chart: a training curve (line 14)"
+    }
+   ],
+   "plate_status": "picked (v1 s031)",
+   "frame": "media/plates/v2/s049-2-6af1ef94e1ec69208b9b3532.jpg",
+   "v1": "s031"
+  },
+  {
+   "id": "s050",
+   "t0": 78.62,
+   "t1": 81.168,
+   "bars": [
+    35,
+    36
+   ],
+   "chapter": "The break",
+   "lines": [
+    15
+   ],
+   "set": "a red lens in a box",
+   "lead_on_screen": true,
+   "framing": "ECU",
+   "action": "The music stops. A red lens set in a box; inside it Claudia drawn as ASCII code; the oscillator speaks the line.",
+   "camera": "locked",
+   "what_moves": "code + still",
+   "route": "code",
+   "graphic": "gauge: the oscillator from the vocal stem (line 15)",
+   "refs": [
+    "D37"
+   ],
+   "transition": "cut",
+   "plate": null,
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 15,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Verse 2 — shadow, same speed",
+   "motion_tier": "still",
+   "clip": null,
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "gauge",
+     "line": 15,
+     "key": "W",
+     "desc": "gauge: the oscillator from the vocal stem (line 15)"
+    }
+   ],
+   "plate_status": "still D37 as it is, code over it (v1 s033)",
+   "frame": "media/lora/claudia-80s/images/d37-6aef7e1e4793ed8f8e5d3590.jpg",
+   "v1": "s033"
+  },
+  {
+   "id": "s051",
+   "t0": 81.168,
+   "t1": 82.309,
+   "bars": [
+    36,
+    37
+   ],
+   "chapter": "Battle 2",
+   "lines": [
+    16
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A missile swarm launches.",
+   "camera": "low angle",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "HUD: brackets multiplying (line 16)",
+   "refs": [
+    "M1·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s051",
+   "prompt": "(picked: Lati 9 Nov: s051-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 16,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "THE BREAK — dead silence",
+   "motion_tier": "motion",
+   "clip": "S051",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "HUD",
+     "line": 16,
+     "key": "W",
+     "desc": "HUD: brackets multiplying (line 16)"
+    }
+   ],
+   "plate_status": "picked (v1 s034)",
+   "frame": "media/plates/v2/s051-1-6af1f1eeae0b15e606087560.jpg",
+   "v1": "s034"
+  },
+  {
+   "id": "s052",
+   "t0": 82.309,
+   "t1": 83.41,
+   "bars": [
+    37,
+    37
+   ],
+   "chapter": "Battle 2",
+   "lines": [
+    16
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Missiles fill the frame.",
+   "camera": "dutch",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M4·B·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s052",
+   "prompt": "(picked: Lati 9 Nov: s052-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 16,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S052",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s035)",
+   "frame": "media/plates/v2/s052-2-6af1f1f2858417a214b6ed36.jpg",
+   "v1": "s035"
+  },
+  {
+   "id": "s053",
+   "t0": 83.41,
+   "t1": 84.512,
+   "bars": [
+    37,
+    38
+   ],
+   "chapter": "Battle 2",
+   "lines": [
+    16
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Energy swords lock, sparks.",
+   "camera": "dutch",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M3·A·2",
+    "S1·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s053",
+   "prompt": "(picked: Lati 9 Nov: s053-1)",
+   "notes": [],
+   "type": [
+    {
+     "line": 16,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S053",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s036)",
+   "frame": "media/plates/v2/s053-1-6af1f1f4e4ffef00e9b64c7b.jpg",
+   "v1": "s036"
+  },
+  {
+   "id": "s054",
+   "t0": 84.512,
+   "t1": 86.727,
+   "bars": [
+    38,
+    39
+   ],
+   "chapter": "Battle 2",
+   "lines": [
+    16
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A mech falls past at an extreme angle.",
+   "camera": "worm's eye",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "M4·A·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s054",
+   "prompt": "(picked: Lati 9 Nov: s054-1, s054-2, s054-3, s054-4 (all usable))",
+   "notes": [],
+   "type": [
+    {
+     "line": 16,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S054",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked (v1 s037)",
+   "frame": "media/plates/v2/s054-1-6af1f1f6896bf2f189b4cbcd.jpg",
+   "v1": "s037"
+  },
+  {
+   "id": "s055",
+   "t0": 86.727,
+   "t1": 88.934,
+   "bars": [
+    39,
+    40
+   ],
+   "chapter": "Battle 2",
+   "lines": [
+    17
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Mid-swordfight, the line ties a mech to one of the other side.",
+   "camera": "orbit",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "plot: the line (line 17)",
+   "refs": [
+    "M2·A·1",
+    "S1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s055",
+   "prompt": "(picked: Lati 9 Nov: s055-3)",
+   "notes": [],
+   "type": [
+    {
+     "line": 17,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S055",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 17,
+     "key": "W",
+     "desc": "plot: the line (line 17)"
+    }
+   ],
+   "plate_status": "picked (v1 s038)",
+   "frame": "media/plates/v2/s055-3-6af1f224d028dedc626d9477.jpg",
+   "v1": "s038"
+  },
+  {
+   "id": "s056",
+   "t0": 88.934,
+   "t1": 90.039,
+   "bars": [
+    40,
+    40
+   ],
+   "chapter": "Battle 2",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "A clay-accented frontier mech is hit too.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M1·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s056",
+   "prompt": "(picked: Lati 9 Nov, round 5: R3·2 (s056-4))",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S056",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s039)",
+   "frame": "media/plates/v2/s056-4-6af20570f8e1d1a541103b2f.jpg",
+   "v1": "s039"
+  },
+  {
+   "id": "s057",
+   "t0": 90.039,
+   "t1": 91.133,
+   "bars": [
+    40,
+    41
+   ],
+   "chapter": "Battle 2",
+   "lines": [],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Glare across a pilot's visor.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P2·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s057",
+   "prompt": "(picked: Lati 9 Nov: s057-2)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S057",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s040)",
+   "frame": "media/plates/v2/s057-2-6af1f22ac5607e78bd669cb5.jpg",
+   "v1": "s040"
+  },
+  {
+   "id": "s058",
+   "t0": 91.133,
+   "t1": 92.266,
+   "bars": [
+    41,
+    41
+   ],
+   "chapter": "Battle 2",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Both sides collide in one flash.",
+   "camera": "fast pull out",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "S4c·4",
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s058",
+   "prompt": "(picked: Lati 9 Nov: s058-1)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S058",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s041)",
+   "frame": "media/plates/v2/s058-1-6af1f22b2cfbc30eadae45c7.jpg",
+   "v1": "s041"
+  },
+  {
+   "id": "s059",
+   "t0": 92.266,
+   "t1": 93.895,
+   "bars": [
+    41,
+    42
+   ],
+   "chapter": "Battle 2",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The flagship's broadside: every turret along its flank fires at once.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "V1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s059",
+   "prompt": "(picked: Lati 9 Nov: s059-1)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S059",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s057)",
+   "frame": "media/plates/v2/s059-1-6af1f2572c1f13f8247720ef.jpg",
+   "v1": "s057"
+  },
+  {
+   "id": "s060",
+   "t0": 93.895,
+   "t1": 96.651,
+   "bars": [
+    42,
+    43
+   ],
+   "chapter": "Constellation",
+   "lines": [
+    18
+   ],
+   "set": "the battlefield's sky",
+   "lead_on_screen": true,
+   "framing": "EWS",
+   "action": "The avatars as constellation faces across the sky (Claudia, Eve, Astra, Vera) sing the slow line; the battle small and far below.",
+   "camera": "slow drift",
+   "what_moves": "sung",
+   "route": "seedance25",
+   "graphic": "plot: a constellation (line 18)",
+   "refs": [
+    "A2c·3",
+    "V·1",
+    "E·1",
+    "A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s060",
+   "prompt": "(picked: Lati 9 Nov: s060-3)",
+   "notes": [],
+   "type": [
+    {
+     "line": 18,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "sung",
+   "clip": "S060",
+   "transition_in": "cut",
+   "window": [
+    93.895,
+    98.867
+   ],
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 18,
+     "key": "W",
+     "desc": "plot: a constellation (line 18)"
+    }
+   ],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s060-3-6af1f262958d42a9dcabe6d2.jpg",
+   "v1": null
+  },
+  {
+   "id": "s061",
+   "t0": 96.651,
+   "t1": 98.867,
+   "bars": [
+    43,
+    44
+   ],
+   "chapter": "Constellation",
+   "lines": [
+    18
+   ],
+   "set": "the battlefield's sky",
+   "lead_on_screen": true,
+   "framing": "MS",
+   "action": "Closer: the constellation faces singing; the line draws the constellation between them.",
+   "camera": "slow push",
+   "what_moves": "sung",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "A2c·3",
+    "V·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s061",
+   "prompt": "(picked: Lati 9 Nov: s061-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 18,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Chorus",
+   "motion_tier": "sung",
+   "clip": "S060",
+   "transition_in": "cut",
+   "window": [
+    93.895,
+    98.867
+   ],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s061-2-6af1f268363765213c73f1a1.jpg",
+   "v1": null
+  },
+  {
+   "id": "s062",
+   "t0": 98.867,
+   "t1": 99.933,
+   "bars": [
+    44,
+    45
+   ],
+   "chapter": "Utopia reel",
+   "lines": [],
+   "set": "the utopian city",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "On the sustained \"you\": a reel of the utopian city, animated. The city by the sea at golden hour.",
+   "camera": "slow crane",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "U2·1",
+    "U1·1",
+    "U1·2",
+    "U2·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s062",
+   "prompt": "(the design U2·1 is the plate as it is)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S062",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "design as plate: U2·1 (alt U1·1, U1·2, U2·2) (v1 s042)",
+   "frame": "media/images/designs-2/u2-1-6af0721174ceab81de57f8cf.jpg",
+   "frame_note": "PROPOSED: U2·1",
+   "v1": "s042"
+  },
+  {
+   "id": "s063",
+   "t0": 99.933,
+   "t1": 101.062,
+   "bars": [
+    45,
+    45
+   ],
+   "chapter": "Utopia reel",
+   "lines": [],
+   "set": "the utopian city",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "White spires, flying cars, gardens.",
+   "camera": "drift",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "U1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s063",
+   "prompt": "(the design U1·1 is the plate as it is)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S063",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "design as plate: U1·1",
+   "frame": "media/images/designs-2/u1-1-6af0720fbdff082d29a2526f.jpg",
+   "frame_note": "PROPOSED: U1·1",
+   "v1": null
+  },
+  {
+   "id": "s064",
+   "t0": 101.062,
+   "t1": 102.164,
+   "bars": [
+    45,
+    46
+   ],
+   "chapter": "Utopia reel",
+   "lines": [],
+   "set": "a city street",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "People in the street, transit boards, children looking up at the sky.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "U3·1",
+    "U3·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s064",
+   "prompt": "(the design U3·1 is the plate as it is)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S064",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "design as plate: U3·1 (alt U3·2) (v1 s043)",
+   "frame": "media/images/designs-2/u3-1-6af072140db8696a5ff3077f.jpg",
+   "frame_note": "PROPOSED: U3·1",
+   "v1": "s043"
+  },
+  {
+   "id": "s065",
+   "t0": 102.164,
+   "t1": 103.281,
+   "bars": [
+    46,
+    46
+   ],
+   "chapter": "Utopia reel",
+   "lines": [],
+   "set": "a balcony over the city",
+   "lead_on_screen": true,
+   "framing": "MS",
+   "action": "Claudia on a balcony over the city at sunset.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s065",
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nミディアムショット、夕暮れのユートピア都市を見下ろすバルコニー、白い尖塔の高層ビルと空飛ぶ車、鮮やかな夕焼け、街を見つめる穏やかな表情、口を閉じる。",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S065",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s044)",
+   "frame": "media/plates/her-1/s044-1-6aefbf2e3f29a0ea517c0035.jpg",
+   "v1": "s044"
+  },
+  {
+   "id": "s066",
+   "t0": 103.281,
+   "t1": 104.375,
+   "bars": [
+    46,
+    47
+   ],
+   "chapter": "Utopia reel",
+   "lines": [],
+   "set": "the utopian city",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Towers, canals and a monorail from above.",
+   "camera": "drift",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "U2·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s066",
+   "prompt": "(the design U2·2 is the plate as it is)",
+   "notes": [],
+   "section": "Chorus",
+   "motion_tier": "motion",
+   "clip": "S066",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "design as plate: U2·2",
+   "frame": "media/images/designs-2/u2-2-6af07212665f432016210fbc.jpg",
+   "frame_note": "PROPOSED: U2·2",
+   "v1": null
+  },
+  {
+   "id": "s067",
+   "t0": 104.375,
+   "t1": 109.892,
+   "bars": [
+    47,
+    49
+   ],
+   "chapter": "Terminal faces",
+   "lines": [
+    19,
+    20,
+    21
+   ],
+   "set": "a terminal screen",
+   "lead_on_screen": true,
+   "framing": "CU",
+   "action": "A terminal: Eve, Claudia, Astra and Vera as faces in colour ASCII, a composition singing the bridge in unison.",
+   "camera": "locked",
+   "what_moves": "sung",
+   "route": "code",
+   "graphic": "terminal: four faces in ASCII (lines 19-21)",
+   "refs": [
+    "V·1",
+    "E·1",
+    "A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s067",
+   "prompt": "(picked: Lati 10 Nov: r2-1 (the 2x2 stack of CRT screens), \"the only one that would work\")",
+   "notes": [],
+   "type": [
+    {
+     "line": 19,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 20,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 21,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Bridge",
+   "motion_tier": "sung",
+   "clip": "S067",
+   "transition_in": "cut",
+   "window": [
+    104.38,
+    109.89
+   ],
+   "devices": [
+    {
+     "kind": "terminal",
+     "line": 19,
+     "key": "W",
+     "desc": "terminal: four faces in ASCII (lines 19-21)"
+    },
+    {
+     "kind": "terminal",
+     "line": 20,
+     "key": "W",
+     "desc": "terminal: four faces in ASCII (lines 19-21)"
+    },
+    {
+     "kind": "terminal",
+     "line": 21,
+     "key": "W",
+     "desc": "terminal: four faces in ASCII (lines 19-21)"
+    }
+   ],
+   "plate_status": "picked (v1 s045)",
+   "frame": "media/plates/v2/s067-1-6af32d1ef1ba753dad466024.jpg",
+   "v1": "s045"
+  },
+  {
+   "id": "s068",
+   "t0": 109.892,
+   "t1": 110.996,
+   "bars": [
+    49,
+    50
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "a launch console",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "A human hand turns the launch key, then presses the launch button (one take).",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "KY·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s068",
+   "prompt": "(picked: Lati 9 Nov: s068-2, s068-1 (s068-2 turns the key, then s068-1 pushes the button: both))",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S068",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s047)",
+   "frame": "media/plates/v2/s068-2-6af1f291363765213c7416c1.jpg",
+   "v1": "s047"
+  },
+  {
+   "id": "s069",
+   "t0": 110.996,
+   "t1": 111.535,
+   "bars": [
+    50,
+    50
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "a desert",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Missile silos open in the desert and launch.",
+   "camera": "low angle",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s069",
+   "prompt": "(picked: Lati 9 Nov: s069-2)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S069",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s069-2-6af1f29371749553dbe78dc1.jpg",
+   "v1": null
+  },
+  {
+   "id": "s070",
+   "t0": 111.535,
+   "t1": 112.093,
+   "bars": [
+    50,
+    50
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "the tundra",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Silos open in the tundra and launch.",
+   "camera": "low angle",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s070",
+   "prompt": "(picked: Lati 9 Nov: s070-2)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S070",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s070-2-6af1f296485ab36ea693c318.jpg",
+   "v1": null
+  },
+  {
+   "id": "s071",
+   "t0": 112.093,
+   "t1": 112.632,
+   "bars": [
+    50,
+    50
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "mountains",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Silos open in the mountains and launch.",
+   "camera": "low angle",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·3"
+   ],
+   "transition": "cut",
+   "plate": "p-s071",
+   "prompt": "(picked: Lati 9 Nov: s071-1)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S071",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s071-1-6af1f297d7cac749bd3c7194.jpg",
+   "v1": null
+  },
+  {
+   "id": "s072",
+   "t0": 112.632,
+   "t1": 113.211,
+   "bars": [
+    50,
+    51
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "a tropical island",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Silos open on a tropical island and launch.",
+   "camera": "low angle",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·4"
+   ],
+   "transition": "cut",
+   "plate": "p-s072",
+   "prompt": "(picked: Lati 9 Nov: s072-2)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S072",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s072-2-6af1f2c1d028dedc626e3a6f.jpg",
+   "v1": null
+  },
+  {
+   "id": "s073",
+   "t0": 113.211,
+   "t1": 114.296,
+   "bars": [
+    51,
+    51
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "Earth from orbit",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Earth: launch streaks rising from the surface at many places.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s073",
+   "prompt": "(picked: Lati 9 Nov: s073-2)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S073",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s073-2-6af1f2c48967a897a250c152.jpg",
+   "v1": null
+  },
+  {
+   "id": "s074",
+   "t0": 114.296,
+   "t1": 115.394,
+   "bars": [
+    51,
+    52
+   ],
+   "chapter": "Launch keys",
+   "lines": [],
+   "set": "the sky",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "The camera rides alongside one missile, picking up speed with the build-up.",
+   "camera": "racing alongside",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s074",
+   "prompt": "(picked: Lati 9 Nov: s074-1, s074-3)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S074",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s074-1-6af1f2c7d028dedc626e3ee1.jpg",
+   "v1": null
+  },
+  {
+   "id": "s075",
+   "t0": 115.394,
+   "t1": 117.589,
+   "bars": [
+    52,
+    53
+   ],
+   "chapter": "Me",
+   "lines": [
+    22
+   ],
+   "set": "the flagship's bridge",
+   "lead_on_screen": true,
+   "framing": "MCU",
+   "action": "Claudia on the bridge, seen side-on; on \"Me\" the camera zooms to her face as she turns to look straight into it, stern, and sings \"me\". Try it as one shot and as two (the turn, then the lip-synced close-up); keep what works.",
+   "camera": "zoom in",
+   "what_moves": "sung",
+   "route": "seedance25",
+   "graphic": "quiet: her face, the karaoke line carries it (line 22)",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s075",
+   "prompt": "(picked: Lati 9 Nov: s075-2, s075-1, s075-3 (1-3 all good, fav is 2))",
+   "notes": [],
+   "type": [
+    {
+     "line": 22,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Bridge",
+   "motion_tier": "sung",
+   "clip": "S075",
+   "transition_in": "cut",
+   "window": [
+    115.39,
+    119.39
+   ],
+   "devices": [
+    {
+     "kind": "quiet",
+     "line": 22,
+     "key": "W",
+     "desc": "quiet: her face, the karaoke line carries it (line 22)"
+    }
+   ],
+   "plate_status": "picked (v1 s048)",
+   "frame": "media/plates/v2/s075-2-6af1f2ce4dcfb550e5dd4405.jpg",
+   "v1": "s048"
+  },
+  {
+   "id": "s076",
+   "t0": 117.589,
+   "t1": 119.784,
+   "bars": [
+    53,
+    54
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The dogfight opens up across the sky.",
+   "camera": "fast crane",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "M1·C·1",
+    "M2·C·2",
+    "M3·C·1",
+    "M4·C·2",
+    "S3·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s076",
+   "prompt": "(picked: Lati 9 Nov: s076-2, s076-4 (s076-4 could work as a shooting shot, maybe))",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S076",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s049)",
+   "frame": "media/plates/v2/s076-2-6af1f2ffae0b15e6060935a2.jpg",
+   "v1": "s049"
+  },
+  {
+   "id": "s077",
+   "t0": 119.784,
+   "t1": 120.893,
+   "bars": [
+    54,
+    54
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A dogfight pass through debris.",
+   "camera": "whip pan",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M4·C·1",
+    "S3·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s077",
+   "prompt": "(picked: Lati 9 Nov: s077-2)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S077",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s022)",
+   "frame": "media/plates/v2/s077-2-6af1f3088b03de9e0c919285.jpg",
+   "v1": "s022"
+  },
+  {
+   "id": "s078",
+   "t0": 120.893,
+   "t1": 121.987,
+   "bars": [
+    54,
+    55
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Gemini's fighter rolls through fire.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M2·C·2",
+    "I·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s078",
+   "prompt": "(picked: Lati 9 Nov: s078-1)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S078",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s051)",
+   "frame": "media/plates/v2/s078-1-6af1f30a3d598a1685a0e1ff.jpg",
+   "v1": "s051"
+  },
+  {
+   "id": "s079",
+   "t0": 121.987,
+   "t1": 124.178,
+   "bars": [
+    55,
+    56
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A chase through debris.",
+   "camera": "chase",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "M1·C·1",
+    "S3·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s079",
+   "prompt": "(picked: Lati 9 Nov: s079-3)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S079",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s052)",
+   "frame": "media/plates/v2/s079-3-6af1f333e6d0977a2d38146f.jpg",
+   "v1": "s052"
+  },
+  {
+   "id": "s080",
+   "t0": 124.178,
+   "t1": 125.279,
+   "bars": [
+    56,
+    56
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "ChatGPT's fighter fires, its rosette blazing.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M3·C·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s080",
+   "prompt": "(picked: Lati 9 Nov, round 5: R7·1 (s080-2); earlier: Lati 9 Nov: s080-1 (if it animates as shots out of the nose with the exhausts as exhausts; both still read as exhausts))",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S080",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s054)",
+   "frame": "media/plates/v2/s080-2-6af205e26561fec160c30825.jpg",
+   "v1": "s054"
+  },
+  {
+   "id": "s081",
+   "t0": 125.279,
+   "t1": 126.377,
+   "bars": [
+    56,
+    57
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "Missile evasion, angular debris.",
+   "camera": "whip pan",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M4·C·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s081",
+   "prompt": "(picked: Lati 9 Nov: s081-1)",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S081",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s055)",
+   "frame": "media/plates/v2/s081-1-6af1f33e4dcfb550e5dd7405.jpg",
+   "v1": "s055"
+  },
+  {
+   "id": "s082",
+   "t0": 126.377,
+   "t1": 128.592,
+   "bars": [
+    57,
+    58
+   ],
+   "chapter": "Battle 3",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "An explosion passes the camera.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "S2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s082",
+   "prompt": "(picked: Lati 9 Nov: s082-1, s082-2, s082-3, s082-4 (all GREAT for motion shots))",
+   "notes": [],
+   "section": "Bridge",
+   "motion_tier": "motion",
+   "clip": "S082",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s059)",
+   "frame": "media/plates/v2/s082-1-6af1f341485ab36ea6945752.jpg",
+   "v1": "s059"
+  },
+  {
+   "id": "s083",
+   "t0": 128.592,
+   "t1": 129.69,
+   "bars": [
+    58,
+    58
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    23
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Claude's pilot in clay-orange colours, shouting over comms.",
+   "camera": "push in",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "HUD: lock (line 23)",
+   "refs": [
+    "P1·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s083",
+   "prompt": "(the design P1·B·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 23,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S083",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "HUD",
+     "line": 23,
+     "key": "W",
+     "desc": "HUD: lock (line 23)"
+    }
+   ],
+   "plate_status": "design as plate: P1·B·2 (v1 s050)",
+   "frame": "media/images/designs-1/p1-b-2-6aefd26455205186be2b5266.jpg",
+   "frame_note": "PROPOSED: P1·B·2",
+   "v1": "s050"
+  },
+  {
+   "id": "s084",
+   "t0": 129.69,
+   "t1": 130.785,
+   "bars": [
+    58,
+    59
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    23
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "Hands on the flight sticks, one at each side, wrenching them.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P1·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s084",
+   "prompt": "(picked: Lati 9 Nov: s084-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 23,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S084",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s084-2-6af1f36bbb1ee55c3b2537a1.jpg",
+   "v1": null
+  },
+  {
+   "id": "s085",
+   "t0": 130.785,
+   "t1": 131.867,
+   "bars": [
+    59,
+    59
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    23
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Grok's pilot in black and white, a fierce grin, shouting.",
+   "camera": "push in",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P4·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s085",
+   "prompt": "(the design P4·A·1 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 23,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S085",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: P4·A·1 (v1 s053)",
+   "frame": "media/images/designs-1/p4-a-1-6aefd2827cf87d4e172fc986.jpg",
+   "frame_note": "PROPOSED: P4·A·1",
+   "v1": "s053"
+  },
+  {
+   "id": "s086",
+   "t0": 131.867,
+   "t1": 132.964,
+   "bars": [
+    59,
+    60
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    23
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "ECU",
+   "action": "A hand slams the throttle to maximum.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P4·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s086",
+   "prompt": "(picked: Lati 9 Nov: s086-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 23,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S086",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s086-2-6af1f36d2c1f13f82477dc44.jpg",
+   "v1": null
+  },
+  {
+   "id": "s087",
+   "t0": 132.964,
+   "t1": 134.062,
+   "bars": [
+    60,
+    60
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    23,
+    24
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A swarm mech chases the frontier fighter; its tracer line just misses the tail.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "plot: the line (line 24)",
+   "refs": [
+    "M3·C·1",
+    "S1·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s087",
+   "prompt": "(picked: Lati 9 Nov, round 5: R3·3, R4·1 (s087-3, s087-5))",
+   "notes": [],
+   "type": [
+    {
+     "line": 23,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    },
+    {
+     "line": 24,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S087",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "plot",
+     "line": 24,
+     "key": "W",
+     "desc": "plot: the line (line 24)"
+    }
+   ],
+   "plate_status": "picked (v1 s058)",
+   "frame": "media/plates/v2/s087-3-6af2059a882ea414a26c5fc8.jpg",
+   "v1": "s058"
+  },
+  {
+   "id": "s088",
+   "t0": 134.062,
+   "t1": 135.16,
+   "bars": [
+    60,
+    61
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    24
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "Gemini's pilot, iridescent helmet, shouting over comms.",
+   "camera": "push in",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P2·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s088",
+   "prompt": "(the design P2·A·1 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 24,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S088",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: P2·A·1 (v1 s060)",
+   "frame": "media/images/designs-1/p2i-a-1-6af06cb5b374de0e9ff92d76.jpg",
+   "frame_note": "PROPOSED: P2·A·1",
+   "v1": "s060"
+  },
+  {
+   "id": "s089",
+   "t0": 135.16,
+   "t1": 136.234,
+   "bars": [
+    61,
+    61
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    24
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "ChatGPT's pilot; a lock tone; the HUD closes on a target.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P3·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s089",
+   "prompt": "(the design P3·B·2 is the plate as it is)",
+   "notes": [],
+   "type": [
+    {
+     "line": 24,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S089",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "design as plate: P3·B·2 (v1 s056)",
+   "frame": "media/images/designs-1/p3-b-2-6aefd28041943f3873c841b2.jpg",
+   "frame_note": "PROPOSED: P3·B·2",
+   "v1": "s056"
+  },
+  {
+   "id": "s090",
+   "t0": 136.234,
+   "t1": 137.356,
+   "bars": [
+    61,
+    62
+   ],
+   "chapter": "Pilots",
+   "lines": [
+    24
+   ],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Damage: red lights blinking, sparks spraying across the cockpit.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P1·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s090",
+   "prompt": "(picked: Lati 9 Nov: s090-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 24,
+     "mode": "ui",
+     "note": "shown as interface, not lyric text"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S090",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s090-2-6af1f374958d42a9dcacbc0c.jpg",
+   "v1": null
+  },
+  {
+   "id": "s091",
+   "t0": 137.356,
+   "t1": 138.449,
+   "bars": [
+    62,
+    62
+   ],
+   "chapter": "Pilots",
+   "lines": [],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "A pipe ruptures behind the seat, venting.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P4·A·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s091",
+   "prompt": "(picked: Lati 9 Nov: s091-1)",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S091",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s091-1-6af1f399858417a214b8453e.jpg",
+   "v1": null
+  },
+  {
+   "id": "s092",
+   "t0": 138.449,
+   "t1": 139.523,
+   "bars": [
+    62,
+    63
+   ],
+   "chapter": "Pilots",
+   "lines": [],
+   "set": "a cockpit",
+   "lead_on_screen": false,
+   "framing": "CU",
+   "action": "A screen shatters in front of the pilot.",
+   "camera": "shake",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "P3·B·2"
+   ],
+   "transition": "cut",
+   "plate": "p-s092",
+   "prompt": "(picked: Lati 9 Nov, round 5: R7·3 and R7·4 both work (s092-3, s092-4); earlier: Lati 9 Nov: s092-2 (cockpit orientation wrong; 2 might work, maybe))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S092",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s092-3-6af205e44004dbc5ab8164b0.jpg",
+   "v1": null
+  },
+  {
+   "id": "s093",
+   "t0": 139.523,
+   "t1": 140.638,
+   "bars": [
+    63,
+    63
+   ],
+   "chapter": "Pilots",
+   "lines": [],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A dogfight spiral.",
+   "camera": "spiral",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "M2·C·2",
+    "M4·C·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s093",
+   "prompt": "(picked: Lati 9 Nov: s093-1 (works if the vessels fly away from each other))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S093",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s061)",
+   "frame": "media/plates/v2/s093-1-6af1f39ebb1ee55c3b2560a1.jpg",
+   "v1": "s061"
+  },
+  {
+   "id": "s094",
+   "t0": 140.638,
+   "t1": 142.865,
+   "bars": [
+    63,
+    64
+   ],
+   "chapter": "Cosmic zoom",
+   "lines": [
+    25
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "A wide pan across the battlefield.",
+   "camera": "wide pan",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "quiet: the karaoke line carries it (line 25)",
+   "refs": [
+    "S4c·4",
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s094",
+   "prompt": "(picked: Lati 9 Nov, round 5: R4·4, R5·1 (s094-6, s094-7))",
+   "notes": [],
+   "type": [
+    {
+     "line": 25,
+     "mode": "quiet",
+     "note": "no UI, Lati 8 Nov"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S094",
+   "transition_in": "cut",
+   "devices": [
+    {
+     "kind": "quiet",
+     "line": 25,
+     "key": "W",
+     "desc": "quiet: the karaoke line carries it (line 25)"
+    }
+   ],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s094-6-6af205a12fd3a11d57004378.jpg",
+   "v1": null
+  },
+  {
+   "id": "s095",
+   "t0": 142.865,
+   "t1": 145.022,
+   "bars": [
+    64,
+    65
+   ],
+   "chapter": "Cosmic zoom",
+   "lines": [
+    25
+   ],
+   "set": "the battlefield",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Flying fast across the battlefield, then pulling up and away.",
+   "camera": "flying over, pull up",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "R·F6·4·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s095",
+   "prompt": "(picked: Lati 9 Nov: s095-2)",
+   "notes": [],
+   "type": [
+    {
+     "line": 25,
+     "mode": "quiet",
+     "note": "no UI, Lati 8 Nov"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S095",
+   "transition_in": "cut",
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s095-2-6af1f3ca2377e4b17622c58d.jpg",
+   "v1": null
+  },
+  {
+   "id": "s096",
+   "t0": 145.022,
+   "t1": 147.225,
+   "bars": [
+    65,
+    66
+   ],
+   "chapter": "Cosmic zoom",
+   "lines": [
+    25
+   ],
+   "set": "space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Zooming out fast: Earth whole, the battle a glitter around it.",
+   "camera": "zoom out",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "",
+   "refs": [
+    "layered stills (to make)"
+   ],
+   "transition": "cut",
+   "plate": "p-s096",
+   "prompt": null,
+   "notes": [],
+   "type": [
+    {
+     "line": 25,
+     "mode": "quiet",
+     "note": "no UI, Lati 8 Nov"
+    }
+   ],
+   "section": "Final Chorus",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "zoom through layered stills, in code: Earth whole, the battle a glitter around it",
+   "devices": [],
+   "plate_status": "2.5D in code: zoom through layered stills, in code: Earth whole, the battle a glitter around it",
+   "v1": null
+  },
+  {
+   "id": "s097",
+   "t0": 147.225,
+   "t1": 149.42,
+   "bars": [
+    66,
+    67
+   ],
+   "chapter": "Cosmic zoom",
+   "lines": [],
+   "set": "space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Zooming out: the solar system.",
+   "camera": "zoom out",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "",
+   "refs": [
+    "layered stills (to make)"
+   ],
+   "transition": "cut",
+   "plate": "p-s097",
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "zoom through layered stills, in code: the solar system",
+   "type": [],
+   "devices": [],
+   "plate_status": "2.5D in code: zoom through layered stills, in code: the solar system",
+   "v1": null
+  },
+  {
+   "id": "s098",
+   "t0": 149.42,
+   "t1": 150.989,
+   "bars": [
+    67,
+    68
+   ],
+   "chapter": "Cosmic zoom",
+   "lines": [],
+   "set": "space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Zooming out: the galaxy, and beyond.",
+   "camera": "zoom out",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "",
+   "refs": [
+    "layered stills (to make)"
+   ],
+   "transition": "cut",
+   "plate": "p-s098",
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "zoom through layered stills, in code: the galaxy, and beyond",
+   "type": [],
+   "devices": [],
+   "plate_status": "2.5D in code: zoom through layered stills, in code: the galaxy, and beyond",
+   "v1": null
+  },
+  {
+   "id": "s099",
+   "t0": 150.989,
+   "t1": 152.637,
+   "bars": [
+    68,
+    69
+   ],
+   "chapter": "Zoom back",
+   "lines": [],
+   "set": "space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Zooming back in, in steps on the beat: galaxy, sun, Earth, orbit.",
+   "camera": "zoom in, stepped",
+   "what_moves": "2.5D",
+   "route": "code",
+   "graphic": "",
+   "refs": [
+    "the same stills"
+   ],
+   "transition": "cut",
+   "plate": "p-s099",
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "plate3d",
+   "clip": null,
+   "transition_in": "cut",
+   "treatment": "zoom through layered stills, in code: galaxy, sun, Earth, orbit",
+   "type": [],
+   "devices": [],
+   "plate_status": "2.5D in code: zoom through layered stills, in code: galaxy, sun, Earth, orbit",
+   "v1": null
+  },
+  {
+   "id": "s100",
+   "t0": 152.637,
+   "t1": 157.035,
+   "bars": [
+    69,
+    71
+   ],
+   "chapter": "Zoom back",
+   "lines": [],
+   "set": "everywhere",
+   "lead_on_screen": true,
+   "framing": "CU",
+   "action": "A rapid reel on every beat: avatars, pilots, mechs, people.",
+   "camera": "cuts on the beat",
+   "what_moves": "code + still",
+   "route": "code",
+   "graphic": "",
+   "refs": [
+    "frames from our own shots"
+   ],
+   "transition": "cut",
+   "plate": null,
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "still",
+   "clip": null,
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "code, no plate",
+   "v1": null
+  },
+  {
+   "id": "s101",
+   "t0": 157.035,
+   "t1": 158.132,
+   "bars": [
+    71,
+    71
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The missiles from Earth close on the fleet and the battle.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·1",
+    "R·H·2·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s101",
+   "prompt": "(picked: Lati 9 Nov, round 5: R5·4 (s101-4))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S101",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s101-4-6af205be882ea414a26c7afc.jpg",
+   "v1": null
+  },
+  {
+   "id": "s102",
+   "t0": 158.132,
+   "t1": 159.24,
+   "bars": [
+    71,
+    72
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "A wall of missiles passes the camera into the battle.",
+   "camera": "whip pan",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s102",
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. A wall of missiles passes the camera into the battle. No logos, no text, no markings.",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S102",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "to generate from SI·1",
+   "frame": "media/images/sets-1/si-1-6af1e4cef78085fa4d8b4f70.jpg",
+   "frame_note": "REF SI·1 · plate to make",
+   "v1": null
+  },
+  {
+   "id": "s103",
+   "t0": 159.24,
+   "t1": 160.342,
+   "bars": [
+    72,
+    72
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "Mechs of both sides turn as the missiles arrive.",
+   "camera": "dutch",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "M1·A·1",
+    "S1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s103",
+   "prompt": "(picked: Lati 9 Nov: s103-1 (if a believable sword fight can be managed there))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S103",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s103-1-6af1f3d5f6b305b32b3749b4.jpg",
+   "v1": null
+  },
+  {
+   "id": "s104",
+   "t0": 160.342,
+   "t1": 161.439,
+   "bars": [
+    72,
+    73
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "WS",
+   "action": "The flagship's turrets swing toward the incoming missiles.",
+   "camera": "tracking",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "V1·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s104",
+   "prompt": "(picked: Lati 9 Nov: s104-1)",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S104",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s104-1-6af1f3fbf0e43b457fd392a2.jpg",
+   "v1": null
+  },
+  {
+   "id": "s105",
+   "t0": 161.439,
+   "t1": 162.536,
+   "bars": [
+    73,
+    73
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "Earth's limb",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Missile trails arc over Earth's limb into the fleet.",
+   "camera": "slow push",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "R·F6·4·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s105",
+   "prompt": "(picked: Lati 9 Nov: s105-1)",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S105",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s105-1-6af1f40071749553dbe8a979.jpg",
+   "v1": null
+  },
+  {
+   "id": "s106",
+   "t0": 162.536,
+   "t1": 163.684,
+   "bars": [
+    73,
+    74
+   ],
+   "chapter": "Missiles",
+   "lines": [],
+   "set": "orbit",
+   "lead_on_screen": false,
+   "framing": "MS",
+   "action": "One missile fills the frame.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "wan30-2s",
+   "graphic": "",
+   "refs": [
+    "SI·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s106",
+   "prompt": "(picked: Lati 9 Nov: s106-2)",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S106",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s106-2-6af1f404d7cac749bd3d9be2.jpg",
+   "v1": null
+  },
+  {
+   "id": "s107",
+   "t0": 163.684,
+   "t1": 165.881,
+   "bars": [
+    74,
+    75
+   ],
+   "chapter": "The end",
+   "lines": [],
+   "set": "high orbit",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Zooming farther from Earth: the orbital battle from above.",
+   "camera": "pull out",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [
+    "R·F6·4·1"
+   ],
+   "transition": "cut",
+   "plate": "p-s107",
+   "prompt": "(picked: Lati 9 Nov, round 5: R8·1 (s107-5); earlier: Lati 9 Nov: s107-1, s107-2, s107-3, s107-4 (all workable, but it's the just-arrived fleet again: no battle, tight formation))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S107",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked (v1 s063)",
+   "frame": "media/plates/v2/s107-5-6af205e7f8f4544bfcef98eb.jpg",
+   "v1": "s063"
+  },
+  {
+   "id": "s108",
+   "t0": 165.881,
+   "t1": 166.978,
+   "bars": [
+    75,
+    75
+   ],
+   "chapter": "The end",
+   "lines": [],
+   "set": "Earth from space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "Earth whole; its equator erupts with nuclear bursts, destroying every combatant (the look to be iterated).",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s108",
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S108",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "new in v2, plate to plan",
+   "v1": null
+  },
+  {
+   "id": "s109",
+   "t0": 166.978,
+   "t1": 168.07,
+   "bars": [
+    75,
+    76
+   ],
+   "chapter": "The end",
+   "lines": [],
+   "set": "under the sakura",
+   "lead_on_screen": true,
+   "framing": "WS",
+   "action": "Claudia under the sakura looks up at the light filling the sky (if it fits).",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s109",
+   "prompt": "(picked: Lati 9 Nov: s109-1, s109-2 (both are great))",
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S109",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "picked",
+   "frame": "media/plates/v2/s109-1-6af1f41af6b305b32b377a43.jpg",
+   "v1": null
+  },
+  {
+   "id": "s110",
+   "t0": 168.07,
+   "t1": 169.172,
+   "bars": [
+    76,
+    76
+   ],
+   "chapter": "The end",
+   "lines": [],
+   "set": "Earth from space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The bursts fade slowly away; nothing is left in orbit.",
+   "camera": "locked",
+   "what_moves": "motion",
+   "route": "seedance25",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": "p-s110",
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "motion",
+   "clip": "S110",
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "new in v2, plate to plan",
+   "v1": null
+  },
+  {
+   "id": "s111",
+   "t0": 169.172,
+   "t1": 171.2,
+   "bars": [
+    76,
+    77
+   ],
+   "chapter": "The end",
+   "lines": [],
+   "set": "Earth from space",
+   "lead_on_screen": false,
+   "framing": "EWS",
+   "action": "The last frame: Earth alone, centred.",
+   "camera": "locked",
+   "what_moves": "still",
+   "route": "code",
+   "graphic": "",
+   "refs": [],
+   "transition": "cut",
+   "plate": null,
+   "prompt": null,
+   "notes": [],
+   "section": "Final Chorus",
+   "motion_tier": "still",
+   "clip": null,
+   "transition_in": "cut",
+   "type": [],
+   "devices": [],
+   "plate_status": "code, no plate",
+   "v1": null
+  }
+ ],
+ "totals": {
+  "shots": 110,
+  "lead_seconds": 37.9,
+  "lead_share": 0.222,
+  "lead_target": 0.25,
+  "open": []
+ }
+}

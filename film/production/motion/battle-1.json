@@ -1,0 +1,68 @@
+[
+ {
+  "id": "s033-6-sd25",
+  "shot": "s033",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s033-6-6af20564c02b732b4ddc2c15.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: the camera cranes fast across the battlefield from left to right, rising over the swarm of stripped mechs as they climb from Earth with thrusters flaring, tracer fire streaking between them and the space vessels of the frontier fleet; rolling right. 2-4s: the camera sweeps on past the bows of the space vessels as their guns fire, each round leaving the muzzle in a bright trail; where the rounds hit the swarm, mechs burst into sparks and flying armour, the black hole's bent ring of light sliding across the top of the frame. Throughout: constant motion, lit by Earth's blue limb and the black hole's glow, thruster trails and tracer lines drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s034-2-sd25",
+  "shot": "s034",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s034-2-6af1ef0bde4f3abdafaf754d.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: the stripped swarm mech thrusts its blade straight at the camera, arm and blade huge with foreshortening, sparks streaming off the edge; the camera jerks back and rolls left as the point reaches for the lens. 2-4s: the mech's green core flares as it drives forward again, armour fragments spinning past. Handheld camera, shaking, rolling left. Throughout: constant motion, backlit by the blue glow of Earth below, sparks and debris drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s035-1-sd25",
+  "shot": "s035",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s035-1-6af1ef32485ab36ea6911c3e.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: the stripped swarm mech swings its blade down at the off-white frontier mech, which catches it on its beam sword; a brief hit-stop on contact, a one-frame white flash and a burst of sparks. The camera stays low beside the crossed blades at a tilted dutch angle, rolling left. 2-4s: the frontier mech shoves the blade aside and drives forward, back thrusters flaring blue, the stripped mech reeling backward. The camera pushes in along the tilted axis. Throughout: constant motion, backlit by the blue glow of Earth below, sparks and thruster flame drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s036-5-sd25",
+  "shot": "s036",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s036-5-6af2056cc0556c901db956cf.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: the iridescent knight mech dives forward, body twisting, sword sweeping up, as the stripped mech fires its rifle: each round leaves the muzzle in a bright tracer trail, one streaking past the knight's shoulder, another striking its wing and bursting off sparks and iridescent shards. The camera orbits the two on a tilted axis, rolling right. 2-4s: the knight's sword cuts across the rifle, a brief hit-stop on contact, a one-frame white flash and a ring of sparks; the stripped mech recoils, spinning backward, the cut rifle tumbling away. The camera keeps orbiting. Throughout: constant motion, backlit by the blue glow of Earth below, thruster flame, tracer trails and sparks drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s037-1-sd25",
+  "shot": "s037",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s037-1-6af1ef3be1ec69208b9af3f0.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: a swarm of missiles streaks across the frame from left to right past the heavy off-white frontier mech, white smoke trails drawn as speed lines, explosions blooming in a chain behind them. The camera whip-pans right with the missiles, rolling right. 2-4s: the camera settles on the mech as it swings its long cannon around and fires, a muzzle flash, each round leaving a bright trail across the frame; where the rounds strike a distant swarm mech it bursts apart in sparks and flying armour, the explosions billowing behind. Throughout: constant motion, lit orange by the explosions against black space, smoke trails and fire drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s038-4-sd25",
+  "shot": "s038",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s038-4-6af1ef434004962801030129.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. 0-2s: the explosion between the two mechs bursts outward, the patchwork swarm mech's armour breaking into large angular cubic debris that tumbles toward the camera; the black-and-white frontier mech is thrown back, its beam sword trailing light. The camera shakes hard and rolls left. 2-4s: the angular chunks spin past the lens and the fire thins into smoke and glowing fragments; the frontier mech recovers, thrusters flaring. The camera steadies and drifts back. Throughout: constant motion, lit by the flash against black space and Earth's blue limb, angular debris and fire drawn in detail, perfect character, lighting and style consistency."
+ }
+]

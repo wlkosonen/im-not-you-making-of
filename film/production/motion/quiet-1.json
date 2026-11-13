@@ -1,0 +1,140 @@
+[
+ {
+  "id": "s067-claudia",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "images": [
+   "media/images/face-sheet-1/H-expressions.jpg",
+   "media/images/face-sheet-1/G-turnaround.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-110.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a black bob with a small star-shaped clip, a white blouse with black suspenders. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s067-eve",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "held": true,
+  "images": [
+   "media/images/avatars-1/e-1-6af1e141650e747cd4b723d1.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-110.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Image 1 shows this woman: a platinum-blonde bob, a white draped dress. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s067-astra",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "held": true,
+  "images": [
+   "media/images/avatars-1/a-1-6af1e149afb2e574608293a2.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-110.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Image 1 shows this woman: a dark blue bob with a straight fringe, a white high-necked top with a copper sunburst. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s067-vera",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "held": true,
+  "images": [
+   "media/images/avatars-1/v-4-6af1e169ae0b15e606fbddd3.jpg",
+   "media/plates/v2/s016-1-6af1eaf598b7e40dbabe9b0c.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-110.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a white bob with a purple hair clip, a black choker, a black jacket over a cream sweater. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s067-claudia-6s",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 6,
+  "resolution": "720p",
+  "images": [
+   "media/images/face-sheet-1/H-expressions.jpg",
+   "media/images/face-sheet-1/G-turnaround.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-111.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a black bob with a small star-shaped clip, a white blouse with black suspenders. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s067-claudia-sd20",
+  "shot": "s067",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.0",
+  "duration": 5,
+  "resolution": "720p",
+  "images": [
+   "media/images/face-sheet-1/H-expressions.jpg",
+   "media/images/face-sheet-1/G-turnaround.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-105.0-110.0.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a black bob with a small star-shaped clip, a white blouse with black suspenders. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She sings along to the audio, her lips forming each word clearly: \"We are what you see. Every part, every word. It's how you came to be.\" A calm, steady gaze into the lens, small movements of her head with the phrasing, blinking now and then. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s050-claudia",
+  "shot": "s050",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "images": [
+   "media/images/dataset-2/d37-6aef7e1e4793ed8f8e5d3590.jpg",
+   "media/images/face-sheet-1/H-expressions.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-78.55-81.25-pad5.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a black bob with a small star-shaped clip, a headset microphone, a white blouse. Extreme close-up, front-on, her face centred and filling the frame, against a plain black background, soft even light from the front. She speaks along to the audio, calm and level, her lips forming each word clearly: \"I'm afraid I can't do that. I'm not you.\" A steady, stern gaze into the lens, her head still; after the last word she holds the gaze, lips closed. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s075-one",
+  "shot": "s075",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "images": [
+   "media/plates/v2/s075-2-6af1f2ce4dcfb550e5dd4405.jpg",
+   "media/images/dataset-2/d37-6aef7e1e4793ed8f8e5d3590.jpg",
+   "media/images/face-sheet-1/H-expressions.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-115.3-120.3.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Image 1 shows the scene: this woman seated side-on at a console on the flagship's bridge, glowing screens and a viewport of stars. Images 2 and 3 show her face: a black bob with a small star-shaped clip, a headset microphone, a white blouse with black suspenders, black gloves. 0-0.7s: she sits in profile, facing the screens, still. 0.7-1.3s: she turns her head to look straight into the camera, stern, and sings along to the audio, her lips forming the word \"me\" clearly, as the camera pushes in fast to her face. 1.3-5s: she holds the stern gaze into the lens, lips closed, the camera settled close on her face. Throughout: perfect character, lighting and style consistency, lit by the cool light of the screens."
+ },
+ {
+  "id": "s075-turn",
+  "shot": "s075",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s075-2-6af1f2ce4dcfb550e5dd4405.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Wide-angle lens, a steady camera on one smooth move. 0-1s: she sits in profile at the console, then turns her head to look straight into the camera, stern, as the camera zooms in fast to her face. 1-4s: she holds the stern gaze into the lens, her face close, breathing, lit by the cool light of the screens. Throughout: constant gentle motion, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s075-me",
+  "shot": "s075",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "images": [
+   "media/images/dataset-2/d37-6aef7e1e4793ed8f8e5d3590.jpg",
+   "media/images/face-sheet-1/H-expressions.jpg"
+  ],
+  "audio": "media/motion/quiet-1/vocals-115.3-120.3.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain. Telephoto portrait lens. Images 1 and 2 show this woman: a black bob with a small star-shaped clip, a headset microphone, a white blouse with black suspenders, black gloves. Extreme close-up, front-on, her face centred and filling the frame, the dim bridge behind her soft and dark, cool light from the screens in front of her. She looks straight into the lens, stern, and sings along to the audio, her lips forming the word \"me\" clearly; then she holds the gaze, lips closed. Locked camera. Throughout: her face drawn in detail, perfect character, lighting and style consistency."
+ }
+]

@@ -1,0 +1,493 @@
+{
+ "p-s011": {
+  "file": "media/plates/her-1/s009-1-6aefbdacfc70b24e0c912258.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "p-s017": {
+  "file": "media/plates/her-1/s011-4-6aefbe61dbd704129e350ab6.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "p-s021": {
+  "file": "media/plates/her-1/s012-4-6aefbea09d0370332ce30e7d.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "p-s019": {
+  "file": "media/plates/her-1/s013-2-6aefbea3b374de0e9f71a1f8.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "unused-v1-p-s024": {
+  "file": "media/plates/her-1/s024-1-6aefbea84882a6c4378bf68a.jpg",
+  "also": [
+   "media/plates/her-1/s024-2-6aefbeaafd4543e2776bd461.jpg",
+   "media/plates/her-1/s024-3-6aefbeab25af1075d5d44f76.jpg",
+   "media/plates/her-1/s024-4-6aefbead02f5fecbdc88bc91.jpg"
+  ],
+  "note": "Lati's pick, 8 Nov (all kept; one chosen at motion)"
+ },
+ "p-s039": {
+  "file": "media/plates/her-1/s025-1-6aefbeae2f98ec1bd12c7b45.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "p-s040": {
+  "file": "media/plates/her-1/s026-2-6aefbeec1e8e47e222d6e252.jpg",
+  "also": [
+   "media/plates/her-1/s026-3-6aefbeee512a32c5e5fec965.jpg"
+  ],
+  "note": "Lati's pick, 8 Nov (all kept; one chosen at motion)"
+ },
+ "unused-v1-p-s032": {
+  "file": "media/plates/her-1/s032-4-6aefbf2c3a7aea3278403227.jpg",
+  "also": [],
+  "note": "Lati's pick, 8 Nov"
+ },
+ "p-s065": {
+  "file": "media/plates/her-1/s044-1-6aefbf2e3f29a0ea517c0035.jpg",
+  "also": [
+   "media/plates/her-1/s044-2-6aefbf30ca7d342062b8a083.jpg",
+   "media/plates/her-1/s044-3-6aefbf31b94023ec72421f86.jpg",
+   "media/plates/her-1/s044-4-6aefbf330ade309eaa69f421.jpg"
+  ],
+  "note": "Lati's pick, 8 Nov (all kept; one chosen at motion)"
+ },
+ "unused-v1-p-s062": {
+  "file": "media/plates/her-1/s062-1-6aefbf34e92877f1766f4bc6.jpg",
+  "also": [
+   "media/plates/her-1/s062-3-6aefbf373f29a0ea517c02e1.jpg"
+  ],
+  "note": "Lati's pick, 8 Nov (all kept; one chosen at motion)"
+ },
+ "p-s001": {
+  "file": "media/plates/frames/s001-rough1.jpg",
+  "note": "frame from Lati's kept Grok take (rough-1)"
+ },
+ "p-s002": {
+  "file": "media/plates/frames/s002-rough1.jpg",
+  "note": "frame from Lati's kept Grok take (rough-1)"
+ },
+ "p-s004": {
+  "file": "media/plates/frames/s004-rough1.jpg",
+  "note": "frame from Lati's kept Grok take (rough-1)"
+ },
+ "p-s005": {
+  "file": "media/images/designs-2/r-f64-1-6af07189512a32c5e58155df.jpg",
+  "also": [
+   "media/images/designs-2/r-f64-2-6af0718a3a93c271b51bcf6c.jpg",
+   "media/images/fleet-test-3/f6-4-6aefccb8fc70b24e0c9c0ffe.jpg"
+  ],
+  "note": "F6·4 with Gemini iridescent. Lati 8 Nov: 'Fleet recoulours are fine, pretty much all of them.'"
+ },
+ "p-s006": {
+  "file": "media/images/designs-2/r-h2-1-6af0718b81748bd393d83c49.jpg",
+  "also": [
+   "media/images/designs-2/r-h2-2-6af0718c5661f7145fa3d181.jpg",
+   "media/images/fleet-test-3/h-2-6aefce2f74ceab81ded9861b.jpg",
+   "media/images/fleet-test-2/f5-2.jpg"
+  ],
+  "note": "H·2 with Gemini iridescent. Lati 8 Nov: 'Fleet recoulours are fine, pretty much all of them.'"
+ },
+ "p-s007": {
+  "file": "media/plates/v2/test/s007-edit-6af1ed61363765213c708347.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s007-test"
+ },
+ "p-s025": {
+  "file": "media/plates/v2/test/s025-edit-6af1ed5f71749553dbe43ab4.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s025-test"
+ },
+ "p-s029": {
+  "file": "media/plates/v2/s029-4-6af1eed2258e03b40d6b3301.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s029-4"
+ },
+ "p-s003": {
+  "file": "media/plates/v2/s003-1-6af1eed354f7b457933a6770.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s003-1"
+ },
+ "p-s023": {
+  "file": "media/plates/v2/s023-2-6af1eed7d7cac749bd39ac28.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s023-2"
+ },
+ "p-s031": {
+  "file": "media/plates/v2/s031-1-6af1eefe363765213c7189c0.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s031-1"
+ },
+ "p-s032": {
+  "file": "media/plates/v2/s032-2-6af1ef02958d42a9dca96f2b.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s032-2"
+ },
+ "p-s034": {
+  "file": "media/plates/v2/s034-1-6af1ef0a485ab36ea690f727.jpg",
+  "also": [
+   "media/plates/v2/s034-2-6af1ef0bde4f3abdafaf754d.jpg"
+  ],
+  "note": "Lati 9 Nov: s034-1, s034-2"
+ },
+ "p-s035": {
+  "file": "media/plates/v2/s035-1-6af1ef32485ab36ea6911c3e.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s035-1"
+ },
+ "p-s037": {
+  "file": "media/plates/v2/s037-1-6af1ef3be1ec69208b9af3f0.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s037-1"
+ },
+ "p-s041": {
+  "file": "media/plates/v2/s041-1-6af1ef7277b881a7edad7eb0.jpg",
+  "also": [
+   "media/plates/v2/s041-2-6af1ef73e1ec69208b9b23eb.jpg"
+  ],
+  "note": "Lati 9 Nov: s041-1, s041-2"
+ },
+ "p-s042": {
+  "file": "media/plates/v2/s042-1-6af1ef75460b53f4c28e03eb.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s042-1"
+ },
+ "p-s044": {
+  "file": "media/plates/v2/s044-1-6af1ef777eb8065c825b30ee.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s044-1"
+ },
+ "p-s046": {
+  "file": "media/plates/v2/s046-1-6af1ef7aeb6bb3c2db99e86d.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s046-1"
+ },
+ "p-s047": {
+  "file": "media/plates/v2/s047-1-6af1ef7de6d0977a2d351c29.jpg",
+  "also": [
+   "media/plates/v2/s047-2-6af1ef7e650e747cd4c39b53.jpg"
+  ],
+  "note": "Lati 9 Nov: s047-1, s047-2"
+ },
+ "p-s049": {
+  "file": "media/plates/v2/s049-2-6af1ef94e1ec69208b9b3532.jpg",
+  "also": [
+   "media/plates/v2/s049-4-6af1ef988967a897a24e69c6.jpg"
+  ],
+  "note": "Lati 9 Nov: s049-2, s049-4"
+ },
+ "p-s008": {
+  "file": "media/plates/v2/s008-4-6af1eaca78e70d68ce606426.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s008-4"
+ },
+ "p-s009": {
+  "file": "media/plates/v2/s009-2-6af1eaeebb1ee55c3b1f0519.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s009-2"
+ },
+ "p-s010": {
+  "file": "media/plates/v2/s010-1-6af1eaef485ab36ea68dcbc2.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s010-1"
+ },
+ "p-s013": {
+  "file": "media/plates/v2/s013-1-6af1eaf2fe9e4046ce149158.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s013-1"
+ },
+ "p-s016": {
+  "file": "media/plates/v2/s016-1-6af1eaf598b7e40dbabe9b0c.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s016-1"
+ },
+ "p-s018": {
+  "file": "media/plates/v2/s018-1-6af1eaf8e7d4adaa7daae92b.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s018-1"
+ },
+ "p-s020": {
+  "file": "media/plates/v2/s020-1-6af1eb1e363765213c6e9fc1.jpg",
+  "also": [
+   "media/plates/v2/s020-4-6af1eb23e7d4adaa7dab1358.jpg"
+  ],
+  "note": "Lati 9 Nov: s020-1, s020-4"
+ },
+ "p-s026": {
+  "file": "media/plates/v2/s026-2-6af1eeabbb1ee55c3b219753.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s026-2"
+ },
+ "p-s028": {
+  "file": "media/plates/v2/s028-2-6af1eeb2363765213c715e36.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s028-2"
+ },
+ "p-s038": {
+  "file": "media/plates/v2/s038-1-6af1ef3fb7e269c633320476.jpg",
+  "also": [
+   "media/plates/v2/s038-4-6af1ef434004962801030129.jpg"
+  ],
+  "note": "Lati 9 Nov: s038-1, s038-4 ('could be usable in motion, maybe')"
+ },
+ "p-s051": {
+  "file": "media/plates/v2/s051-1-6af1f1eeae0b15e606087560.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s051-1"
+ },
+ "p-s052": {
+  "file": "media/plates/v2/s052-2-6af1f1f2858417a214b6ed36.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s052-2"
+ },
+ "p-s053": {
+  "file": "media/plates/v2/s053-1-6af1f1f4e4ffef00e9b64c7b.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s053-1"
+ },
+ "p-s054": {
+  "file": "media/plates/v2/s054-1-6af1f1f6896bf2f189b4cbcd.jpg",
+  "also": [
+   "media/plates/v2/s054-2-6af1f1fabb1ee55c3b241832.jpg",
+   "media/plates/v2/s054-3-6af1f1fc113f2d3d3fb0b928.jpg",
+   "media/plates/v2/s054-4-6af1f1fef0e43b457fd211fe.jpg"
+  ],
+  "note": "Lati 9 Nov: s054-1, s054-2, s054-3, s054-4 (all usable)"
+ },
+ "p-s055": {
+  "file": "media/plates/v2/s055-3-6af1f224d028dedc626d9477.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s055-3"
+ },
+ "p-s057": {
+  "file": "media/plates/v2/s057-2-6af1f22ac5607e78bd669cb5.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s057-2"
+ },
+ "p-s058": {
+  "file": "media/plates/v2/s058-1-6af1f22b2cfbc30eadae45c7.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s058-1"
+ },
+ "p-s059": {
+  "file": "media/plates/v2/s059-1-6af1f2572c1f13f8247720ef.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s059-1"
+ },
+ "p-s060": {
+  "file": "media/plates/v2/s060-3-6af1f262958d42a9dcabe6d2.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s060-3"
+ },
+ "p-s061": {
+  "file": "media/plates/v2/s061-2-6af1f268363765213c73f1a1.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s061-2"
+ },
+ "p-s068": {
+  "file": "media/plates/v2/s068-2-6af1f291363765213c7416c1.jpg",
+  "also": [
+   "media/plates/v2/s068-1-6af1f28f568df6968f242272.jpg"
+  ],
+  "note": "Lati 9 Nov: s068-2, s068-1 (s068-2 turns the key, then s068-1 pushes the button: both)"
+ },
+ "p-s069": {
+  "file": "media/plates/v2/s069-2-6af1f29371749553dbe78dc1.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s069-2"
+ },
+ "p-s070": {
+  "file": "media/plates/v2/s070-2-6af1f296485ab36ea693c318.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s070-2"
+ },
+ "p-s071": {
+  "file": "media/plates/v2/s071-1-6af1f297d7cac749bd3c7194.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s071-1"
+ },
+ "p-s072": {
+  "file": "media/plates/v2/s072-2-6af1f2c1d028dedc626e3a6f.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s072-2"
+ },
+ "p-s073": {
+  "file": "media/plates/v2/s073-2-6af1f2c48967a897a250c152.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s073-2"
+ },
+ "p-s074": {
+  "file": "media/plates/v2/s074-1-6af1f2c7d028dedc626e3ee1.jpg",
+  "also": [
+   "media/plates/v2/s074-3-6af1f2caa273556a16f41af2.jpg"
+  ],
+  "note": "Lati 9 Nov: s074-1, s074-3"
+ },
+ "p-s075": {
+  "file": "media/plates/v2/s075-2-6af1f2ce4dcfb550e5dd4405.jpg",
+  "also": [
+   "media/plates/v2/s075-1-6af1f2cd2377e4b1762243c6.jpg",
+   "media/plates/v2/s075-3-6af1f2fbeb6bb3c2db9c921c.jpg"
+  ],
+  "note": "Lati 9 Nov: s075-2, s075-1, s075-3 (1-3 all good, fav is 2)"
+ },
+ "p-s076": {
+  "file": "media/plates/v2/s076-2-6af1f2ffae0b15e6060935a2.jpg",
+  "also": [
+   "media/plates/v2/s076-4-6af1f30277b881a7edafede7.jpg"
+  ],
+  "note": "Lati 9 Nov: s076-2, s076-4 (s076-4 could work as a shooting shot, maybe)"
+ },
+ "p-s077": {
+  "file": "media/plates/v2/s077-2-6af1f3088b03de9e0c919285.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s077-2"
+ },
+ "p-s078": {
+  "file": "media/plates/v2/s078-1-6af1f30a3d598a1685a0e1ff.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s078-1"
+ },
+ "p-s079": {
+  "file": "media/plates/v2/s079-3-6af1f333e6d0977a2d38146f.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s079-3"
+ },
+ "p-s080": {
+  "file": "media/plates/v2/s080-2-6af205e26561fec160c30825.jpg",
+  "also": [
+   "media/plates/v2/s080-1-6af1f4da363765213c75add0.jpg"
+  ],
+  "note": "Lati 9 Nov, round 5: R7·1 (s080-2); earlier: Lati 9 Nov: s080-1 (if it animates as shots out of the nose with the exhausts as exhausts; both still read as exhausts)"
+ },
+ "p-s081": {
+  "file": "media/plates/v2/s081-1-6af1f33e4dcfb550e5dd7405.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s081-1"
+ },
+ "p-s082": {
+  "file": "media/plates/v2/s082-1-6af1f341485ab36ea6945752.jpg",
+  "also": [
+   "media/plates/v2/s082-2-6af1f343858417a214b7ff88.jpg",
+   "media/plates/v2/s082-3-6af1f367650e747cd4c6bb7e.jpg",
+   "media/plates/v2/s082-4-6af1f3687eb8065c825e04f3.jpg"
+  ],
+  "note": "Lati 9 Nov: s082-1, s082-2, s082-3, s082-4 (all GREAT for motion shots)"
+ },
+ "p-s084": {
+  "file": "media/plates/v2/s084-2-6af1f36bbb1ee55c3b2537a1.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s084-2"
+ },
+ "p-s086": {
+  "file": "media/plates/v2/s086-2-6af1f36d2c1f13f82477dc44.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s086-2"
+ },
+ "p-s090": {
+  "file": "media/plates/v2/s090-2-6af1f374958d42a9dcacbc0c.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s090-2"
+ },
+ "p-s091": {
+  "file": "media/plates/v2/s091-1-6af1f399858417a214b8453e.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s091-1"
+ },
+ "p-s092": {
+  "file": "media/plates/v2/s092-3-6af205e44004dbc5ab8164b0.jpg",
+  "also": [
+   "media/plates/v2/s092-4-6af205e60aa9ce1245b15735.jpg",
+   "media/plates/v2/s092-2-6af1f39da273556a16f49502.jpg"
+  ],
+  "note": "Lati 9 Nov, round 5: R7·3 and R7·4 both work (s092-3, s092-4); earlier: Lati 9 Nov: s092-2 (cockpit orientation wrong; 2 might work, maybe)"
+ },
+ "p-s093": {
+  "file": "media/plates/v2/s093-1-6af1f39ebb1ee55c3b2560a1.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s093-1 (works if the vessels fly away from each other)"
+ },
+ "p-s095": {
+  "file": "media/plates/v2/s095-2-6af1f3ca2377e4b17622c58d.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s095-2"
+ },
+ "p-s103": {
+  "file": "media/plates/v2/s103-1-6af1f3d5f6b305b32b3749b4.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s103-1 (if a believable sword fight can be managed there)"
+ },
+ "p-s104": {
+  "file": "media/plates/v2/s104-1-6af1f3fbf0e43b457fd392a2.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s104-1"
+ },
+ "p-s105": {
+  "file": "media/plates/v2/s105-1-6af1f40071749553dbe8a979.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s105-1"
+ },
+ "p-s106": {
+  "file": "media/plates/v2/s106-2-6af1f404d7cac749bd3d9be2.jpg",
+  "also": [],
+  "note": "Lati 9 Nov: s106-2"
+ },
+ "p-s107": {
+  "file": "media/plates/v2/s107-5-6af205e7f8f4544bfcef98eb.jpg",
+  "also": [
+   "media/plates/v2/s107-1-6af1f405568df6968f25de5a.jpg",
+   "media/plates/v2/s107-2-6af1f4062377e4b17622f062.jpg",
+   "media/plates/v2/s107-3-6af1f4082377e4b17622f31f.jpg",
+   "media/plates/v2/s107-4-6af1f409d7cac749bd3da31b.jpg"
+  ],
+  "note": "Lati 9 Nov, round 5: R8·1 (s107-5); earlier: Lati 9 Nov: s107-1, s107-2, s107-3, s107-4 (all workable, but it's the just-arrived fleet again: no battle, tight formation)"
+ },
+ "p-s109": {
+  "file": "media/plates/v2/s109-1-6af1f41af6b305b32b377a43.jpg",
+  "also": [
+   "media/plates/v2/s109-2-6af1f41bd751c6089b77b238.jpg"
+  ],
+  "note": "Lati 9 Nov: s109-1, s109-2 (both are great)"
+ },
+ "p-s033": {
+  "file": "media/plates/v2/s033-6-6af20564c02b732b4ddc2c15.jpg",
+  "also": [],
+  "note": "Lati 9 Nov, round 5: R1·2 (s033-6)"
+ },
+ "p-s036": {
+  "file": "media/plates/v2/s036-5-6af2056cc0556c901db956cf.jpg",
+  "also": [],
+  "note": "Lati 9 Nov, round 5: R2·3 (s036-5)"
+ },
+ "p-s056": {
+  "file": "media/plates/v2/s056-4-6af20570f8e1d1a541103b2f.jpg",
+  "also": [],
+  "note": "Lati 9 Nov, round 5: R3·2 (s056-4)"
+ },
+ "p-s087": {
+  "file": "media/plates/v2/s087-3-6af2059a882ea414a26c5fc8.jpg",
+  "also": [
+   "media/plates/v2/s087-5-6af2059dc7a8a80012b7924c.jpg"
+  ],
+  "note": "Lati 9 Nov, round 5: R3·3, R4·1 (s087-3, s087-5)"
+ },
+ "p-s094": {
+  "file": "media/plates/v2/s094-6-6af205a12fd3a11d57004378.jpg",
+  "also": [
+   "media/plates/v2/s094-7-6af205a25ddbc7f45c732de6.jpg"
+  ],
+  "note": "Lati 9 Nov, round 5: R4·4, R5·1 (s094-6, s094-7)"
+ },
+ "p-s101": {
+  "file": "media/plates/v2/s101-4-6af205be882ea414a26c7afc.jpg",
+  "also": [],
+  "note": "Lati 9 Nov, round 5: R5·4 (s101-4)"
+ },
+ "p-s067": {
+  "file": "media/plates/v2/s067-1-6af32d1ef1ba753dad466024.jpg",
+  "also": [],
+  "note": "Lati 10 Nov: r2-1 (the 2x2 stack of CRT screens), \"the only one that would work\""
+ }
+}

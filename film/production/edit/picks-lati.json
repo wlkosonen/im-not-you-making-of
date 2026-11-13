@@ -1,0 +1,35 @@
+[
+ {
+  "shot": "s001",
+  "clip": "media/motion/test-1/grok/grokclaudeshipusable.mp4",
+  "in": null,
+  "out": null,
+  "offset": null,
+  "at": "2026-11-10 18:43:03"
+ },
+ {
+  "shot": "s002",
+  "clip": "media/motion/test-1/rough-1.mp4",
+  "in": 2.552,
+  "out": 4.78,
+  "offset": 0.0,
+  "at": "2026-11-10 18:44:24"
+ },
+ {
+  "shot": "s003",
+  "clip": "media/motion/test-1/grok/grok-and-gpt-flying-ok.mp4",
+  "in": 2.412,
+  "out": 4.115,
+  "offset": null,
+  "at": "2026-11-10 18:52:03"
+ },
+ {
+  "shot": "s005",
+  "clip": "media/clips/opening/s005-ff-2-6af2bf2b.mp4",
+  "in": 0.208,
+  "out": 2.786,
+  "offset": null,
+  "at": "2026-11-10 18:53:36",
+  "note_kiln": "in moved from 0 to the flash (0.208 s) so the arrival lands on the drop, 6.359 (Lati, 10 Nov: \"s005 needs arrive on beat\")"
+ }
+]

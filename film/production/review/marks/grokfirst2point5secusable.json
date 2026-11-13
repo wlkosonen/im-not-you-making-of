@@ -1,0 +1,12 @@
+{
+ "clip": "media/motion/test-1/grok/grokfirst2point5secusable.mp4",
+ "song_offset": null,
+ "saved": "2026-11-08 01:50:20",
+ "marks": [
+  {
+   "t": 3.35,
+   "song": null,
+   "note": "usable until here"
+  }
+ ]
+}

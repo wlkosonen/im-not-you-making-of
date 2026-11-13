@@ -1,0 +1,17 @@
+{
+ "_about": "Kiln, 10 Nov 2026: locked renders that play instead of a take; t0 is the song time of the render's first frame. tools/shots.py copies each to media/gfx/locked/<shot>.mp4 with a <shot>.json sidecar (t0), which cutplan reads.",
+ "gfx": {
+  "s050": {
+   "file": "media/gfx/s050-red-lens-sync.mp4",
+   "t0": 78.62
+  },
+  "s067": {
+   "file": "media/gfx/s067-dissolve-c4-fast.mp4",
+   "t0": 105.0
+  },
+  "s075": {
+   "file": "media/gfx/s075-me-fitted.mp4",
+   "t0": 115.03
+  }
+ }
+}

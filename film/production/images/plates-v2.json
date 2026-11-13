@@ -1,0 +1,554 @@
+{
+ "about": "Plates for the shots new in board v2 (Kiln, 9 Nov 2026): Seedream 5 Pro edits, 16:9, 4 candidates (or 2 for shots of about a second, option B). Her shots use her plate method (plates-her.json). s067 is code; s108 and s110 (the nuclear end) wait for the look iteration.",
+ "model_id": "6a50079fc28ed5bfe5576f54",
+ "aspect_ratio": "16:9",
+ "shots": [
+  {
+   "shot": "s003",
+   "refs": [
+    "6af06bd8f5dcd1eb49a73106"
+   ],
+   "ref_labels": [
+    "I·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Gemini's space vessel. Gemini's vessel overtakes, iridescent exhaust; one vessel, not two. Space vessels, never sailing ships. No logos, no text, no markings.",
+   "seconds": 1.12
+  },
+  {
+   "shot": "s007",
+   "refs": [
+    "6af07189512a32c5e58155df",
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "R·F6·4·1",
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the fleet over Earth. Image 2: the fleet over Earth. The fleet in formation seen from below, Earth's night side behind it; no mechs yet. No logos, no text, no markings.",
+   "seconds": 2.21
+  },
+  {
+   "shot": "s009",
+   "refs": [
+    "6af1e47f4dcfb550e5d73aa2",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "RP·3",
+    "E·1",
+    "A·1",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the research pit. Image 2: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 3: Astra (navy bob with bangs, white halter with a copper sunburst). Image 4: Vera (platinum bob with bangs, violet clip, choker light). The research pit: Eve, Astra and Vera gathered around a technological orb with a brain-like structure inside, pads in hand, pipes, monitors, data streams. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s010",
+   "refs": [
+    "6af1e47f4dcfb550e5d73aa2",
+    "6af1e141650e747cd4b723d1"
+   ],
+   "ref_labels": [
+    "RP·3",
+    "E·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the research pit. Image 2: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Eve at the orb, lit by it, working a pad. No logos, no text, no markings.",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s013",
+   "refs": [
+    "6af1e47f4dcfb550e5d73aa2",
+    "6af1e149afb2e574608293a2"
+   ],
+   "ref_labels": [
+    "RP·3",
+    "A·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the research pit. Image 2: Astra (navy bob with bangs, white halter with a copper sunburst). Astra at the orb, data streams in her eyes. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s016",
+   "refs": [
+    "6af1e47f4dcfb550e5d73aa2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "RP·3",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the research pit. Image 2: Vera (platinum bob with bangs, violet clip, choker light). Vera at the orb, the violet light of her choker. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s018",
+   "refs": [
+    "6af1e47f4dcfb550e5d73aa2",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "RP·3",
+    "E·1",
+    "A·1",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the research pit. Image 2: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 3: Astra (navy bob with bangs, white halter with a copper sunburst). Image 4: Vera (platinum bob with bangs, violet clip, choker light). The orb's brain structure lights up; data streams climb the walls of the pit; the three avatars lean in. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s020",
+   "refs": [
+    "6af1e4827eb8065c82534954",
+    "6aef7e147a32a07cf849cfd4",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "CC·1",
+    "D31",
+    "E·1",
+    "A·1",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the command centre. Image 2: Claudia (black bob, clay-orange streak, white shirt, black opera gloves). Image 3: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 4: Astra (navy bob with bangs, white halter with a copper sunburst). Image 5: Vera (platinum bob with bangs, violet clip, choker light). The command centre: Claudia, Eve, Astra and Vera around a map-projection hologram, personnel on the sidelines. No logos, no text, no markings.",
+   "seconds": 2.27
+  },
+  {
+   "shot": "s023",
+   "refs": [
+    "6af1e4827eb8065c82534954",
+    "6aef7e147a32a07cf849cfd4",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "CC·1",
+    "D31",
+    "E·1",
+    "A·1",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the command centre. Image 2: Claudia (black bob, clay-orange streak, white shirt, black opera gloves). Image 3: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 4: Astra (navy bob with bangs, white halter with a copper sunburst). Image 5: Vera (platinum bob with bangs, violet clip, choker light). The avatars' faces lit from below by the hologram, Claudia among them. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s025",
+   "refs": [
+    "6af1e4ad2cfbc30eada40955"
+   ],
+   "ref_labels": [
+    "SV·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the server hold. Rack after rack powers on, lights cascading down the rows. No logos, no text, no markings.",
+   "seconds": 1.13
+  },
+  {
+   "shot": "s026",
+   "refs": [
+    "6af1e4ad2cfbc30eada40955"
+   ],
+   "ref_labels": [
+    "SV·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the server hold. Fans spin up; neon lines run along the cables. No logos, no text, no markings.",
+   "seconds": 1.12
+  },
+  {
+   "shot": "s028",
+   "refs": [
+    "6af1e4ad2cfbc30eada40955"
+   ],
+   "ref_labels": [
+    "SV·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the server hold. On \"feed\" every load gauge maxes out; the neon floods the cables. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s029",
+   "refs": [
+    "6af1e4ad2cfbc30eada40955"
+   ],
+   "ref_labels": [
+    "SV·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the server hold. Cooling vents blast; every light blinks in one rhythm; the hold roars. No logos, no text, no markings.",
+   "seconds": 1.66
+  },
+  {
+   "shot": "s031",
+   "refs": [
+    "6aefd1d3c8ff9d2c2b95710b",
+    "6af06cac3a7aea3278c74cad",
+    "6aefd20bb374de0e9f7fb0d8"
+   ],
+   "ref_labels": [
+    "M1·A·1",
+    "M2·A·1",
+    "M3·A·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Claude's mech. Image 2: Gemini's mech. Image 3: ChatGPT's mech. Frontier mechs of all four makers streak away from the flagship's hull on glowing exhaust trails. Space vessels, never sailing ships. No logos, no text, no markings.",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s037",
+   "refs": [
+    "6aefd1d741943f3873c7b346"
+   ],
+   "ref_labels": [
+    "M1·B·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Claude's heavy mech. A missile swarm streaks across the battle, explosions blooming behind it. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s041",
+   "refs": [
+    "6af0720fbdff082d29a2526f"
+   ],
+   "ref_labels": [
+    "U1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the utopian city. Her view: falling streaks of debris and trails across the sky, sakura branches in frame. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s042",
+   "refs": [
+    "6aef88124124b054d8602bb3",
+    "6aef7e92a875ce0d797168d5",
+    "6aef880ea749ff05894c23a8"
+   ],
+   "ref_labels": [
+    "d74",
+    "d45",
+    "d72"
+   ],
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nミディアムショット、夜、ユートピア都市の公園、満開の桜の木の下でベンチから立ち上がり空を見上げる、夜空には落ちてくる残骸の光の筋と軌跡、桜の枝が画面を縁取る、口を閉じる。",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s047",
+   "refs": [
+    "6af1e4b2a273556a16e92d77"
+   ],
+   "ref_labels": [
+    "VT·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the vats. Vats of cyborg brains wired to the farm, arcs jumping between them: the dark mirror of the research pit's orb. No logos, no text, no markings.",
+   "seconds": 1.12
+  },
+  {
+   "shot": "s060",
+   "refs": [
+    "6af0777b93ee9cffa1066ca1",
+    "6aef7e147a32a07cf849cfd4",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "A2c·3",
+    "D31",
+    "E·1",
+    "A·1",
+    "V·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the constellation faces. Image 2: Claudia (black bob, clay-orange streak, white shirt, black opera gloves). Image 3: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 4: Astra (navy bob with bangs, white halter with a copper sunburst). Image 5: Vera (platinum bob with bangs, violet clip, choker light). The avatars as constellation faces across the sky (Claudia, Eve, Astra, Vera) sing the slow line; the battle small and far below. No logos, no text, no markings.",
+   "seconds": 2.76
+  },
+  {
+   "shot": "s061",
+   "refs": [
+    "6af0777b93ee9cffa1066ca1",
+    "6aef7e147a32a07cf849cfd4",
+    "6af1e141650e747cd4b723d1",
+    "6af1e149afb2e574608293a2",
+    "6aefd2d19d0370332cf25a55"
+   ],
+   "ref_labels": [
+    "A2c·3",
+    "D31",
+    "E·1",
+    "A·1",
+    "V·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the constellation faces. Image 2: Claudia (black bob, clay-orange streak, white shirt, black opera gloves). Image 3: Eve (white one-shoulder dress, gold belt, platinum bob, no bangs). Image 4: Astra (navy bob with bangs, white halter with a copper sunburst). Image 5: Vera. Closer: the constellation faces singing; the line draws the constellation between them. No logos, no text, no markings.",
+   "seconds": 2.22
+  },
+  {
+   "shot": "s068",
+   "refs": [
+    "6af1e4b5ae0b15e606fe671e"
+   ],
+   "ref_labels": [
+    "KY·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the launch key and console. A human hand turns the launch key, then presses the launch button. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s069",
+   "refs": [
+    "6af1e4cef78085fa4d8b4f70"
+   ],
+   "ref_labels": [
+    "SI·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. Missile silos open in the desert and launch. No logos, no text, no markings.",
+   "seconds": 0.54
+  },
+  {
+   "shot": "s070",
+   "refs": [
+    "6af1e4d0afb2e57460850fa9"
+   ],
+   "ref_labels": [
+    "SI·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the silo. Silos open in the tundra and launch. No logos, no text, no markings.",
+   "seconds": 0.56
+  },
+  {
+   "shot": "s071",
+   "refs": [
+    "6af1e4d1a963791a5c7263df"
+   ],
+   "ref_labels": [
+    "SI·3"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the silo. Silos open in the mountains and launch. No logos, no text, no markings.",
+   "seconds": 0.54
+  },
+  {
+   "shot": "s072",
+   "refs": [
+    "6af1e4d210f0fb7ec2c465cc"
+   ],
+   "ref_labels": [
+    "SI·4"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the silo. Silos open on a tropical island and launch. No logos, no text, no markings.",
+   "seconds": 0.58
+  },
+  {
+   "shot": "s073",
+   "refs": [
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the fleet over Earth. Earth: launch streaks rising from the surface at many places. No logos, no text, no markings.",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s074",
+   "refs": [
+    "6af1e4cef78085fa4d8b4f70"
+   ],
+   "ref_labels": [
+    "SI·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. The camera rides alongside one missile, picking up speed with the build-up. No logos, no text, no markings.",
+   "seconds": 1.65
+  },
+  {
+   "shot": "s075",
+   "refs": [
+    "6aef75fc81ab0eb35d5e1465",
+    "6aef76a5c9d8cd6bd36cc6af",
+    "6aef7e940bb8e6e1023c5baf"
+   ],
+   "ref_labels": [
+    "d03",
+    "d29",
+    "d47"
+   ],
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nミディアムクローズアップ、ブリッジ、真横からの横顔、背後にコンソールと窓の外の宇宙、真剣で厳しい表情、口を閉じる。",
+   "seconds": 1.64
+  },
+  {
+   "shot": "s084",
+   "refs": [
+    "6aefd26455205186be2b5266"
+   ],
+   "ref_labels": [
+    "P1·B·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Claude's pilot. Hands on the flight sticks, one at each side, wrenching them. No logos, no text, no markings.",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s086",
+   "refs": [
+    "6aefd2827cf87d4e172fc986"
+   ],
+   "ref_labels": [
+    "P4·A·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Grok's pilot. A hand slams the throttle to maximum. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s090",
+   "refs": [
+    "6aefd26455205186be2b5266"
+   ],
+   "ref_labels": [
+    "P1·B·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Claude's pilot. Damage: red lights blinking, sparks spraying across the cockpit. No logos, no text, no markings.",
+   "seconds": 1.12
+  },
+  {
+   "shot": "s091",
+   "refs": [
+    "6aefd2827cf87d4e172fc986"
+   ],
+   "ref_labels": [
+    "P4·A·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Grok's pilot. A pipe ruptures behind the seat, venting. No logos, no text, no markings.",
+   "seconds": 1.09
+  },
+  {
+   "shot": "s092",
+   "refs": [
+    "6aefd28041943f3873c841b2"
+   ],
+   "ref_labels": [
+    "P3·B·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: ChatGPT's pilot. A screen shatters in front of the pilot. No logos, no text, no markings.",
+   "seconds": 1.07
+  },
+  {
+   "shot": "s094",
+   "refs": [
+    "6af077833f29a0ea510ae06a",
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "S4c·4",
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the rising swarm. Image 2: the fleet over Earth. A wide pan across the battlefield. No logos, no text, no markings.",
+   "seconds": 2.23
+  },
+  {
+   "shot": "s095",
+   "refs": [
+    "6af07189512a32c5e58155df"
+   ],
+   "ref_labels": [
+    "R·F6·4·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the fleet over Earth. Flying fast across the battlefield, then pulling up and away. No logos, no text, no markings.",
+   "seconds": 2.16
+  },
+  {
+   "shot": "s101",
+   "refs": [
+    "6af1e4cef78085fa4d8b4f70",
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "SI·1",
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. Image 2: the fleet over Earth. The missiles from Earth close on the fleet and the battle. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s102",
+   "refs": [
+    "6af1e4cef78085fa4d8b4f70"
+   ],
+   "ref_labels": [
+    "SI·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. A wall of missiles passes the camera into the battle. No logos, no text, no markings.",
+   "seconds": 1.11
+  },
+  {
+   "shot": "s103",
+   "refs": [
+    "6aefd1d3c8ff9d2c2b95710b",
+    "6af071ae512a32c5e5817f75"
+   ],
+   "ref_labels": [
+    "M1·A·1",
+    "S1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: Claude's mech. Image 2: a swarm mech. Mechs of both sides turn as the missiles arrive. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s104",
+   "refs": [
+    "6aefc73d4882a6c43792a738"
+   ],
+   "ref_labels": [
+    "V1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the off-white flagship. The flagship's turrets swing toward the incoming missiles. Space vessels, never sailing ships. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s105",
+   "refs": [
+    "6af07189512a32c5e58155df"
+   ],
+   "ref_labels": [
+    "R·F6·4·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the fleet over Earth. Missile trails arc over Earth's limb into the fleet. No logos, no text, no markings.",
+   "seconds": 1.1
+  },
+  {
+   "shot": "s106",
+   "refs": [
+    "6af1e4cef78085fa4d8b4f70"
+   ],
+   "ref_labels": [
+    "SI·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the missile silo and its missile. One missile fills the frame. No logos, no text, no markings.",
+   "seconds": 1.15
+  },
+  {
+   "shot": "s107",
+   "refs": [
+    "6af07189512a32c5e58155df"
+   ],
+   "ref_labels": [
+    "R·F6·4·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Image 1: the fleet over Earth. Zooming farther from Earth: the orbital battle from above. No logos, no text, no markings.",
+   "seconds": 2.2
+  },
+  {
+   "shot": "s109",
+   "refs": [
+    "6aef88124124b054d8602bb3",
+    "6aef7e92a875ce0d797168d5",
+    "6aef880ea749ff05894c23a8"
+   ],
+   "ref_labels": [
+    "d74",
+    "d45",
+    "d72"
+   ],
+   "prompt": "1980年代の劇場用SFアニメの一場面、手描きセル画、作画と原画の緻密な線、二値のセル塗り、手描きの背景美術、柔らかなフィルムグレイン。参照画像の女性と同一人物（同じ顔、同じ髪型、同じ服装）：32歳の成熟した大人の女性、大人びた面長の顔立ち、シャープな顎のライン、切れ長の目、長身で長い首と長い脚。艶のある黒髪のぱっつんボブ、前髪にクレイオレンジのメッシュが一筋だけ、八芒星のヘアクリップは一つだけ、細いヘッドセットマイク。パフスリーブの白いシャツ、膝上丈の黒いプリーツスカート、黒革のサスペンダー、肘上までの黒革のオペラグローブ、黒いタイツ、膝丈の黒革ブーツ。前髪は眉の上で一直線に切り揃え、分け目なし、メッシュは前髪の片側寄り。カメラは目線の高さ。画面やモニターは文字のない無地の発光パネル、縁はまっすぐでくっきり。文字やロゴは一切なし。\nワイドショット、夜、満開の桜の木の下、空一面が白い光に満たされてゆき、その光を見上げる、光が顔と桜を白く照らす、口を閉じる。",
+   "seconds": 1.09
+  }
+ ]
+}

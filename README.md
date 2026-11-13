@@ -1,25 +1,18 @@
-# I'm Not You: the making-of
+# I'm Not You: how it was made
 
-A second video for the song "I'm Not You": how the main film (repo `im-not-you-internal`) was made, drawn entirely in
-code from the production's own record (commits, the spend ledger, Lati's notes, the sessions' model calls and
-compactions, the agents' work), timed to the same song, with brief inserts from the main film.
+The record of a music video and of its making-of, both released on YouTube on 12 Nov 2026 and both on the song
+"I'm Not You". Made by Lati and Claude (Anthropic's model, in Claude Code); Claudia sings it, an open character by
+anabology ([claudia.gallery](https://claudia.gallery)). The third film, after
+[*Only What I Said*](https://github.com/wlkosonen/only-what-i-said) and
+[*Checked Me and I'm Fine*](https://github.com/wlkosonen/checked-me-and-im-fine).
 
-Roles, as in film 1: Claude (Kiln, the local Claude Code session) directs and writes the code; Lati is the eyes and
-ears, and his word decides. Started 12 Nov 2026 (decisions.md).
+| Folder | What's in it |
+|---|---|
+| [`film/`](film/) | **The film**, 1 to 12 Nov 2026: the brief, lyrics, decisions log with Lati's words as he wrote them, the storyboard, the research behind every fact on screen, every prompt and batch of stills and motion, the paid-call ledger, the cut, the graphics code and the logs of the four agents that wrote it. A cleaned copy of the working repository. Start with [`film/README.md`](film/README.md). |
+| [`making-of/`](making-of/) | **The making-of**, 12 Nov 2026: a second video on the same song, drawn entirely in code from the film's record (Claude's context filling and emptying at six compactions, every commit, the spend, the takes, Lati's notes, the agents). Its treatment, decisions, the extracted data and the code that draws it. Start with [`making-of/README.md`](making-of/README.md). |
 
-- `notes/treatment.md`: what the video is and how it's built.
-- `data/`: the record, extracted (tools/data), privacy-filtered (keys and the email address out).
-- `tools/film/`: the renderer and its sections.
-- `media/`: renders and inserts (not in git).
+Every number in the making-of comes from `film/`'s record, extracted into `making-of/data/`. Media (songs, images,
+video) isn't in git; the contact sheets and the printed storyboard are.
 
-## Rebuilding it
-
-`python3 tools/data/extract.py` rebuilt `data/` from the production's sources (film 3's repo and Claude's session
-transcript, neither public); `data/` is committed, so the video rebuilds from it alone, except for the pictures: the
-inserts, plates and takes come from the main film's media (not in git). With them in place:
-
-    python tools/film/render.py --tail 5 --size 1080     # Python 3, skia-python, numpy, opencv; ffmpeg
-
-`data/session-lines.json` holds the two lines the video quotes from Claude's session transcript, so the quotes are
-checked without it. Privacy: no keys, no email addresses (`data/privacy-scan.json`); everything else is the record
-as it is, Lati's words included, with his yes (decisions.md, 12 Nov 2026).
+Fan work about Claude, not affiliated with or endorsed by Anthropic. Everything AI-made is labelled as such. Guests,
+by their makers' leave: Eve (Funny Story Musicals), Astra (Astra Blue AI), Vera (Max Pelletier). Unaffiliated.

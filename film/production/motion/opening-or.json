@@ -1,0 +1,35 @@
+[
+ {
+  "id": "s023-s023-2-or",
+  "shot": "s023",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s023-2-6af1eed7d7cac749bd39ac28.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people work, turn, glance and breathe, screens and lights change, space vessels glide. 0-2s: the four women lean over the glowing hologram table, lit from below by its blue light, the light flickering across their faces as the projection changes; the woman with the black bob looks up across the table. The camera pushes in slowly, a gentle roll left. 2-4s: points of light rise from the table between them and their eyes follow. Throughout: constant gentle motion, lit blue from below by the hologram, faces and the points of light drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s006-r-h2-2-or",
+  "shot": "s006",
+  "alternate": true,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/r-h2-2-6af0718c5661f7145fa3d181.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people work, turn, glance and breathe, screens and lights change, space vessels glide. 0-2s: the space vessels of the fleet slide into formation above Earth, smaller craft settling into place around the flagship, engines flaring as they slow. The camera pushes in slowly over them, a gentle roll right. 2-4s: the formation settles, running lights blinking along the hulls; far off, the black hole's disk bends over and under its black shadow. Throughout: constant gentle motion, lit by Earth's blue limb and the black hole's glow, engine glow and running lights drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s011-s009-1-retake",
+  "shot": "s011",
+  "alternate": false,
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/her-1/s009-1-6aefbdacfc70b24e0c912258.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people work, turn, glance and breathe, screens and lights change, space vessels glide. 0-2s: on the bridge the woman with the black bob, white blouse, black suspenders and black gloves raises her gloved hand, and the screens along the consoles wake one by one in a wave of blue light, the crew at their stations turning to them. The camera pushes in slowly, a gentle roll right. 2-4s: readouts scroll across the waking screens as the crew type; far off beyond the viewport, small against the stars, a space vessel slides slowly sideways from left to right. Throughout: constant gentle motion, lit by the screens, screens and gloves drawn in detail, perfect character, lighting and style consistency."
+ }
+]

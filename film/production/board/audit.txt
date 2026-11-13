@@ -1,0 +1,188 @@
+BOARD AUDIT · production/board/board.json · sha256 c377b248ff0b0ff6
+song: take parempi, 171.20 s · lyric lines from board.lyric_lines (26 lines, 188 timed words)
+
+GATES
+  PASS  schema
+  PASS  tile
+  PASS  cuts
+  PASS  words typed
+  PASS  graphics
+  PASS  lead share
+  PASS  motion budget
+  PASS  clip windows
+  PASS  plates unique
+  PASS  banned
+  PASS  treatments
+  FAIL  to do (10)
+        s015: plate p-s015 has no prompt
+        s022: plate p-s022 has no prompt
+        s045: plate p-s045 has no prompt
+        s067: plate p-s067 has no prompt
+        s096: plate p-s096 has no prompt
+        s097: plate p-s097 has no prompt
+        s098: plate p-s098 has no prompt
+        s099: plate p-s099 has no prompt
+        s108: plate p-s108 has no prompt
+        s110: plate p-s110 has no prompt
+
+WARNINGS (119)
+  - s001: prompt doesn't end "no text, no letters, no logos"
+  - s002: prompt doesn't end "no text, no letters, no logos"
+  - s003: prompt doesn't end "no text, no letters, no logos"
+  - s004: prompt doesn't end "no text, no letters, no logos"
+  - s005: prompt doesn't end "no text, no letters, no logos"
+  - s006: prompt doesn't end "no text, no letters, no logos"
+  - s007: prompt doesn't end "no text, no letters, no logos"
+  - s008: prompt doesn't end "no text, no letters, no logos"
+  - s009: prompt doesn't end "no text, no letters, no logos"
+  - s010: prompt doesn't end "no text, no letters, no logos"
+  - s011: prompt doesn't end "no text, no letters, no logos"
+  - s012: prompt doesn't end "no text, no letters, no logos"
+  - s013: prompt doesn't end "no text, no letters, no logos"
+  - s014: prompt doesn't end "no text, no letters, no logos"
+  - s016: prompt doesn't end "no text, no letters, no logos"
+  - s017: prompt doesn't end "no text, no letters, no logos"
+  - s018: prompt doesn't end "no text, no letters, no logos"
+  - s019: prompt doesn't end "no text, no letters, no logos"
+  - s020: prompt doesn't end "no text, no letters, no logos"
+  - s021: prompt doesn't end "no text, no letters, no logos"
+  - s023: prompt doesn't end "no text, no letters, no logos"
+  - s025: prompt doesn't end "no text, no letters, no logos"
+  - s026: prompt doesn't end "no text, no letters, no logos"
+  - s027: prompt doesn't end "no text, no letters, no logos"
+  - s028: prompt doesn't end "no text, no letters, no logos"
+  - s029: prompt doesn't end "no text, no letters, no logos"
+  - s030: prompt doesn't end "no text, no letters, no logos"
+  - s031: prompt doesn't end "no text, no letters, no logos"
+  - s032: prompt doesn't end "no text, no letters, no logos"
+  - s033: prompt doesn't end "no text, no letters, no logos"
+  - s034: prompt doesn't end "no text, no letters, no logos"
+  - s035: prompt doesn't end "no text, no letters, no logos"
+  - s036: prompt doesn't end "no text, no letters, no logos"
+  - s037: prompt doesn't end "no text, no letters, no logos"
+  - s038: prompt doesn't end "no text, no letters, no logos"
+  - s039: prompt doesn't end "no text, no letters, no logos"
+  - s040: prompt doesn't end "no text, no letters, no logos"
+  - s041: prompt doesn't end "no text, no letters, no logos"
+  - s042: prompt doesn't end "no text, no letters, no logos"
+  - s043: prompt doesn't end "no text, no letters, no logos"
+  … and 79 more (--all)
+
+CLIPS (99): 15 s sung + 385 s motion, billed in whole seconds (min 4)
+  estimate: (15 x 1.6 covers + 385) s x $0.23/s (720p) = $94.07; x2 rule = $188.14
+  S001     motion    0.00-   2.52 (2.52 s, 4 s billed) derived  shots s001  start plate:p-s001
+  S002     motion    2.52-   4.18 (1.66 s, 4 s billed) derived  shots s002  start plate:p-s002
+  S003     motion    4.18-   5.30 (1.12 s, 4 s billed) derived  shots s003  start plate:p-s003
+  S004     motion    5.30-   6.36 (1.05 s, 4 s billed) derived  shots s004  start plate:p-s004
+  S005     motion    6.36-   9.15 (2.79 s, 4 s billed) derived  shots s005  start plate:p-s005
+  S006     motion    9.15-  12.50 (3.35 s, 4 s billed) derived  shots s006  start plate:p-s006
+  S007     motion   12.50-  14.71 (2.21 s, 4 s billed) derived  shots s007  start plate:p-s007
+  S008     motion   14.71-  18.08 (3.37 s, 4 s billed) derived  shots s008  start plate:p-s008
+  S009     motion   18.08-  19.18 (1.10 s, 4 s billed) derived  shots s009  start plate:p-s009
+  S010     motion   19.18-  20.27 (1.09 s, 4 s billed) derived  shots s010  start plate:p-s010
+  S011     motion   20.27-  21.37 (1.11 s, 4 s billed) derived  shots s011  start plate:p-s011
+  S012     motion   21.37-  22.48 (1.11 s, 4 s billed) derived  shots s012  start plate:p-s012
+  S013     motion   22.48-  23.59 (1.11 s, 4 s billed) derived  shots s013  start plate:p-s013
+  S014     motion   23.59-  24.70 (1.11 s, 4 s billed) derived  shots s014  start plate:p-s014
+  S016     motion   25.80-  26.91 (1.11 s, 4 s billed) derived  shots s016  start plate:p-s016
+  S017     motion   26.91-  28.02 (1.11 s, 4 s billed) derived  shots s017  start plate:p-s017
+  S018     motion   28.02-  29.13 (1.11 s, 4 s billed) derived  shots s018  start plate:p-s018
+  S019     motion   29.13-  30.25 (1.12 s, 4 s billed) derived  shots s019  start plate:p-s019
+  S020     motion   30.25-  32.51 (2.27 s, 4 s billed) derived  shots s020  start plate:p-s020
+  S021     motion   32.51-  33.62 (1.11 s, 4 s billed) derived  shots s021  start plate:p-s021
+  S023     motion   35.85-  36.95 (1.10 s, 4 s billed) derived  shots s023  start plate:p-s023
+  S025     motion   38.60-  39.73 (1.13 s, 4 s billed) derived  shots s025  start plate:p-s025
+  S026     motion   39.73-  40.85 (1.12 s, 4 s billed) derived  shots s026  start plate:p-s026
+  S027     motion   40.85-  41.93 (1.08 s, 4 s billed) derived  shots s027  start plate:p-s027
+  S028     motion   41.93-  43.03 (1.11 s, 4 s billed) derived  shots s028  start plate:p-s028
+  S029     motion   43.03-  44.69 (1.66 s, 4 s billed) derived  shots s029  start plate:p-s029
+  S030     motion   44.69-  46.91 (2.22 s, 4 s billed) derived  shots s030  start plate:p-s030
+  S031     motion   46.91-  48.01 (1.09 s, 4 s billed) derived  shots s031  start plate:p-s031
+  S032     motion   48.01-  49.12 (1.11 s, 4 s billed) derived  shots s032  start plate:p-s032
+  S033     motion   49.12-  51.30 (2.19 s, 4 s billed) derived  shots s033  start plate:p-s033
+  S034     motion   51.30-  52.44 (1.14 s, 4 s billed) derived  shots s034  start plate:p-s034
+  S035     motion   52.44-  53.55 (1.11 s, 4 s billed) derived  shots s035  start plate:p-s035
+  S036     motion   53.55-  54.65 (1.11 s, 4 s billed) derived  shots s036  start plate:p-s036
+  S037     motion   54.65-  55.76 (1.11 s, 4 s billed) derived  shots s037  start plate:p-s037
+  S038     motion   55.76-  57.42 (1.66 s, 4 s billed) derived  shots s038  start plate:p-s038
+  S039     motion   57.42-  62.39 (4.96 s, 5 s billed) derived  shots s039  start plate:p-s039
+  S040     motion   62.39-  64.62 (2.23 s, 4 s billed) derived  shots s040  start plate:p-s040
+  S041     motion   64.62-  65.72 (1.11 s, 4 s billed) derived  shots s041  start plate:p-s041
+  S042     motion   65.72-  66.81 (1.09 s, 4 s billed) derived  shots s042  start plate:p-s042
+  S043     motion   66.81-  69.05 (2.24 s, 4 s billed) derived  shots s043  start plate:p-s043
+  S044     motion   69.05-  70.08 (1.03 s, 4 s billed) derived  shots s044  start plate:p-s044
+  S046     motion   71.18-  72.26 (1.08 s, 4 s billed) derived  shots s046  start plate:p-s046
+  S047     motion   72.26-  73.38 (1.12 s, 4 s billed) derived  shots s047  start plate:p-s047
+  S048     motion   73.38-  75.59 (2.21 s, 4 s billed) derived  shots s048  start plate:p-s048
+  S049     motion   75.59-  78.62 (3.03 s, 4 s billed) derived  shots s049  start plate:p-s049
+  S051     motion   81.17-  82.31 (1.14 s, 4 s billed) derived  shots s051  start plate:p-s051
+  S052     motion   82.31-  83.41 (1.10 s, 4 s billed) derived  shots s052  start plate:p-s052
+  S053     motion   83.41-  84.51 (1.10 s, 4 s billed) derived  shots s053  start plate:p-s053
+  S054     motion   84.51-  86.73 (2.22 s, 4 s billed) derived  shots s054  start plate:p-s054
+  S055     motion   86.73-  88.93 (2.21 s, 4 s billed) derived  shots s055  start plate:p-s055
+  S056     motion   88.93-  90.04 (1.11 s, 4 s billed) derived  shots s056  start plate:p-s056
+  S057     motion   90.04-  91.13 (1.09 s, 4 s billed) derived  shots s057  start plate:p-s057
+  S058     motion   91.13-  92.27 (1.13 s, 4 s billed) derived  shots s058  start plate:p-s058
+  S059     motion   92.27-  93.89 (1.63 s, 4 s billed) derived  shots s059  start plate:p-s059
+  S060     sung     93.89-  98.87 (4.97 s, 5 s billed)  shots s060,s061  start plate:p-s060  words (unlisted) 'what makes us human makes me'
+  S062     motion   98.87-  99.93 (1.07 s, 4 s billed) derived  shots s062  start plate:p-s062
+  S063     motion   99.93- 101.06 (1.13 s, 4 s billed) derived  shots s063  start plate:p-s063
+  S064     motion  101.06- 102.16 (1.10 s, 4 s billed) derived  shots s064  start plate:p-s064
+  S065     motion  102.16- 103.28 (1.12 s, 4 s billed) derived  shots s065  start plate:p-s065
+  S066     motion  103.28- 104.38 (1.09 s, 4 s billed) derived  shots s066  start plate:p-s066
+  S067     sung    104.38- 109.89 (5.51 s, 6 s billed)  shots s067  start plate:p-s067  words (unlisted) "we are what you see every part every word it's how you came to be"
+  S068     motion  109.89- 111.00 (1.10 s, 4 s billed) derived  shots s068  start plate:p-s068
+  S069     motion  111.00- 111.53 (0.54 s, 4 s billed) derived  shots s069  start plate:p-s069
+  S070     motion  111.53- 112.09 (0.56 s, 4 s billed) derived  shots s070  start plate:p-s070
+  S071     motion  112.09- 112.63 (0.54 s, 4 s billed) derived  shots s071  start plate:p-s071
+  S072     motion  112.63- 113.21 (0.58 s, 4 s billed) derived  shots s072  start plate:p-s072
+  S073     motion  113.21- 114.30 (1.09 s, 4 s billed) derived  shots s073  start plate:p-s073
+  S074     motion  114.30- 115.94 (1.65 s, 4 s billed) derived  shots s074  start plate:p-s074
+  S075     sung    115.39- 119.39 (4.00 s, 4 s billed)  shots s075  start plate:p-s075  words (unlisted) 'Me'
+  S076     motion  117.59- 119.78 (2.20 s, 4 s billed) derived  shots s076  start plate:p-s076
+  S077     motion  119.78- 120.89 (1.11 s, 4 s billed) derived  shots s077  start plate:p-s077
+  S078     motion  120.89- 121.99 (1.09 s, 4 s billed) derived  shots s078  start plate:p-s078
+  S079     motion  121.99- 124.18 (2.19 s, 4 s billed) derived  shots s079  start plate:p-s079
+  S080     motion  124.18- 125.28 (1.10 s, 4 s billed) derived  shots s080  start plate:p-s080
+  S081     motion  125.28- 126.38 (1.10 s, 4 s billed) derived  shots s081  start plate:p-s081
+  S082     motion  126.38- 128.59 (2.22 s, 4 s billed) derived  shots s082  start plate:p-s082
+  S083     motion  128.59- 129.69 (1.10 s, 4 s billed) derived  shots s083  start plate:p-s083
+  S084     motion  129.69- 130.78 (1.09 s, 4 s billed) derived  shots s084  start plate:p-s084
+  S085     motion  130.78- 131.87 (1.08 s, 4 s billed) derived  shots s085  start plate:p-s085
+  S086     motion  131.87- 132.96 (1.10 s, 4 s billed) derived  shots s086  start plate:p-s086
+  S087     motion  132.96- 134.06 (1.10 s, 4 s billed) derived  shots s087  start plate:p-s087
+  S088     motion  134.06- 135.16 (1.10 s, 4 s billed) derived  shots s088  start plate:p-s088
+  S089     motion  135.16- 136.23 (1.07 s, 4 s billed) derived  shots s089  start plate:p-s089
+  S090     motion  136.23- 137.36 (1.12 s, 4 s billed) derived  shots s090  start plate:p-s090
+  S091     motion  137.36- 138.45 (1.09 s, 4 s billed) derived  shots s091  start plate:p-s091
+  S092     motion  138.45- 139.52 (1.07 s, 4 s billed) derived  shots s092  start plate:p-s092
+  S093     motion  139.52- 140.64 (1.12 s, 4 s billed) derived  shots s093  start plate:p-s093
+  S094     motion  140.64- 142.87 (2.23 s, 4 s billed) derived  shots s094  start plate:p-s094
+  S095     motion  142.87- 145.02 (2.16 s, 4 s billed) derived  shots s095  start plate:p-s095
+  S101     motion  157.03- 158.13 (1.10 s, 4 s billed) derived  shots s101  start plate:p-s101
+  S102     motion  158.13- 159.24 (1.11 s, 4 s billed) derived  shots s102  start plate:p-s102
+  S103     motion  159.24- 160.34 (1.10 s, 4 s billed) derived  shots s103  start plate:p-s103
+  S104     motion  160.34- 161.44 (1.10 s, 4 s billed) derived  shots s104  start plate:p-s104
+  S105     motion  161.44- 162.54 (1.10 s, 4 s billed) derived  shots s105  start plate:p-s105
+  S106     motion  162.54- 163.68 (1.15 s, 4 s billed) derived  shots s106  start plate:p-s106
+  S107     motion  163.68- 165.88 (2.20 s, 4 s billed) derived  shots s107  start plate:p-s107
+  S108     motion  165.88- 166.98 (1.10 s, 4 s billed) derived  shots s108  start plate:p-s108
+  S109     motion  166.98- 168.07 (1.09 s, 4 s billed) derived  shots s109  start plate:p-s109
+  S110     motion  168.07- 169.17 (1.10 s, 4 s billed) derived  shots s110  start plate:p-s110
+
+STATS
+  111 shots, mean 1.54 s, median 1.11 s · 0 chapters
+  her on screen 21.8% (37.4 s; target >= 21%) · sung words in her sung shots 12%
+  by tier: motion 136.4 s, plate3d 12.1 s, still 10.6 s, sung 12.1 s
+  graphic kinds (10): HUD, calibrating, chart, counter, gauge, plot, quiet, spec, stamp, terminal
+  section                                  time  shots    mean  median  target
+  Verse 1 — wonder, breathless  0:00.00-0:35.85     22    1.63    1.11  
+  Pre-chorus                    0:35.85-0:44.69      7    1.26    1.12  
+  Chorus 1                      0:44.69-1:06.81     13    1.70    1.11  
+  Verse 2 — shadow, same speed  1:06.81-1:20.06      8    1.79    1.67  
+  THE BREAK — dead silence      1:20.06-1:22.31      1    1.14    1.14  
+  Chorus 2                      1:22.31-1:44.38     15    1.47    1.12  
+  Bridge                        1:44.38-2:08.59     16    1.51    1.10  
+  Final Chorus                  2:08.59-2:51.20     29    1.47    1.10  
+
+RESULT: 1 of 12 gates fail · 119 warnings

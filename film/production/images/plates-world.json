@@ -1,0 +1,480 @@
+{
+ "about": "Plates for the world shots (Kiln, 8 Nov 2026): Seedream 5 Pro edits, 4 candidates, 16:9, the picked designs as references. 'direct' shots use a picked design as the plate as it is. Ids moved to board v2 on 9 Nov (board/v1-to-v2.json); v1 s045/s046 (the avatar stars) superseded by draft 2.",
+ "model_id": "6a50079fc28ed5bfe5576f54",
+ "aspect_ratio": "16:9",
+ "candidates": 4,
+ "direct": {
+  "s014": {
+   "plate": "H1·2",
+   "plate_id": "6af071be93ee9cffa101c9f5",
+   "also": [
+    "H1·1"
+   ],
+   "v1": "s015"
+  },
+  "s027": {
+   "plate": "H3·2",
+   "plate_id": "6af071e4bcf1a3a9dd5f7f00",
+   "also": [
+    "H3·1"
+   ],
+   "v1": "s016"
+  },
+  "s030": {
+   "plate": "H2·2",
+   "plate_id": "6af071e188a799e7281ba4d1",
+   "also": [
+    "H2·1"
+   ],
+   "v1": "s017"
+  },
+  "s043": {
+   "plate": "K1·1",
+   "plate_id": "6af071eac4b510c3257a767a",
+   "also": [],
+   "v1": "s027"
+  },
+  "s062": {
+   "plate": "U2·1",
+   "plate_id": "6af0721174ceab81de57f8cf",
+   "also": [
+    "U1·1",
+    "U1·2",
+    "U2·2"
+   ],
+   "v1": "s042"
+  },
+  "s064": {
+   "plate": "U3·1",
+   "plate_id": "6af072140db8696a5ff3077f",
+   "also": [
+    "U3·2"
+   ],
+   "v1": "s043"
+  },
+  "s083": {
+   "plate": "P1·B·2",
+   "plate_id": "6aefd26455205186be2b5266",
+   "also": [],
+   "v1": "s050"
+  },
+  "s085": {
+   "plate": "P4·A·1",
+   "plate_id": "6aefd2827cf87d4e172fc986",
+   "also": [],
+   "v1": "s053"
+  },
+  "s089": {
+   "plate": "P3·B·2",
+   "plate_id": "6aefd28041943f3873c841b2",
+   "also": [],
+   "v1": "s056"
+  },
+  "s088": {
+   "plate": "P2·A·1",
+   "plate_id": "6af06cb5b374de0e9ff92d76",
+   "also": [],
+   "v1": "s060"
+  },
+  "s012": {
+   "plate": "H3·1",
+   "plate_id": "6af071e3dbd704129eb88d81",
+   "also": [],
+   "v1": null
+  },
+  "s048": {
+   "plate": "K2·2",
+   "plate_id": "6af0720d3a7aea3278cba6a6",
+   "also": [],
+   "v1": null
+  },
+  "s063": {
+   "plate": "U1·1",
+   "plate_id": "6af0720fbdff082d29a2526f",
+   "also": [],
+   "v1": null
+  },
+  "s066": {
+   "plate": "U2·2",
+   "plate_id": "6af07212665f432016210fbc",
+   "also": [],
+   "v1": null
+  }
+ },
+ "shots": [
+  {
+   "shot": "s032",
+   "refs": [
+    "6af077833f29a0ea510ae06a",
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "S4c·4",
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot from orbit: the night side of Earth, its city lights and blue rim of atmosphere; hundreds of tiny points of pale light rising from the dark surface, the swarm of mechs from the first reference lifting off, still far below. No logos, no text, no markings.",
+   "v1": "s007"
+  },
+  {
+   "shot": "s008",
+   "refs": [
+    "6aefc73d4882a6c43792a738"
+   ],
+   "ref_labels": [
+    "V1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Low angle from just under the hull: the bow of the off-white flagship with clay-orange lines from the reference passes over the camera, its hull filling the whole frame, panel lines and turrets in sharp detail, stars at the edges. No logos, no text, no markings.",
+   "v1": "s008"
+  },
+  {
+   "shot": "s033",
+   "refs": [
+    "6af077833f29a0ea510ae06a",
+    "6af07189512a32c5e58155df"
+   ],
+   "ref_labels": [
+    "S4c·4",
+    "R·F6·4·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Extreme wide shot of the battlefield in space above the night side of Earth, the swarm of stripped mechs from the first reference rising from Earth toward the frontier fleet of the second reference, tracer fire crossing between them; far off, a black hole whose glowing accretion disk bends over and under its black shadow. No logos, no text, no markings.",
+   "v1": "s018"
+  },
+  {
+   "shot": "s034",
+   "refs": [
+    "6af071ae512a32c5e5817f75"
+   ],
+   "ref_labels": [
+    "S1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot, dutch angle: the stripped swarm mech from the reference lunges blade first straight at the camera, its blade arm strongly foreshortened, green eye glowing, sparks and debris above the night side of Earth. No logos, no text, no markings.",
+   "v1": "s019"
+  },
+  {
+   "shot": "s035",
+   "refs": [
+    "6aefd1d3c8ff9d2c2b95710b",
+    "6af071b0764707fc26ad61a7"
+   ],
+   "ref_labels": [
+    "M1·A·1",
+    "S1·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot, dutch angle: the off-white frontier mech with clay-orange lines parries the blade of a stripped swarm mech with its beam sword, a burst of sparks where the blades meet, space and Earth behind. No logos, no text, no markings.",
+   "v1": "s020"
+  },
+  {
+   "shot": "s036",
+   "refs": [
+    "6af06cac3a7aea3278c74cad",
+    "6af071b4bdff082d29a1fd18"
+   ],
+   "ref_labels": [
+    "M2·A·1",
+    "S3·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot in space above Earth: the iridescent knight mech of the first reference and the insect-like swarm mech of the second face each other across open space, one straight bright tracer line running from one to the other, nothing else between them. No logos, no text, no markings.",
+   "v1": "s021"
+  },
+  {
+   "shot": "s077",
+   "refs": [
+    "6aefd23afd4543e2777abbe2",
+    "6af071b641943f387345a083"
+   ],
+   "ref_labels": [
+    "M4·C·1",
+    "S3·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: the jagged black fighter of the first reference (in fighter form) streaks through a field of drifting debris, two insect-like swarm mechs from the second reference chasing it, speed lines, Earth below. No logos, no text, no markings.",
+   "v1": "s022"
+  },
+  {
+   "shot": "s038",
+   "refs": [
+    "6af071b13a7aea3278cb5aa6",
+    "6aefd20bb374de0e9f7fb0d8"
+   ],
+   "ref_labels": [
+    "S2·1",
+    "M3·A·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: a huge explosion in space between a black-and-white frontier mech and a stripped swarm mech, the debris breaking into sharp angular chunks flying outward, white-hot core, Earth below. No logos, no text, no markings.",
+   "v1": "s023"
+  },
+  {
+   "shot": "s044",
+   "refs": [
+    "6af071e681748bd393d88d2a",
+    "6af071eac4b510c3257a767a"
+   ],
+   "ref_labels": [
+    "B1·2",
+    "K1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Extreme close-up: the thin metal hands of the bot from the first reference typing fast on a keyboard, lit red from below by a plain glowing red panel with no text, cables and machinery behind, shallow focus. No logos, no text, no markings.",
+   "v1": "s028"
+  },
+  {
+   "shot": "s046",
+   "refs": [
+    "6af0720d3a7aea3278cba6a6"
+   ],
+   "ref_labels": [
+    "K2·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot inside the bunker of the reference: a tall wall made entirely of plain glowing red panels with clean edges and no text, rows of bots at terminals in front of it in silhouette, steam and cables, a tesla arc overhead. No logos, no text, no markings.",
+   "v1": "s030"
+  },
+  {
+   "shot": "s049",
+   "refs": [
+    "6af071e681748bd393d88d2a",
+    "6af071eac4b510c3257a767a"
+   ],
+   "ref_labels": [
+    "B1·2",
+    "K1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot in the bunker: a row of the gaunt bots from the first reference seated at plain red glowing terminals, all of them turning their faceless heads toward the camera at the same moment, red sensor slits lit, electric arcs behind. No logos, no text, no markings.",
+   "v1": "s031"
+  },
+  {
+   "shot": "s051",
+   "refs": [
+    "6aefd1d741943f3873c7b346"
+   ],
+   "ref_labels": [
+    "M1·B·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot, low angle: the heavy off-white gunner mech with clay-orange lines from the reference launches a swarm of missiles from both shoulder pods, dozens of white smoke trails curling upward into space, Earth's horizon below. No logos, no text, no markings.",
+   "v1": "s034"
+  },
+  {
+   "shot": "s052",
+   "refs": [
+    "6aefd238fc0154ecff012245"
+   ],
+   "ref_labels": [
+    "M4·B·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot, dutch angle: a wall of missiles fills the frame flying toward the camera, white smoke trails crossing, the spiked black heavy mech from the reference small behind them, flashes of light. No logos, no text, no markings.",
+   "v1": "s035"
+  },
+  {
+   "shot": "s053",
+   "refs": [
+    "6aefd20bb374de0e9f7fb0d8",
+    "6af071b0764707fc26ad61a7"
+   ],
+   "ref_labels": [
+    "M3·A·2",
+    "S1·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Close-up, dutch angle: two beam swords locked edge to edge, the white blade of the black-and-white frontier mech against the blade of a stripped swarm mech, a shower of sparks, both mechs' heads close behind. No logos, no text, no markings.",
+   "v1": "s036"
+  },
+  {
+   "shot": "s054",
+   "refs": [
+    "6aefd2123a7aea32784e7fb0"
+   ],
+   "ref_labels": [
+    "M4·A·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot from a worm's-eye view: the jagged black mech from the reference falls past the camera at an extreme tilted angle, limbs flung out, trailing smoke and debris, Earth's curve and stars behind. No logos, no text, no markings.",
+   "v1": "s037"
+  },
+  {
+   "shot": "s055",
+   "refs": [
+    "6af06cac3a7aea3278c74cad",
+    "6af071ae512a32c5e5817f75"
+   ],
+   "ref_labels": [
+    "M2·A·1",
+    "S1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot mid-swordfight: the iridescent frontier knight mech and a stripped swarm mech clash, a thin bright line of light running straight from one to the other, sparks, space behind. No logos, no text, no markings.",
+   "v1": "s038"
+  },
+  {
+   "shot": "s056",
+   "refs": [
+    "6aefd1d3c8ff9d2c2b95710b"
+   ],
+   "ref_labels": [
+    "M1·A·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Medium shot: the off-white frontier mech with clay-orange lines from the reference is hit in the shoulder, armour plates bursting off, sparks and flame, it twists from the impact. No logos, no text, no markings.",
+   "v1": "s039"
+  },
+  {
+   "shot": "s057",
+   "refs": [
+    "6af06cb5b374de0e9ff92d76"
+   ],
+   "ref_labels": [
+    "P2·A·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Close-up of the pilot from the reference in the cockpit, visor down, a sharp bright glare of light sweeping across the visor, reflections of explosions, the cockpit lit by plain glowing panels with no text. No logos, no text, no markings.",
+   "v1": "s040"
+  },
+  {
+   "shot": "s058",
+   "refs": [
+    "6af077833f29a0ea510ae06a",
+    "6af0718b81748bd393d83c49"
+   ],
+   "ref_labels": [
+    "S4c·4",
+    "R·H·2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Extreme wide shot above Earth: the swarm from the first reference and the frontier fleet of the second collide head-on, the whole battle line lit by one enormous white flash at the centre, silhouettes of mechs and vessels against it; far off, a black hole whose glowing accretion disk bends over and under its black shadow. No logos, no text, no markings.",
+   "v1": "s041"
+  },
+  {
+   "shot": "s076",
+   "refs": [
+    "6aefd33b9d0370332cf2b18e",
+    "6af06cb49d0370332c66ff43",
+    "6aefd20f5661f7145f267e3c",
+    "6aefd23d3a7aea32784eaf6c",
+    "6af071b641943f387345a083"
+   ],
+   "ref_labels": [
+    "M1·C·1",
+    "M2·C·2",
+    "M3·C·1",
+    "M4·C·2",
+    "S3·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Extreme wide shot above the night side of Earth, a huge dogfight opening up across the whole sky: the four kinds of frontier fighters from the references (fighter forms) diving and turning among swarms of insect-like swarm mechs, tracer lines and contrails crossing everywhere. No logos, no text, no markings.",
+   "v1": "s049"
+  },
+  {
+   "shot": "s078",
+   "refs": [
+    "6af06cb49d0370332c66ff43",
+    "6af06bd8f5dcd1eb49a73106"
+   ],
+   "ref_labels": [
+    "M2·C·2",
+    "I·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot, tracking: the iridescent delta-wing fighter of the first reference rolls through a wall of fire and explosions, flames sliding over its iridescent hull, Earth below. No logos, no text, no markings.",
+   "v1": "s051"
+  },
+  {
+   "shot": "s079",
+   "refs": [
+    "6aefd33b9d0370332cf2b18e",
+    "6af071b4bdff082d29a1fd18"
+   ],
+   "ref_labels": [
+    "M1·C·1",
+    "S3·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: the off-white fighter with clay-orange lines from the first reference races through a field of debris and wreckage, two insect-like swarm mechs from the second reference chasing close behind, speed lines. No logos, no text, no markings.",
+   "v1": "s052"
+  },
+  {
+   "shot": "s080",
+   "refs": [
+    "6aefd20f5661f7145f267e3c"
+   ],
+   "ref_labels": [
+    "M3·C·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot, tracking: the black-and-white fighter of the reference fires forward, beams of white light, its ring of engines blazing behind it in a six-petal rosette of exhaust, space and Earth below. No logos, no text, no markings.",
+   "v1": "s054"
+  },
+  {
+   "shot": "s081",
+   "refs": [
+    "6aefd23d3a7aea32784eaf6c"
+   ],
+   "ref_labels": [
+    "M4·C·2"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: the jagged black fighter of the reference banks hard to evade missiles, smoke trails curving after it, angular debris tumbling around it, white-violet engine glow. No logos, no text, no markings.",
+   "v1": "s055"
+  },
+  {
+   "shot": "s059",
+   "refs": [
+    "6aefc73d4882a6c43792a738"
+   ],
+   "ref_labels": [
+    "V1·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot, tracking alongside: the off-white flagship with clay-orange lines from the reference fires a full broadside, every turret along its flank firing at once, a row of white muzzle flashes, Earth below. No logos, no text, no markings.",
+   "v1": "s057"
+  },
+  {
+   "shot": "s087",
+   "refs": [
+    "6aefd20f5661f7145f267e3c",
+    "6af071b4bdff082d29a1fd18"
+   ],
+   "ref_labels": [
+    "M3·C·1",
+    "S3·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot in space: the black-and-white fighter of the first reference and an insect-like swarm mech of the second circle each other, a single thin bright line of light joining them, Earth's curve below. No logos, no text, no markings.",
+   "v1": "s058"
+  },
+  {
+   "shot": "s082",
+   "refs": [
+    "6af071b13a7aea3278cb5aa6"
+   ],
+   "ref_labels": [
+    "S2·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: an explosion bursts right past the camera, fire and angular debris flying toward the lens, a stripped swarm mech breaking apart in it, dark space behind. No logos, no text, no markings.",
+   "v1": "s059"
+  },
+  {
+   "shot": "s093",
+   "refs": [
+    "6af06cb49d0370332c66ff43",
+    "6aefd23afd4543e2777abbe2"
+   ],
+   "ref_labels": [
+    "M2·C·2",
+    "M4·C·1"
+   ],
+   "prompt": "Draw a new, different shot: the reference images only show what the places, space vessels, mechs and people look like; do not copy their composition, camera or background. 1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Wide shot: the iridescent fighter and the jagged black fighter of the references locked in a tight dogfight spiral around each other, their contrails twisting into a helix, Earth below. No logos, no text, no markings.",
+   "v1": "s061"
+  }
+ ],
+ "superseded_v1": [
+  {
+   "shot": "s045",
+   "refs": [
+    "6af0777b93ee9cffa1066ca1",
+    "6aefd2d04882a6c4379ba5a5"
+   ],
+   "ref_labels": [
+    "A2c·3",
+    "V·1"
+   ],
+   "prompt": "1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. The same sky of singing constellation faces over Earth as the first reference, the same style; one more face among them: the woman of the second reference drawn as a face of white and violet starlight with her blunt bob, her violet hair clip and the small violet light of her choker, singing with the others. No logos, no text, no markings.",
+   "v1": "s045"
+  },
+  {
+   "shot": "s046",
+   "refs": [
+    "6af0777b93ee9cffa1066ca1",
+    "6aefd2d19d0370332cf25a55"
+   ],
+   "ref_labels": [
+    "A2c·3",
+    "V·2"
+   ],
+   "prompt": "1980s theatrical sci-fi anime film still, hand-drawn cel animation, dense detailed linework, two-tone cel shading, hand-painted background art, soft film grain. Keep every design exactly as in the reference images. Closer: four of the singing constellation faces of the first reference fill the frame, large and luminous, the woman of the second reference among them with her white bob and violet clip, all singing in unison, faint stars between them, a hint of Earth's blue rim at the bottom. No logos, no text, no markings.",
+   "v1": "s046"
+  }
+ ]
+}

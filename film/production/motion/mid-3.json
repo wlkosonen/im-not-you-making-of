@@ -1,0 +1,132 @@
+[
+ {
+  "id": "s077-a",
+  "shot": "s077",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s077-2-6af1f3088b03de9e0c919285.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing, extreme motion arcs and motion smears; a fast camera that rolls left and right and swoops beside, over, under and between the mechs, space vessels and debris, with near misses at the lens. Every mech move starts with a thruster burst and ends in a recoil of its armour. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the black spiked fighter dives through the debris field toward the lens, purple thrusters flaring, banking hard left to slip between two tumbling hull fragments, while the white mechs on the right open fire at it, each round leaving a bright trail that just misses its wing and bursts a drifting fragment apart. The camera skims along beside it at an extreme angle, rolling left. 1-4s: the black fighter rolls and fires back, its tracer stream raking the nearest white mech, the mech's shoulder armour bursting open and its arm tearing off and spinning away, debris shards whipping past the lens. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by Earth's glow and the purple thrusters, the black fighter, the white mechs, tracer trails and debris drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s083-a",
+  "shot": "s083",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-1/p1-b-2-6aefd26455205186be2b5266.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pilot in the white helmet with clay-orange stripes shouts over comms, mouth wide, brows knotted, the cockpit jolting as a blast flashes orange across his visor. 1-4s: he keeps shouting, his head snapping toward a new flash, the reflections in his visor streaking as fighters scream past outside, a warning light starting to pulse red across his face. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the cockpit screens and the flashes of the battle outside, his face, the visor reflections and the helmet drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s084-a",
+  "shot": "s084",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s084-2-6af1f36bbb1ee55c3b2537a1.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pilot in the white suit with clay-orange stripes wrenches both flight sticks hard to the left, his whole body leaning into the turn, the cockpit tilting, the explosion outside the canopy swinging across the view. 1-4s: he hauls the sticks back toward him, a burning space vessel and the stars sweeping past the canopy, more explosions blooming and tracer streaks crossing the battle outside. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the cockpit screens and the explosions outside, his gloved hands, the flight sticks and the battle outside the canopy drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s085-a",
+  "shot": "s085",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-1/p4-a-1-6aefd2827cf87d4e172fc986.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pilot in the black spiked helmet throws his head forward with a fierce shout over comms, a wild grin baring his teeth, the cockpit lights strobing as blasts flash outside. 1-4s: he leans into the controls, still shouting and grinning, the light of explosions sweeping across his glossy black armour, a fighter streaking past the canopy behind him. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the white cockpit lights and the flashes outside, his face, the spiked helmet and the black armour drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s086-a",
+  "shot": "s086",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s086-2-6af1f36d2c1f13f82477dc44.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pilot in the black spiked helmet shoves the throttle in front of him all the way forward to maximum with his gloved fist, his hand thrusting toward the lens, a wicked grin spreading across his face, the cockpit shuddering, the stars outside the canopy stretching into speed lines. 1-4s: the fighter surges forward and he is pressed back into his seat, still grinning, while the battle outside the canopy rages: explosions blooming, flashes lighting the cockpit, tracer streams crossing, a space vessel breaking apart in the distance. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the cockpit lights and the flashes of the battle outside, his fist, his grin, the throttle and the battle outside drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s087-a",
+  "shot": "s087",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s087-3-6af2059a882ea414a26c5fc8.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing, extreme motion arcs and motion smears; a fast camera that rolls left and right and swoops beside, over, under and between the mechs, space vessels and debris, with near misses at the lens. Every mech move starts with a thruster burst and ends in a recoil of its armour. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the stripped grey skeletal mech with the glowing green core corkscrews after the black-and-white checkered fighter, firing its rifle in the middle of the roll, each round leaving a bright trail that streaks just past the fighter's tail, while the fighter's six engines flare white as it jinks hard right. The camera whips around the mech in a tight arc, upside down over Earth, a hard roll right. 1-4s: the mech flips end over end and fires again, rounds clipping the fighter's tail fin, armour plates bursting off and spinning away, the fighter snapping into a dive toward Earth and the camera plunging after it at an extreme angle, the horizon tilting across the frame. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by Earth's blue glow and the engine flare, the skeletal mech, the checkered fighter, tracer trails and the torn plates drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s087-b",
+  "shot": "s087",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s087-5-6af2059dc7a8a80012b7924c.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing, extreme motion arcs and motion smears; a fast camera that rolls left and right and swoops beside, over, under and between the mechs, space vessels and debris, with near misses at the lens. Every mech move starts with a thruster burst and ends in a recoil of its armour. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the stripped grey skeletal mech with the glowing green core flips backward and rolls sideways after the black-and-white checkered fighter, firing as it spins, each round leaving a bright trail that just misses the fighter's glowing engines, while the fighter banks hard left over Earth. The camera races alongside the mech's legs at an extreme low angle, rolling left. 1-4s: the mech cartwheels through the fighter's exhaust and fires a long burst, the rounds tearing into the fighter's wing, the wingtip bursting off and spinning past the lens, the fighter trailing smoke as it rolls away, Earth's curve spinning across the frame. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by Earth's glow and the engine flare, the skeletal mech, the checkered fighter, tracer trails and the torn wing drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s088-a",
+  "shot": "s088",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-1/p2i-a-1-6af06cb5b374de0e9ff92d76.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pilot in the iridescent helmet shouts a warning over comms, his eyes snapping sideways, the helmet's colours shifting as an explosion flashes outside. 1-4s: he turns sharply to look out the canopy as a fighter streaks past, keeps shouting orders, the cockpit jolting, blue screen light and orange flashes sliding across his face. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the blue cockpit screens and the flashes outside, his face and the iridescent helmet drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s089-a",
+  "shot": "s089",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-1/p3-b-2-6aefd28041943f3873c841b2.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the glowing blue targeting circle on the pilot's dark visor slides fast across the visor, darting left and right, seeking, its small reticle marks spinning, reflections of fighters streaking across the visor. 1-4s: the circle snaps onto one target, shrinks tight and turns bright red, flashing, the pilot's jaw setting as he leans forward to fire, red light washing over the cockpit. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the cockpit screens and the visor's glow, the visor, the targeting circle and the helmet drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s090-a",
+  "shot": "s090",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s090-2-6af1f374958d42a9dcacbc0c.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the console at the left bursts in a shower of sparks, red warning lights blinking across the cockpit, the pilot in the white helmet with clay-orange stripes flinching away. 1-4s: the damage spreads and gets worse: sparks race along the panels, a second console bursts open, flames licking out of the shattered panel, smoke filling the top of the cockpit, warning lights turning red one after another, the pilot shouting and fighting the controls. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit red by the warning lights and the fire, the sparks, flames, smoke and the pilot's face drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s091-a",
+  "shot": "s091",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s091-1-6af1f399858417a214b8453e.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the pipe behind the seat ruptures with a burst of white vapour, the pilot in the black spiked helmet jerking forward, still grinning. 1-4s: the damage cascades: a second pipe bursts beside the first, the vapour turning into roaring jets that fill the cockpit, sparks erupting from the panel overhead, a warning light flashing red through the haze, a crack racing across the canopy glass, the pilot gripping the sticks harder. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the white cockpit lights and the red warning light, the vapour jets, sparks, the crack and the pilot drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s092-a",
+  "shot": "s092",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s092-3-6af205e44004dbc5ab8164b0.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the cockpit, a handheld camera shaking with every jolt, asymmetric diagonal framing. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the screen in front of the pilot shatters in a burst of glass and blue sparks, shards flying past his visor, the pilot in the white helmet ducking his head. 1-4s: the damage spreads: the panel below the screen bursts into flame, cracks running across the neighbouring screens, sparks raining across the console, while outside the canopy the battle rages on: fighters swerving through tracer streams, a space vessel burning and breaking apart, explosions flashing into the cockpit. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by the blue sparks, the fire and the battle outside, the shattered screen, sparks, flames and the battle outside the canopy drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s094-a",
+  "shot": "s094",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s094-6-6af205a12fd3a11d57004378.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing, extreme motion arcs and motion smears; a fast camera that rolls left and right and swoops beside, over, under and between the mechs, space vessels and debris, with near misses at the lens. Every mech move starts with a thruster burst and ends in a recoil of its armour. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the whole battlefield over Earth erupts: dozens of mechs, fighters and space vessels tearing through each other, the white mech in the foreground swinging its rifle and firing a burst into a grey skeletal mech that bursts apart, a striped space vessel at the left taking a missile strike that splits its hull, explosions blooming everywhere. The camera whips across the battlefield in a wild pan to the right, rolling hard. 1-4s: the camera dives through the melee at an extreme angle, a fighter spinning past the lens trailing fire, two mechs locked together tumbling end over end, a white space vessel with orange stripes breaking in half, debris and flashes filling the frame. Throughout: constant motion, shaky camera, explosions blooming regularly in the background, lit by Earth's glow and the explosions, the mechs, fighters, space vessels, tracer and debris drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ }
+]

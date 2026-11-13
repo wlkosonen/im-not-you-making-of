@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edit</title>
+<style>
+  :root { --bg:#111214; --panel:#1a1c1f; --line:#2b2e33; --text:#e6e6e6; --dim:#8a8f98; --accent:#e8875a; --sel:#ffd27a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:13px/1.4 system-ui, sans-serif; height:100vh; display:flex; }
+  #main { flex:1; min-width:0; display:flex; flex-direction:column; }
+  #stage { flex:1; min-height:120px; position:relative; background:#000; }
+  #stage video, #stage img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; visibility:hidden; }
+  #tag { position:absolute; left:10px; top:10px; background:rgba(0,0,0,.6); padding:2px 8px; border-radius:4px; color:var(--accent);
+         font:600 12px ui-monospace, monospace; }
+  #bar { display:flex; gap:12px; align-items:center; padding:5px 10px; border-top:1px solid var(--line); flex-wrap:wrap; padding-right:50px; }
+  #time { font:600 15px ui-monospace, monospace; min-width:110px; color:var(--accent); }
+  button { background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:4px; padding:3px 8px; cursor:pointer; }
+  button.on { border-color:var(--accent); color:var(--accent); }
+  a { color:var(--accent); text-decoration:none; }
+  label, .dim { color:var(--dim); }
+  #tlw { position:relative; border-top:1px solid var(--line); user-select:none; }
+  #ruler { height:22px; position:relative; }
+  .row { height:44px; position:relative; border-top:1px solid var(--line); background:#15171a; }
+  .row .name { position:absolute; left:4px; top:2px; font:600 10px ui-monospace, monospace; color:var(--dim); z-index:2; pointer-events:none; }
+  .clip { position:absolute; top:4px; bottom:4px; border-radius:3px; background:#2d4a63; border:1px solid #47708f; overflow:hidden;
+          font:11px/1.2 ui-monospace, monospace; padding:2px 6px; white-space:nowrap; cursor:grab; }
+  .clip.image { background:#4a3f2a; border-color:#7a6a45; }
+  .clip.sel { border-color:var(--sel); box-shadow:0 0 0 1px var(--sel) inset; }
+  .clip .nof { position:absolute; top:0; bottom:0; background:repeating-linear-gradient(45deg, #000 0 4px, #222 4px 8px); opacity:.85; }
+  .clip .h { position:absolute; top:0; bottom:0; width:6px; cursor:ew-resize; }
+  .clip .h.l { left:0; } .clip .h.r { right:0; }
+  #wave { height:80px; position:relative; border-top:1px solid var(--line); }
+  canvas { position:absolute; left:0; top:0; width:100%; height:100%; }
+  #ph { position:absolute; top:0; bottom:0; width:1px; background:var(--accent); pointer-events:none; z-index:5; }
+  #lib { width:360px; border-left:1px solid var(--line); display:none; flex-direction:column; min-height:0; }
+  #lib.open { display:flex; }
+  #lib .top { padding:6px; display:flex; gap:6px; border-bottom:1px solid var(--line); }
+  #lib input { flex:1; background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:4px; padding:3px 6px; }
+  #items { overflow:auto; flex:1; }
+  .it { display:flex; gap:8px; padding:5px 6px; border-bottom:1px solid var(--line); align-items:center; }
+  .it .th { width:96px; height:54px; flex:none; background-size:800% 100%; background-position:0 0; background-color:#000; border-radius:3px; }
+  .it img.th { object-fit:cover; }
+  .it .tx { flex:1; min-width:0; font:11px/1.3 ui-monospace, monospace; }
+  .it .tx div { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .it .add { display:flex; flex-direction:column; gap:2px; }
+  .it .add button { padding:0 6px; font-size:11px; }
+</style>
+</head>
+<body>
+<div id="main">
+<div id="stage"><video id="va" muted preload="auto"></video><video id="vb" muted preload="auto"></video><img id="im"><div id="tag">–</div></div>
+<audio id="song" src="/media/song/parempi.wav" preload="auto"></audio>
+<div id="bar">
+  <a href="/">← player</a> <a href="/library">library</a> <a href="/cut">cut preview</a>
+  <div id="time">–</div>
+  <button id="play">Play</button>
+  <label>Speed <select id="speed"><option>0.25</option><option>0.5</option><option selected>1</option></select></label>
+  <button id="snap" class="on" title="snap to beats, words, markers and clip edges (hold Alt to drag free)">snap</button>
+  <button id="split" title="X">split at playhead</button><button id="del" title="Delete">delete</button><button id="undo" title="Ctrl+Z">undo</button>
+  <label title="the aligner's word times run late (Kiln measured ~0.05 s, a quarter 0.17 s+): nudge until the purple words sit on what you hear">words <input id="woff" type="number" step="0.01" style="width:58px"> s</label>
+  <label title="the selected clip's playback speed: faster shortens it on the timeline, slower lengthens it ([ and ] step 0.05)">clip speed <input id="cspd" type="number" step="0.05" min="0.25" max="4" style="width:58px" disabled></label>
+  <button id="libb" title="L">library ▸</button>
+  <span id="msg" class="dim"></span>
+</div>
+<div id="tlw">
+  <div id="ruler"><canvas id="rc"></canvas></div>
+  <div class="row" data-t="2"><span class="name">V3</span></div>
+  <div class="row" data-t="1"><span class="name">V2</span></div>
+  <div class="row" data-t="0"><span class="name">V1</span></div>
+  <div id="wave"><canvas id="wc"></canvas></div>
+  <div id="ph"></div>
+</div>
+</div>
+<div id="lib">
+  <div class="top"><input id="lq" placeholder="search: shot, take, verdict…"><select id="lk"><option value="takes">takes</option><option value="stills">stills</option></select></div>
+  <div id="items"></div>
+</div>
+<script>
+window.HELP = [["Space", "play / pause (the song is the clock)"], [", .", "one frame back / forward (Shift: 10)"],
+  ["drag a clip", "move it along the song, or up and down to another track"], ["drag a clip's edge", "trim it; past the take's own frames it plays black (hatched)"],
+  ["Shift or Alt while dragging", "no snapping; cuts still sit on whole frames (1/24 s), shown as ticks on the ruler when zoomed in"], ["S", "snap on / off"], ["click or drag the ruler", "move the playhead"],
+  ["drag an empty spot", "pan the timeline (a click there moves the playhead)"], ["Home / End", "to the start / end of the song"],
+  ["wheel", "zoom at the cursor"], ["Shift+wheel", "scroll along the song"], ["0", "whole song"], ["Z", "8 s around the playhead"],
+  ["X", "split the selected clip at the playhead"], ["Delete", "remove the selected clip"], ["[ ]", "the selected clip 0.05 slower / faster; faster shortens it on the timeline (or type it in \"clip speed\")"], ["Ctrl+Z", "undo"],
+  ["L", "library: with no search, the fits for the shot under the playhead; search finds takes and stills by shot, chapter, place, the board's words for the shot, verdicts; V1 V2 V3 adds at the playhead"],
+  ["words", "nudge the purple words earlier or later until they sit on what you hear (saved in this browser)"],
+  ["M", "marker with a note at the playhead, for Kiln"], ["where clips overlap", "the upper track plays; on one track, the later clip"],
+  ["saving", "every change saves to production/edit/timeline.json (the one before is kept as timeline.prev.json)"], ["?", "this help"]];
+const $ = id => document.getElementById(id);
+const song = $("song"), vids = [$("va"), $("vb")], im = $("im"), FPS = 24;
+let tl, dur = 171.2, view = [0, 171.2], sel = null, undo = [], beats = [], downs = [], words = [], sections = [], marks = [], board = [];
+let peaks = null, saveT = null, act = -1, lib = [], stills = [], shotInfo = {}, libShot = null;
+let woff = -0.06; try { const v = localStorage.getItem("edit.woff"); if (v !== null) woff = +v; } catch (e) {}
+const wt = w => w.t + woff;  // a word's time as heard
+// a clip's speed (Lati, 11 Nov: "upping the clip playback speed also shortens it on timeline"): the file's time at song
+// time t is in + (t - start) × speed; dur stays the clip's length on the timeline
+const sp = c => c.speed || 1;
+const fmt = t => { const m = Math.floor(t / 60), s = t - m * 60; return `${m}:${s.toFixed(2).padStart(5, "0")}`; };
+const W = () => $("tlw").clientWidth, X = t => (t - view[0]) / (view[1] - view[0]) * W(), T = x => view[0] + x / W() * (view[1] - view[0]);
+const say = m => { $("msg").textContent = m; };
+
+async function load() {
+  tl = await (await fetch("/api/timeline")).json();
+  const b = await (await fetch("/media/song/analysis/parempi/beats.json")).json();
+  dur = b.duration; view = [0, dur]; beats = b.beats; downs = b.downbeats || []; sections = b.sections || [];
+  const w = await (await fetch("/media/song/analysis/parempi/words.json")).json();
+  words = w.words.filter(x => x.t0 != null).map(x => ({ t: x.t0, w: x.w }));
+  words.push({ t: 116.083, w: "me" });
+  const bs = (await (await fetch("/production/board/board.json")).json()).shots;
+  board = bs.map(s => ({ t: s.t0, id: s.id })); for (const s of bs) shotInfo[s.id] = s; indexDesigns();
+  v1to2 = await (await fetch("/production/board/v1-to-v2.json")).json();
+  $("woff").value = woff.toFixed(2);
+  marks = (await (await fetch("/api/meta?path=edit")).json()).marks || [];
+  lib = (await (await fetch("/production/library/clips.json?" + Date.now())).json()).clips.filter(c => c.status !== "reject");
+  stills = await (await fetch("/api/stills")).json();
+  draw(); renderLib();
+  const ab = await (await fetch("/media/song/parempi.wav")).arrayBuffer();
+  const buf = await new AudioContext().decodeAudioData(ab), d = buf.getChannelData(0), n = Math.ceil(buf.duration * 200);
+  peaks = new Float32Array(n); for (let i = 0; i < n; i++) { let m = 0; const a = Math.floor(i * d.length / n), e = Math.floor((i + 1) * d.length / n);
+    for (let j = a; j < e; j += 4) m = Math.max(m, Math.abs(d[j])); peaks[i] = m; }
+  draw();
+}
+
+// ---------- drawing
+function canvasFit(c) { const r = c.getBoundingClientRect(); c.width = r.width * devicePixelRatio; c.height = r.height * devicePixelRatio;
+  const g = c.getContext("2d"); g.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0); return [g, r.width, r.height]; }
+function draw() {
+  const pps = W() / (view[1] - view[0]);
+  // ruler: seconds, board shot starts
+  let [g, w, h] = canvasFit($("rc")); g.clearRect(0, 0, w, h); g.font = "10px ui-monospace, monospace";
+  const step = pps > 60 ? 1 : pps > 20 ? 5 : pps > 6 ? 10 : 30;
+  for (let t = Math.ceil(view[0] / step) * step; t < view[1]; t += step) { g.fillStyle = "#555"; g.fillRect(X(t), h - 6, 1, 6);
+    g.fillStyle = "#8a8f98"; g.fillText(fmt(t).replace(/\.\d+$/, ""), X(t) + 2, 9); }
+  const fpx = pps / FPS;  // zoomed in: one tick per frame (cuts sit on whole frames, 1/24 s)
+  if (fpx >= 6) { g.fillStyle = "#6a7380"; for (let f = Math.ceil(view[0] * FPS); f / FPS < view[1]; f++) g.fillRect(Math.round(X(f / FPS)), h - 6, 1, 6); }
+  g.fillStyle = "#c8a83a"; for (const s of board) if (s.t >= view[0] && s.t <= view[1]) { g.fillRect(X(s.t), 12, 1, 10);
+    if (pps > 25) g.fillText(s.id, X(s.t) + 2, 21); }
+  // tracks
+  for (const row of document.querySelectorAll(".row")) {
+    row.querySelectorAll(".clip").forEach(e => e.remove());
+    const ti = +row.dataset.t;
+    // the frame grid through the tracks when frames are wide enough to see (Lati, 11 Nov: "frame grid lines")
+    row.style.backgroundImage = fpx >= 8 ? `repeating-linear-gradient(90deg, #2a2f37 0 1px, transparent 1px ${fpx}px)` : "none";
+    row.style.backgroundPosition = `${X(Math.ceil(view[0] * FPS) / FPS)}px 0`;
+    tl.tracks[ti].clips.forEach((c, i) => {
+      if (c.start + c.dur < view[0] || c.start > view[1]) return;
+      const d = document.createElement("div"); d.className = "clip" + (c.kind === "image" ? " image" : "") + (sel && sel.t === ti && sel.i === i ? " sel" : "");
+      d.style.left = X(c.start) + "px"; d.style.width = Math.max(3, c.dur * pps) + "px";
+      d.textContent = (sp(c) !== 1 ? `×${+sp(c).toFixed(2)} ` : "") + (c.label || c.file.split("/").pop());
+      d.title = `${c.label}\n${c.file}\nin ${c.in.toFixed(2)} · ${c.dur.toFixed(2)} s on the timeline · speed ${sp(c)}`;
+      if (c.kind === "video" && c.len) {  // where the take has no frames, the clip shows black: drawn hatched
+        const a = Math.max(0, -c.in) / sp(c), z = Math.max(0, c.in + c.dur * sp(c) - c.len) / sp(c);
+        if (a > 0) d.innerHTML += `<span class="nof" style="left:0;width:${Math.min(c.dur, a) * pps}px"></span>`;
+        if (z > 0) d.innerHTML += `<span class="nof" style="right:0;width:${Math.min(c.dur, z) * pps}px"></span>`;
+      }
+      d.innerHTML += '<span class="h l"></span><span class="h r"></span>';
+      d.onmousedown = e => grab(e, ti, i); row.appendChild(d);
+    });
+  }
+  // waveform, beats, words, sections, markers
+  [g, w, h] = canvasFit($("wc")); g.clearRect(0, 0, w, h);
+  for (const t of beats) if (t >= view[0] && t <= view[1] && pps > 8) { g.fillStyle = "#262a30"; g.fillRect(X(t), 0, 1, h); }
+  for (const t of downs) if (t >= view[0] && t <= view[1]) { g.fillStyle = "#3a404a"; g.fillRect(X(t), 0, 1, h); }
+  if (peaks) { g.fillStyle = "#4a90d9"; for (let x = 0; x < w; x++) { const a = Math.floor(T(x) * 200), b2 = Math.floor(T(x + 1) * 200);
+      let m = 0; for (let i = a; i <= b2 && i < peaks.length; i++) m = Math.max(m, peaks[i]); const y = m * (h - 18) / 2;
+      g.fillRect(x, 16 + (h - 18) / 2 - y, 1, Math.max(1, 2 * y)); } }
+  g.font = "11px ui-monospace, monospace";
+  for (const s of sections) if (s.t0 >= view[0] && s.t0 <= view[1]) { g.fillStyle = "#5fb36a"; g.fillRect(X(s.t0), 0, 2, h); g.fillText(s.name, X(s.t0) + 4, h - 3); }
+  let lastx = -99; for (const wd of words) if (wt(wd) >= view[0] && wt(wd) <= view[1]) { const x = X(wt(wd)); g.fillStyle = "#b07ad9"; g.fillRect(x, 0, 1, 14);
+    if (x - lastx > g.measureText(wd.w).width + 6) { g.fillText(wd.w, x + 2, 11); lastx = x; } }
+  for (const m of marks) if (m.t >= view[0] && m.t <= view[1]) { g.fillStyle = "#e8875a"; g.fillRect(X(m.t) - 1, 0, 3, h);
+    g.fillText(m.note || "•", X(m.t) + 4, 26); }
+  const sc = sel && tl.tracks[sel.t].clips[sel.i], ci = $("cspd");
+  ci.disabled = !sc || sc.kind !== "video"; if (document.activeElement !== ci) ci.value = sc && sc.kind === "video" ? sp(sc) : "";
+  head();
+}
+function head() { const t = song.currentTime; $("ph").style.left = X(t) + "px"; $("time").textContent = fmt(t); }
+
+// ---------- editing
+function snapshot() { undo.push(JSON.stringify(tl.tracks)); if (undo.length > 200) undo.shift(); }
+function changed() { draw(); clearTimeout(saveT); say("…"); saveT = setTimeout(save, 700); }
+async function save() { const r = await (await fetch("/api/timeline", { method: "POST", headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(tl) })).json(); say(r.ok ? "saved " + r.saved.slice(11) : "save failed"); }
+function snaps(ti, i) { const s = [[song.currentTime, "playhead"], ...downs.map(t => [t, "downbeat"]), ...words.map(w => [wt(w), `word "${w.w}"`]),
+    ...marks.map(m => [m.t, "marker"]), ...board.map(b => [b.t, "board " + b.id])];
+  if ((view[1] - view[0]) < 30) s.push(...beats.map(t => [t, "beat"]));
+  tl.tracks.forEach((tr, a) => tr.clips.forEach((c, b) => { if (a !== ti || b !== i) s.push([c.start, "clip edge"], [c.start + c.dur, "clip edge"]); }));
+  return s; }
+let snapWhat = "";
+function snapTo(t, list, free) { snapWhat = "";
+  if (free || !$("snap").classList.contains("on")) { snapWhat = "free"; return t; } const tol = 8 / W() * (view[1] - view[0]);
+  let best = t, bd = tol; for (const [s, what] of list) { const d = Math.abs(s - t); if (d < bd) { bd = d; best = s; snapWhat = "snapped to " + what; } } return best; }
+function rowAt(y) { for (const r of document.querySelectorAll(".row")) { const b = r.getBoundingClientRect(); if (y >= b.top && y < b.bottom) return +r.dataset.t; } return null; }
+function grab(e, ti, i) {
+  e.stopPropagation(); e.preventDefault(); sel = { t: ti, i }; snapshot();
+  const c = tl.tracks[ti].clips[i], o = { ...c }, x0 = e.clientX, mode = e.target.classList.contains("l") ? "l" : e.target.classList.contains("r") ? "r" : "m";
+  const list = snaps(ti, i), minD = 1 / FPS; let cur = { t: ti, i }, moved = false;
+  const mv = ev => {
+    const dt = (ev.clientX - x0) / W() * (view[1] - view[0]); if (Math.abs(ev.clientX - x0) > 2) moved = true; const free = ev.altKey || ev.shiftKey;
+    const cc = tl.tracks[cur.t].clips[cur.i];
+    if (mode === "m") {
+      let s = o.start + dt; const s1 = snapTo(s, list, free), s2 = snapTo(s + o.dur, list, free) - o.dur;
+      const w1 = snapWhat; snapTo(s + o.dur, list, free); const w2 = snapWhat;
+      const useStart = Math.abs(s1 - s) <= Math.abs(s2 - s); s = useStart ? s1 : s2; snapWhat = useStart ? w1 : w2;
+      cc.start = Math.max(0, Math.round(s * FPS) / FPS);
+      const r = rowAt(ev.clientY); if (r != null && r !== cur.t) { tl.tracks[cur.t].clips.splice(cur.i, 1); tl.tracks[r].clips.push(cc);
+        cur = { t: r, i: tl.tracks[r].clips.length - 1 }; sel = cur; }
+    } else if (mode === "l") {
+      // past the take's first frame the clip plays black (Lati, 10 Nov: "should be represented in black")
+      let s = snapTo(o.start + dt, list, free);
+      s = Math.round(Math.min(o.start + o.dur - minD, Math.max(0, s)) * FPS) / FPS;
+      cc.in = +(o.in + (s - o.start) * sp(o)).toFixed(4); cc.dur = +(o.start + o.dur - s).toFixed(4); cc.start = s;
+    } else {
+      let e2 = snapTo(o.start + o.dur + dt, list, free);  // past the take's last frame: black
+      e2 = Math.round(Math.max(o.start + minD, e2) * FPS) / FPS; cc.dur = +(e2 - o.start).toFixed(4);
+    }
+    const edge = mode === "r" ? cc.start + cc.dur : cc.start;
+    say(`${snapWhat || ""} · frame ${fmt(edge)} (${Math.round(edge * FPS)})`); draw();
+  };
+  const up = () => { removeEventListener("mousemove", mv); removeEventListener("mouseup", up); if (moved) changed(); else { undo.pop(); draw(); } };
+  addEventListener("mousemove", mv); addEventListener("mouseup", up);
+}
+function seekTo(t) { song.currentTime = Math.max(0, Math.min(dur, t)); act = -1; head(); show(true); }
+// the ruler scrubs the playhead; an empty spot on the tracks or the waveform pans the timeline when dragged
+// and moves the playhead when just clicked (Lati, 10 Nov: "click and drag on timeline (empty spot) should pan")
+$("tlw").addEventListener("mousedown", e => {
+  if (e.target.closest(".clip")) return; sel = null; draw();
+  const b = $("tlw").getBoundingClientRect();
+  if (e.target.closest("#ruler")) {
+    seekTo(T(e.clientX - b.left));
+    const mv = ev => seekTo(T(ev.clientX - b.left)), up = () => { removeEventListener("mousemove", mv); removeEventListener("mouseup", up); };
+    addEventListener("mousemove", mv); addEventListener("mouseup", up); return;
+  }
+  const x0 = e.clientX, v0 = [...view]; let panned = false; $("tlw").style.cursor = "grabbing";
+  const mv = ev => { const dx = ev.clientX - x0; if (Math.abs(dx) > 3) panned = true; if (!panned) return;
+    const d = -dx / W() * (v0[1] - v0[0]), span = v0[1] - v0[0];
+    const a = Math.max(0, Math.min(dur + 2 - span, v0[0] + d)); view = [a, a + span]; draw(); };
+  const up = ev => { removeEventListener("mousemove", mv); removeEventListener("mouseup", up); $("tlw").style.cursor = "";
+    if (!panned) seekTo(T(ev.clientX - b.left)); };
+  addEventListener("mousemove", mv); addEventListener("mouseup", up);
+});
+$("tlw").addEventListener("wheel", e => { e.preventDefault(); const b = $("tlw").getBoundingClientRect(), t = T(e.clientX - b.left), span = view[1] - view[0];
+  if (e.shiftKey || Math.abs(e.deltaX) > Math.abs(e.deltaY)) { const d = (e.deltaX || e.deltaY) / W() * span; view = [view[0] + d, view[1] + d]; }
+  else { const k = e.deltaY > 0 ? 1.25 : 0.8, ns = Math.min(dur + 2, Math.max(1, span * k)); view = [t - (t - view[0]) * ns / span, t + (view[1] - t) * ns / span]; }
+  if (view[0] < 0) view = [0, view[1] - view[0]]; if (view[1] > dur + 2) view = [Math.max(0, dur + 2 - (view[1] - view[0])), dur + 2]; draw(); }, { passive: false });
+function delSel() { if (!sel) return; snapshot(); tl.tracks[sel.t].clips.splice(sel.i, 1); sel = null; changed(); }
+function splitSel() { if (!sel) return; const c = tl.tracks[sel.t].clips[sel.i], t = Math.round(song.currentTime * FPS) / FPS;
+  if (t <= c.start || t >= c.start + c.dur) return say("put the playhead inside the clip"); snapshot();
+  const b = { ...c, start: t, in: +(c.in + (t - c.start) * sp(c)).toFixed(4), dur: +(c.start + c.dur - t).toFixed(4) }; c.dur = +(t - c.start).toFixed(4);
+  tl.tracks[sel.t].clips.push(b); changed(); }
+// a new speed keeps the clip's start and first frame and the stretch of the take it plays; its length on the timeline
+// changes with it, to whole frames
+function setSpeed(v) { if (!sel) return; const c = tl.tracks[sel.t].clips[sel.i]; if (c.kind !== "video") return say("speed is for video clips");
+  v = Math.min(4, Math.max(0.25, Math.round(v * 100) / 100)); if (v === sp(c)) return; snapshot();
+  const span = c.dur * sp(c); c.dur = Math.max(1 / FPS, Math.round(span / v * FPS) / FPS); if (v === 1) delete c.speed; else c.speed = v;
+  changed(); say(`speed ×${v} · ${c.dur.toFixed(2)} s on the timeline`); }
+$("cspd").onchange = () => { setSpeed(+$("cspd").value || 1); $("cspd").blur(); };
+$("del").onclick = delSel; $("split").onclick = splitSel;
+$("undo").onclick = () => { if (!undo.length) return; tl.tracks = JSON.parse(undo.pop()); sel = null; changed(); };
+$("snap").onclick = () => $("snap").classList.toggle("on");
+
+// ---------- library
+// opening the drawer re-reads the library, so takes made while the page was open show up (Lati, 11 Nov)
+async function reloadLib() { try { lib = (await (await fetch("/production/library/clips.json?" + Date.now())).json()).clips.filter(c => c.status !== "reject"); } catch (e) {} }
+$("libb").onclick = async () => { const open = $("lib").classList.toggle("open"); setTimeout(draw, 0); if (open) { await reloadLib(); renderLib(); } };
+$("lq").oninput = renderLib; $("lk").oninput = renderLib;
+// Lati, 10 Nov: the drawer finds takes by what they are, and with no search shows the fits for the shot under the playhead
+const PLACES = [["warp", ["hyperspace", "warp"]], ["lair", ["lair", "bunker", "bot swarm", "swarm of bots", "bot farm"]],
+  ["hangar", ["hangar", "docking"]], ["break", ["red lens", "voice-interface", "oscillator"]], ["avatars", ["avatar"]],
+  ["city", ["utopia", "spires", "flying cars"]], ["battle", ["battlefield", "battle", "dogfight", "cockpit", "mech"]],
+  ["earth", ["sakura", "on earth"]], ["bridge", ["bridge", "viewport", "terminal", "flagship"]]];
+const placeOf = s => { const st = ((s && s.set) || "").toLowerCase(); const p = PLACES.find(([, k]) => k.some(x => st.includes(x))); return p ? p[0] : st; };
+// the shot under the playhead: from the clip there in Lati's timeline (he moves shots), else the board's timing
+const shotAt = t => { const c = at(t); if (c && c.shot) return c.shot; let id = null; for (const b of board) if (b.t <= t + 1e-3) id = b.id; return id; };
+// design plates (u1-1, h2-2, k1-1 ...) carry no shot id: the shots whose board refs name them
+const designShots = {};
+function indexDesigns() { for (const s of Object.values(shotInfo)) for (const r of s.refs || []) {
+    const k1 = r.toLowerCase().replace(/·/g, "-"), k2 = k1.replace(/(\d)-(\d)/g, "$1$2");
+    for (const k of new Set([k1, k2])) (designShots[k] = designShots[k] || []).push(s.id); } }
+let v1to2 = {};  // her-1 plates carry board v1's shot numbers
+const stillShots = f => { const n = f.split("/").pop(), m = n.match(/^s\d{3}/);
+  if (m) return [f.includes("/her-1/") ? (v1to2[m[0]] || m[0]) : m[0]];
+  const key = n.replace(/-[0-9a-f]{24}\.jpg$/, ""); return designShots[key] || []; };
+const SYN = { city: "urban town metropolis spires", earth: "park ground", lair: "bunker farm bots", battle: "fight combat",
+              warp: "hyperspace tunnel", hangar: "launch bay", bridge: "ship deck", avatars: "faces stars sky" };
+const hay = (shot, extra) => { const s = shotInfo[shot] || {}, pl = placeOf(s);
+  return [shot, s.chapter, s.set, s.action, s.framing, pl, SYN[pl] || "", ...extra].join(" ").toLowerCase(); };
+function renderLib() {
+  const q = $("lq").value.toLowerCase().trim(), box = $("items"); box.innerHTML = "";
+  const sh = shotAt(song.currentTime), si = shotInfo[sh] || {}; libShot = sh;
+  const terms = q.split(/\s+/).filter(Boolean), hit = h => terms.every(w => h.includes(w));
+  const rankT = c => (c.made_for === sh ? 0 : c.place === placeOf(si) ? 1 : 2);
+  if (!q) box.innerHTML = `<div class="it dim" style="display:block">Fits for <b style="color:var(--accent)">${sh}</b> · ${si.chapter || ""} · ${(si.action || "").slice(0, 90)}</div>`;
+  const items = $("lk").value === "takes"
+    ? lib.filter(c => q ? hit(hay(c.made_for, [c.id, c.verdict, c.batch, c.place, c.kind])) : rankT(c) < 2)
+        .sort((a, b) => rankT(a) - rankT(b) || (a.made_for || "z").localeCompare(b.made_for || "z")).slice(0, 200)
+        .map(c => ({ file: c.path, kind: "video", len: c.seconds, label: `${c.made_for || ""} · ${c.id}`.replace(/^ · /, ""), shot: c.made_for,
+                     thumb: `<div class="th" style="background-image:url('/${c.strip}')"></div>`, sub: `${c.seconds}s · ${c.verdict || c.status}` }))
+    : stills.filter(f => { const ids = stillShots(f);
+          return q ? hit([f, ...ids.map(id => hay(id, []))].join(" ").toLowerCase())
+                   : ids.includes(sh) || ids.some(id => shotInfo[id]?.chapter === si.chapter); })
+        .sort((a, b) => (stillShots(a).includes(sh) ? 0 : 1) - (stillShots(b).includes(sh) ? 0 : 1)).slice(0, 200)
+        .map(s => ({ file: s, kind: "image", len: null, label: s.split("/").pop().replace(/\.jpg$/, ""), shot: (s.split("/").pop().match(/^s\d{3}/) || [null])[0],
+                     thumb: `<img class="th" loading="lazy" src="/${s}">`, sub: s.split("/").slice(-2, -1)[0] }));
+  for (const it of items) {
+    const d = document.createElement("div"); d.className = "it";
+    d.innerHTML = `${it.thumb}<div class="tx"><div>${it.label}</div><div class="dim">${it.sub}</div></div>
+      <div class="add"><button data-t="2">V3</button><button data-t="1">V2</button><button data-t="0">V1</button></div>`;
+    d.querySelectorAll("button").forEach(b => b.onclick = () => addClip(it, +b.dataset.t)); box.appendChild(d);
+  }
+}
+function addClip(it, ti) { snapshot(); const t = Math.round(song.currentTime * FPS) / FPS;
+  const c = { file: it.file, kind: it.kind, start: t, in: 0, dur: it.kind === "video" ? Math.min(it.len || 4, 4) : 2, len: it.len, label: it.label, shot: it.shot };
+  tl.tracks[ti].clips.push(c); sel = { t: ti, i: tl.tracks[ti].clips.length - 1 }; changed(); say(`added to V${ti + 1} at ${fmt(t)}`); }
+
+// ---------- playback: the song is the clock; the topmost clip under the playhead shows
+function at(t) { for (let ti = 2; ti >= 0; ti--) { let best = null;
+    for (const c of tl.tracks[ti].clips) if (t >= c.start && t < c.start + c.dur && (!best || c.start >= best.start)) best = c;
+    if (best) return best; } return null; }
+function show(force) {
+  const t = song.currentTime, c = at(t);
+  $("tag").textContent = c ? c.label : "–";
+  if (!c) { vids.forEach(v => { v.style.visibility = "hidden"; v.pause(); }); im.style.visibility = "hidden"; return; }
+  if (c.kind === "image") { if (!im.src.endsWith(c.file)) im.src = "/" + c.file; im.style.visibility = "visible";
+    vids.forEach(v => { v.style.visibility = "hidden"; v.pause(); }); return; }
+  im.style.visibility = "hidden";
+  const want0 = c.in + (t - c.start) * sp(c);
+  if (want0 < 0 || (c.len && want0 > c.len - 1 / FPS)) {  // no frames here: black
+    $("tag").textContent = c.label + " · black (no frames)"; vids.forEach(v => { v.style.visibility = "hidden"; v.pause(); }); return; }
+  let v = vids.find(x => x.dataset.f === c.file);
+  if (!v) { v = vids.find(x => x.style.visibility !== "visible") || vids[0]; v.dataset.f = c.file; v.src = "/" + c.file; }
+  const want = want0;
+  vids.forEach(x => { if (x !== v) { x.style.visibility = "hidden"; x.pause(); } });
+  v.style.visibility = "visible";
+  if (song.paused) { v.pause(); if (force || Math.abs(v.currentTime - want) > 0.02) v.currentTime = want; }
+  else { v.playbackRate = Math.min(16, Math.max(0.0625, song.playbackRate * sp(c))); if (Math.abs(v.currentTime - want) > 0.12) v.currentTime = want; if (v.paused) v.play().catch(() => {}); }
+}
+function loop() { head(); show(false);
+  if ($("lib").classList.contains("open") && !$("lq").value && shotAt(song.currentTime) !== libShot) renderLib();
+  requestAnimationFrame(loop); }
+$("play").onclick = () => { song.paused ? song.play() : song.pause(); };
+song.onplay = () => $("play").textContent = "Pause"; song.onpause = () => { $("play").textContent = "Play"; show(true); };
+$("speed").oninput = () => { song.playbackRate = +$("speed").value; };
+$("woff").oninput = () => { woff = +$("woff").value || 0; try { localStorage.setItem("edit.woff", woff); } catch (e) {} draw(); };
+
+// ---------- markers for Kiln (the same marks files as the player)
+async function saveMarks() { await fetch("/api/marks", { method: "POST", headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ path: "edit", marks }) }); }
+
+addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+  const k = e.key;
+  if (k === " ") { e.preventDefault(); $("play").onclick(); }
+  else if (k === "," || k === ".") { song.pause(); seekTo(song.currentTime + (k === "." ? 1 : -1) * (e.shiftKey ? 10 : 1) / FPS); }
+  else if (k === "Delete" || k === "Backspace") delSel();
+  else if (k === "x" || k === "X") splitSel();
+  else if ((e.ctrlKey || e.metaKey) && k.toLowerCase() === "z") { e.preventDefault(); $("undo").onclick(); }
+  else if (k === "0") { view = [0, dur]; draw(); }
+  else if (k === "Home" || k === "End") { e.preventDefault(); const span = view[1] - view[0];
+    view = k === "Home" ? [0, span] : [Math.max(0, dur + 2 - span), dur + 2]; seekTo(k === "Home" ? 0 : dur); draw(); }
+  else if (k === "z" || k === "Z") { const t = song.currentTime; view = [Math.max(0, t - 4), Math.max(0, t - 4) + 8]; draw(); }
+  else if (k === "l" || k === "L") $("libb").onclick();
+  else if ((k === "[" || k === "]") && sel) { const c = tl.tracks[sel.t].clips[sel.i]; setSpeed(sp(c) + (k === "]" ? 0.05 : -0.05)); }
+  else if ((k === "s" || k === "S") && !e.ctrlKey && !e.metaKey) { $("snap").classList.toggle("on"); say($("snap").classList.contains("on") ? "snap on" : "snap off"); }
+  else if (k === "m" || k === "M") { const n = prompt(`Note at ${fmt(song.currentTime)} for Kiln:`); if (n !== null) {
+      marks.push({ t: +song.currentTime.toFixed(3), song: +song.currentTime.toFixed(3), note: n }); saveMarks(); draw(); } }
+});
+document.querySelectorAll("#bar button").forEach(b => b.addEventListener("click", () => b.blur()));
+$("snap").title = "snap to beats, words, markers and clip edges (S; hold Shift or Alt to drag free)";
+addEventListener("resize", draw);
+load().then(() => requestAnimationFrame(loop));
+</script>
+<script src="/help.js"></script>
+</body>
+</html>

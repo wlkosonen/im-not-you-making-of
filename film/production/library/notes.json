@@ -1,0 +1,13 @@
+{
+ "_about": "Lati's verdicts and notes on clips, verbatim, keyed by file stem (the longest key a stem starts with wins). Written by the review player (production/tools/review/server.py, POST /api/note); read by production/tools/library.py. Film 3, from 8 Nov 2026.",
+ "rough-1": {"by": "Lati (review player)", "at": "2026-11-08 01:52", "status": "keep", "earlier": [{"by": "Lati (review player)", "at": "2026-11-08 01:45", "note": "\"usable untile here, cut the followiing off.\""}, {"by": "Lati (review player)", "at": "2026-11-08 01:46", "seen": true}]},
+ "D-seedance25-openrouter-qJyJKTMrI1s4Oj3da3af": {"by": "Lati (review player)", "at": "2026-11-08 01:52", "status": "keep", "earlier": [{"by": "Lati (review player)", "at": "2026-11-08 01:46", "note": "\"usable until here\""}, {"by": "Lati (review player)", "at": "2026-11-08 01:46", "seen": true}]},
+ "grok-and-gpt-flying-ok": {"by": "Lati (review player)", "at": "2026-11-08 01:49", "status": "keep", "note": "\"okay to harves short shots from\""},
+ "claudeshipflyinggood": {"by": "Lati (review player)", "at": "2026-11-08 01:49", "status": "keep", "note": "\"okay-ish\""},
+ "grokfirst2point5secusable": {"by": "Lati (review player)", "at": "2026-11-08 01:50", "status": "keep"},
+ "grokbridgeviewusable": {"by": "Lati (review player)", "at": "2026-11-08 01:51", "status": "keep", "note": "\"best of the hyperspace-bridge shots.\""},
+ "grokclaudeshipusable": {"by": "Lati (review player)", "at": "2026-11-08 01:51", "status": "keep", "note": "\"usable\""},
+ "grokmotiontake1": {"by": "Lati (review player)", "at": "2026-11-08 01:51", "status": "keep"},
+ "B-seedance20-isko-6aefadff764707fc26180784": {"by": "Lati (review player)", "at": "2026-11-08 01:52", "status": "reject", "note": "\"meh\""},
+ "C-wan30-isko-6aefae04c6cf1e26643f78e6": {"by": "Lati (review player)", "at": "2026-11-10 17:57", "status": "keep"}
+}

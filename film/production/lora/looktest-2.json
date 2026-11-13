@@ -1,0 +1,33 @@
+{
+  "note": "Look test 2 (Kiln, 7 Nov 2026): base model for her LoRA, no LoRA. Same four shots per model. Her described in tags and words only, so this tests style and composition, not identity.",
+  "negative": {
+    "sdxl": "worst quality, low quality, lowres, blurry, jpeg artifacts, bad anatomy, bad hands, extra fingers, child, chibi, loli, 3d, realistic, photo, watermark, signature, text",
+    "anima": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, child, chibi, loli, 3d, realistic, watermark, text"
+  },
+  "shots": [
+    {
+      "id": "bust",
+      "w": 896, "h": 1152,
+      "illu": "masterpiece, best quality, very aesthetic, 1980s (style), retro artstyle, 1girl, solo, mature female, upper body, from front, looking at viewer, closed mouth, black hair, bob cut, blunt bangs, streaked hair, orange hair streak, star hair ornament, headset, white shirt, collared shirt, puffy short sleeves, suspenders, bridge, spaceship interior, monitor, cel shading",
+      "anima": "masterpiece, best quality, score_7, safe, 1980s (style), retro artstyle, 1girl, solo, mature female, upper body, looking at viewer, black hair, bob cut, blunt bangs, star hair ornament, headset, white shirt, puffy short sleeves, suspenders. A hand-drawn frame from a 1980s theatrical science fiction anime film, cel painted with fine detailed linework and film grain. A grown woman of about thirty with a long, mature face and narrow eyes looks straight at the viewer on the bridge of a starship; one thin clay-orange streak runs through her black bangs."
+    },
+    {
+      "id": "full",
+      "w": 832, "h": 1216,
+      "illu": "masterpiece, best quality, very aesthetic, 1980s (style), retro artstyle, 1girl, solo, mature female, tall female, full body, standing, from front, looking at viewer, black hair, bob cut, blunt bangs, streaked hair, star hair ornament, headset, white shirt, puffy short sleeves, suspenders, belt, black skirt, pleated skirt, black gloves, elbow gloves, black pantyhose, black boots, knee boots, corridor, spaceship interior, cel shading",
+      "anima": "masterpiece, best quality, score_7, safe, 1980s (style), retro artstyle, 1girl, solo, mature female, tall female, full body, standing, black hair, bob cut, blunt bangs, white shirt, puffy short sleeves, suspenders, black pleated skirt, black elbow gloves, black pantyhose, black knee boots. A hand-drawn frame from a 1980s theatrical science fiction anime film. A tall grown woman with long legs and adult proportions, about nine heads tall, stands in a metal starship corridor and looks at the viewer; her whole figure fills the frame from head to boots."
+    },
+    {
+      "id": "bridge",
+      "w": 1216, "h": 832,
+      "illu": "masterpiece, best quality, very aesthetic, 1980s (style), retro artstyle, 1girl, solo focus, mature female, cowboy shot, standing, black hair, bob cut, headset, white shirt, suspenders, black skirt, black gloves, bridge, spaceship interior, control panel, many monitors, window, space, spaceship, fleet, starry sky, wide shot, cel shading",
+      "anima": "masterpiece, best quality, score_7, safe, 1980s (style), retro artstyle, 1girl, mature female, cowboy shot, black hair, bob cut, headset, white shirt, suspenders, black skirt, black gloves, bridge, spaceship interior, monitor. A hand-drawn wide frame from a 1980s theatrical science fiction anime film. A woman stands at the center of a flagship's bridge among glowing consoles and crew, and behind her a huge viewport shows a fleet of starships arriving out of warp against the stars."
+    },
+    {
+      "id": "blackhole",
+      "w": 1216, "h": 832,
+      "illu": "masterpiece, best quality, very aesthetic, 1980s (style), retro artstyle, no humans, scenery, space, black hole, accretion disk, gravitational lensing, glowing ring, earth (planet), stars, wide shot, cel shading",
+      "anima": "masterpiece, best quality, score_7, safe, 1980s (style), retro artstyle, no humans, scenery, space, black hole, earth (planet). A hand-drawn background painting from a 1980s theatrical science fiction anime film. Far beyond the Earth hangs a black hole: its bright accretion disk is tilted, and the light from the far side of the disk bends up over the top of the black shadow and again beneath it, forming a glowing halo."
+    }
+  ]
+}

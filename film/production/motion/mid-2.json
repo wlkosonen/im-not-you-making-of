@@ -1,0 +1,193 @@
+[
+ {
+  "id": "s060-c",
+  "shot": "s060",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "images": [
+   "media/plates/v2/s060-3-6af1f262958d42a9dcabe6d2.jpg"
+  ],
+  "audio": "media/motion/mid-2/vocals-93.4-97.4.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a slow steady rise. Image 1 shows the shot: four women drawn as glowing constellations of stars across the night sky above Earth, the space battle small and far below them. From left: a woman with a black bob and a white blouse; a woman with a black bob in a white halter top with a gold sunburst; a woman with platinum-blonde hair in a white draped gown; a woman with silver-white hair, a violet hair clip and a black choker. From the first moment all four sing together along to the audio, their lips forming each word: \"What makes us human\". Eyes closed, faces lifted, starlight streaming from their hair and shoulders, the stars in them twinkling, tiny flashes of the battle flickering far below. Throughout: constant gentle motion, lit by their own starlight, stars, starlight and their faces drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s060-c2",
+  "shot": "s060",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "images": [
+   "media/plates/v2/s060-3-6af1f262958d42a9dcabe6d2.jpg"
+  ],
+  "audio": "media/motion/mid-2/vocals-93.5-97.5.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a slow steady rise. Image 1 shows the shot: four women drawn as glowing constellations of stars across the night sky above Earth, the space battle small and far below them. From left: a woman with a black bob and a white blouse; a woman with a black bob in a white halter top with a gold sunburst; a woman with platinum-blonde hair in a white draped gown; a woman with silver-white hair, a violet hair clip and a black choker. From the first moment all four sing together along to the audio, their lips forming each word: \"What makes us human\". Eyes closed, faces lifted, starlight streaming from their hair and shoulders, the stars in them twinkling, tiny flashes of the battle flickering far below. Throughout: constant gentle motion, lit by their own starlight, stars, starlight and their faces drawn in detail, perfect character, lighting and style consistency.",
+  "note": "retry: s060-c refused by the audio copyright filter (our own vocal)"
+ },
+ {
+  "id": "s060-c3",
+  "shot": "s060",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "images": [
+   "media/plates/v2/s060-3-6af1f262958d42a9dcabe6d2.jpg"
+  ],
+  "audio": "media/motion/mid-2/vocals-93.5-97.5.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a slow steady rise. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. Image 1 shows the shot: four women drawn as glowing constellations of stars across the night sky above Earth, the space battle small and far below them. From left: a woman with a black bob and a white blouse; a woman with a black bob in a white halter top with a gold sunburst; a woman with platinum-blonde hair in a white draped gown; a woman with silver-white hair, a violet hair clip and a black choker. From the first moment all four sing together along to the audio, their lips forming each word: \"What makes us human\". Eyes closed, faces lifted, starlight streaming from their hair and shoulders, the stars in them twinkling, while far below them the battle is alive from the first frame: tiny space vessels and fighters swerve and fire streams of orange tracer at each other, explosions bloom and flash along the line, a small space vessel breaks apart in a burst of fire, fighters streak trails of light across Earth's curve. Throughout: constant gentle motion, lit by their own starlight and the flashes below, stars, starlight, their faces and the battle below drawn in detail, perfect character, lighting and style consistency.",
+  "note": "Lati, 11 Nov: the battle below was static",
+  "retake_of": "s060-c2-YsQJVQGx"
+ },
+ {
+  "id": "s061-d",
+  "shot": "s061",
+  "kind": "sung",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "images": [
+   "media/plates/v2/s061-4-6af1f28de6d0977a2d3794de.jpg"
+  ],
+  "audio": "media/motion/mid-2/vocals-95.9-99.9.wav",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a slow steady push in. Image 1 shows the shot: closer on four women drawn as glowing constellations of stars above Earth's curve. From left: a woman with a black bob and a starry white blouse; a woman with platinum-blonde hair in a white draped gown; a woman with a black bob in a white halter top with a gold sunburst; the violet starlight outline of a woman with flowing hair. From the first moment they sing together along to the audio, their lips forming each word: \"us human makes me\". As they sing, thin lines of light draw themselves from star to star between their faces, joining the four of them into one constellation. Throughout: constant gentle motion, lit by their own starlight, stars, constellation lines and their faces drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s068-b-a",
+  "shot": "s068",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s068-2-6af1f291363765213c7416c1.jpg",
+  "last_image": "media/plates/v2/s068-1-6af1f28f568df6968f242272.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens, a steady camera with a slow pull back. Everyone and everything in the frame keeps moving from the first frame to the last: the hand works, the console lights change. 0-1s: from the first frame the hand in the olive-green sleeve turns the launch key a hard quarter turn with a click, the key's ring swinging, the console lights flickering on. 1-4s: the hand leaves the key and moves down to the red button, two fingers pressing it firmly down, the red light flaring, the monitors above coming alive. Throughout: constant motion, lit by the console lights and the red button, the key, switches and the hand drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s074-a",
+  "shot": "s074",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s074-1-6af1f2c7d028dedc626e3ee1.jpg",
+  "lint_skip": "a launch: no targets, no hits (the battle sentences don't apply)",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, a fast camera pinned close beside the missile's hull, a gentle roll right. Everything in the frame keeps moving from the first frame to the last. 0-1s: from the first frame the missile lifts off from the open silo on a roaring column of white fire, dust and smoke billowing out across the desert, the silo hatch rocking, and the camera rises with it right beside its hull. 1-4s: the missile picks up speed, climbing into the red sky with the camera racing alongside, the ground falling away below, speed lines streaking past, the exhaust flaring brighter. Throughout: constant motion, shaky camera, lit by the exhaust and the red sky, the missile's hull, exhaust and smoke drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s069-2",
+  "shot": "s069",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s069-2-6af1f29371749553dbe78dc1.jpg",
+  "lint_skip": "a silo launch: no targets, no hits (the battle sentences don't apply)",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a steady camera tilting up fast with the launch. Everything in the frame keeps moving from the first frame to the last. 0-1s: from the first frame the missile blasts up out of the open silo on a white-hot column of fire, the round hatch lying tipped beside it, billowing dust clouds rolling out across the dunes, sand streaming off the hatch. 1-4s: the missile climbs fast into the red sky, its trail stretching up out of frame, the dust clouds spreading wide. Throughout: constant motion, a light camera shake from the launch, lit by the exhaust and the red sunset, the missile, exhaust and smoke drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s070-2",
+  "shot": "s070",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s070-2-6af1f296485ab36ea693c318.jpg",
+  "lint_skip": "a silo launch: no targets, no hits (the battle sentences don't apply)",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a steady camera tilting up fast with the launch. Everything in the frame keeps moving from the first frame to the last. 0-1s: from the first frame the missile bursts up out of the silo in the snow on a column of orange fire, snow and ice exploding outward around the open hatch, steam and smoke boiling up, debris spinning away. 1-4s: the missile climbs fast into the grey sky, its trail stretching up out of frame, snow still falling back around the silo. Throughout: constant motion, a light camera shake from the launch, lit by the exhaust against the grey snowy light, the missile, exhaust and smoke drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s071-1",
+  "shot": "s071",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s071-1-6af1f297d7cac749bd3c7194.jpg",
+  "lint_skip": "a silo launch: no targets, no hits (the battle sentences don't apply)",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a steady camera tilting up fast with the launch. Everything in the frame keeps moving from the first frame to the last. 0-1s: from the first frame the missile tears up out of the mountainside silo on a long plume of fire, rocks and burning debris flying out of the blast, black smoke pouring from the hatch, snow sliding off the slope. 1-4s: the missile streaks up and away across the blue sky toward the upper right, its fire trail curving behind it, debris tumbling down the mountain. Throughout: constant motion, a light camera shake from the launch, lit by the exhaust in bright mountain daylight, the missile, exhaust and smoke drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s072-2",
+  "shot": "s072",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s072-2-6af1f2c1d028dedc626e3a6f.jpg",
+  "lint_skip": "a silo launch: no targets, no hits (the battle sentences don't apply)",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a steady camera tilting up fast with the launch. Everything in the frame keeps moving from the first frame to the last. 0-1s: from the first frame the missile rises out of the jungle silo on a column of white fire, the dome hatch rocking open, steam and smoke billowing into the palms, birds bursting up out of the trees. 1-4s: the missile climbs fast into the blue tropical sky past the clouds, its trail stretching up out of frame, the palms whipping in the blast. Throughout: constant motion, a light camera shake from the launch, lit by the exhaust in bright tropical daylight, the missile, exhaust and smoke drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s073-a",
+  "shot": "s073",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s073-3-6af4c4599033315148339c10.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing; a fast camera that drops slowly toward Earth, a gentle roll left. Every space vessel, fighter and missile in the frame is always in action, turning, firing, climbing or breaking apart, from the first frame to the last. Every hit does visible damage: armour plates burst off, hulls split and spin away. 0-1s: from the first frame the dozens of missile trails rise fast out of the atmosphere, their bright heads climbing on curving white smoke, while far above the mixed fleet of space vessels breaks formation, vessels turning broadside and firing streams of orange tracer down at the rising missiles, small flashes bursting where the tracers meet them. 1-4s: the first missiles reach the fleet, a white space vessel at the left taking two hits that blast plates off its hull, a black spiked space vessel banking hard away, more trails still rising from the continents below. Throughout: constant motion, shaky camera, explosions blooming regularly among the fleet, lit by Earth's daylight and the missile exhaust, missile trails, tracer fire and the space vessels drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s073-d",
+  "shot": "s073",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s073-6-6af4c598bdfbe76e7eea90f6.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Extreme wide-angle lens, ultra-wide three-point perspective, asymmetric diagonal framing; a fast camera that drifts right along Earth's limb toward the fleet, a gentle roll right. Every space vessel, fighter and missile in the frame is always in action, turning, firing, climbing or breaking apart, from the first frame to the last. Every hit does visible damage: armour plates burst off, hulls split and spin away. 0-1s: from the first frame the missile trails arc up over Earth's glowing limb and race in toward the fleet on the right, their heads burning bright, while the space vessels swing their turrets toward them and open fire, streams of orange tracer reaching out across the dark, the first missiles bursting in white flashes short of the fleet. 1-4s: more missiles get through, one striking the big white space vessel with orange stripes in the foreground, armour plates blasting off its side and spinning away, the iridescent space vessel above it rolling away through the fire, the black-and-white striped space vessel firing on. Throughout: constant motion, shaky camera, explosions blooming regularly among the fleet, lit by Earth's blue limb and the missile exhaust, missile trails, tracer fire and the space vessels drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s063-c1",
+  "shot": "s063",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/u1-1-6af0720fbdff082d29a2526f.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people walk, vehicles glide, water ripples, leaves sway. 0-1s: from the first frame the flying cars glide in smooth lines between the white spires, a red one and a gold one crossing close to the camera, the palms and flowers on the terrace swaying, sunlight rippling on the canals below. The camera glides slowly forward over the terrace railing, a gentle roll right. 1-4s: more flying cars bank between the spires and pass under the glass dome's walkway, tiny people strolling along the bridges, the water sparkling. Throughout: constant gentle motion, bright calm daylight, the spires, flying cars and gardens drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s062-c2",
+  "shot": "s062",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/u2-1-6af0721174ceab81de57f8cf.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people walk, vehicles glide, water ripples, leaves sway. 0-1s: from the first frame the monorail glides along its curving track through the city toward the sea, the small airships drift across the sunset sky, the people on the plaza walk and point, the sun's reflection shimmering on the water. The camera drifts slowly left across the city, a gentle roll left. 1-4s: the monorail passes beside the golden dome, a flying vehicle crosses the frame, the sea glittering under the setting sun, the clouds glowing pink. Throughout: constant gentle motion, warm sunset light, the monorail, airships, spires and people drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s066-c3",
+  "shot": "s066",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/u2-2-6af07212665f432016210fbc.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people walk, vehicles glide, water ripples, leaves sway. 0-1s: from the first frame the monorail glides along its long curving track over the city, boats trail white wakes along the canals and the harbour, airships drift across the golden sky, people stroll across the round plaza. The camera drifts slowly forward high over the city, a gentle roll right. 1-4s: the monorail sweeps past the palms toward the sea, sailboats leaning in the breeze, the sun glittering on the water. Throughout: constant gentle motion, warm golden evening light, the monorail, boats, airships and towers drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s064-a",
+  "shot": "s064",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/u3-1-6af072140db8696a5ff3077f.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people walk, vehicles glide, water ripples, leaves sway. 0-1s: from the first frame the boy and the girl in front look up at the sky together, the boy lifting his arm to point, people walking along the tree-lined street behind them, the monorail sliding into the station, flying vehicles crossing the sky above the spires. Locked camera. 1-4s: more people stop and look up beside them, the leaves of the trees rippling in the breeze, the station screen glowing. Throughout: constant gentle motion, bright clear daylight, the children, people, trees and the monorail drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s064-b",
+  "shot": "s064",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/images/designs-2/u3-2-6af07215764707fc26ada884.jpg",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, asymmetric diagonal framing, a steady camera on one smooth move. Everyone and everything in the frame keeps moving from the first frame to the last: people walk, vehicles glide, water ripples, leaves sway. 0-1s: from the first frame the two boys in front stop and look up at the sky, the children running across the plaza slow down and turn their faces upward, people under the trees pause, flying vehicles gliding over the white towers. The camera pushes in slowly behind the two boys, a gentle roll left. 1-4s: more people on the plaza look up, a woman shading her eyes, the flowers in the planters swaying in the breeze. Throughout: constant gentle motion, bright clear daylight, the children, people, flowers and flying vehicles drawn in detail, perfect character, lighting and style consistency."
+ }
+]

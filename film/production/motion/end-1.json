@@ -1,0 +1,91 @@
+[
+ {
+  "id": "s108-anime",
+  "shot": "s108",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 6,
+  "resolution": "720p",
+  "image": "media/plates/v2/s108-1-6af4db868723ef60e1572f1f.jpg",
+  "note": "Lati, 11 Nov: the anime look, fireballs fading into discs with flashes; covers s108 to s110",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. A locked wide shot of the whole Earth in deep space, a very slow push in. Everything in the frame keeps moving from the first frame to the last. 0-1.5s: from the first frame the chain of nuclear fireballs along the equator swells outward in bold cel-shaded orange, gold and white, their shockwave rings racing outward, the tiny black silhouettes of space vessels inside them shattering into dust, blinding white flashes popping one after another along the chain. 1.5-4s: the fireballs flatten into a ring of glowing white-hot discs lying along the equator, the discs pulsing with bright flashes, rays of light streaming into space, the glow washing across the clouds. 4-6s: the discs dim slowly from white to orange to a faint red and fade away, the last flashes flickering out, until only the quiet Earth remains in the black sky, the orbit around it empty. Throughout: constant motion, lit by the fireballs and then by sunlight alone, fire, discs, flashes and the clouds drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s108-real",
+  "shot": "s108",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 6,
+  "resolution": "720p",
+  "image": "media/plates/v2/s108-2-6af4dbd658e5a2b3fceecb80.jpg",
+  "note": "Lati, 11 Nov: the realistic option (exoatmospheric bursts: a flash, a short-lived expanding shell, artificial aurora; no fireball or mushroom in vacuum); covers s108 to s110",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. A locked wide shot of the whole Earth in deep space, a very slow push in. Everything in the frame keeps moving from the first frame to the last. 0-1.5s: from the first frame new detonations flash along the equator high above the atmosphere, each a sudden point of blinding white light that lights the whole planet for an instant, then a thin, pale, perfectly round shell of glowing gas swelling silently outward from each point. 1.5-4s: the shells grow wider and fainter and overlap, while beneath them the upper atmosphere glows brighter and brighter with artificial aurora, rippling curtains of deep red and green spreading north and south from the equator across the night side, slow and silent. 4-6s: the shells fade into nothing, the aurora slowly dims and thins into faint streaks and then darkness, until only the quiet Earth remains, its city lights still glittering, the orbit around it empty. Throughout: slow constant motion, lit by the white flashes and then the soft auroral glow, the aurora curtains, the shells and the clouds drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s108-v2a",
+  "shot": "s108",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 6,
+  "resolution": "720p",
+  "image": "media/plates/v2/s108-3-6af4de4efdac925376f1228a.jpg",
+  "note": "Lati, 11 Nov: plate A; one white-out blast, cascading smaller ones engulfing the fleet, the aurora kept",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. A wide shot from high orbit, a very slow push in, a light shake when the blast hits. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the space battle spread over the clouds of Earth's day side flickers small at this distance: tiny space vessels and mechs swerving, tiny orange explosions and white flashes popping among them, thin tracer lines crossing. 1-2s: in the middle of the battle a single nuclear blast goes off: a blinding white flash whites out the whole frame, then a huge white-hot fireball swells out of it with a bright shockwave ring racing outward. 2-4s: the central fireball throws off a cascade of smaller blasts, each one setting off the next at uneven, scattered places across the battle, a chain reaction spreading outward in every direction, the fire engulfing the space vessels and mechs, which shatter and vanish into glowing dust. 4-6s: the fire fades from white to orange to a dim red and thins away, while beneath it the upper atmosphere glows with wavering curtains of red and green aurora spreading out across the clouds, until the orbit is empty and only Earth remains. Throughout: constant motion, bold cel-shaded fire, lit by the blasts and then by the planet's glow, the fireballs, shockwaves, aurora and the clouds drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s108-v2c",
+  "shot": "s108",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 6,
+  "resolution": "720p",
+  "image": "media/plates/v2/s108-5-6af4defed8c4f98d0ba0b425.jpg",
+  "note": "Lati, 11 Nov: plate C; one white-out blast, cascading smaller ones engulfing the fleet, the aurora kept",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. A wide shot from high orbit, a very slow push in, a light shake when the blast hits. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the space battle against Earth's glowing dawn limb flickers small at this distance: tiny space vessels and mechs swerving, tiny orange explosions and white flashes popping among them, thin tracer lines crossing. 1-2s: in the middle of the battle a single nuclear blast goes off: a blinding white flash whites out the whole frame, then a huge white-hot fireball swells out of it with a bright shockwave ring racing outward. 2-4s: the central fireball throws off a cascade of smaller blasts, each one setting off the next at uneven, scattered places across the battle, a chain reaction spreading outward in every direction, the fire engulfing the space vessels and mechs, which shatter and vanish into glowing dust. 4-6s: the fire fades from white to orange to a dim red and thins away, while beneath it the dark night side lights up with wavering curtains of red and green aurora spreading across the planet over the city lights, until the orbit is empty and only Earth remains. Throughout: constant motion, bold cel-shaded fire, lit by the blasts and then by the planet's glow, the fireballs, shockwaves, aurora and the clouds drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s101-4",
+  "shot": "s101",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s101-4-6af205be882ea414a26c7afc.jpg",
+  "note": "Lati, 12 Nov: the plate's camera angle held steady, the missile closing on the battle above, the battle alive, slight shake",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. The camera holds the plate's angle, steady, with a slight constant shake from the missile's thrust. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the missile in the foreground roars up and away from the camera toward the upper right, its white-hot exhaust blazing and trailing a long glowing plume, shrinking as it climbs out of the atmosphere toward the battle, while far above the battle is alive: tiny space vessels and fighters swerving, streams of tracer crossing, white flashes and orange explosions bursting among them. 1-4s: the missile becomes a bright point racing into the battle above, a trail of fire behind it, more missile trails rising past it from below, the explosions above growing more frequent, a small space vessel breaking apart in a burst of fire, Earth's curve and the clouds steady below. Throughout: constant motion, a slight camera shake, lit by the exhaust and Earth's blue glow, the missile, its plume, the tracers and explosions drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s101-4b",
+  "shot": "s101",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.5",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s101-4-6af205be882ea414a26c7afc.jpg",
+  "note": "Lati, 12 Nov: variant: the missile keeps its size and place in frame, the camera travelling with it; the battle above grows closer",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. The camera travels with the missile, locked to it at the plate's angle, the missile keeping its size and its place in the lower left of the frame, with a slight constant shake from the thrust. Every mech, fighter, drone and space vessel in the frame is always in action, dodging, firing, turning or breaking apart, from the first frame to the last. Every hit does visible damage: armour cracks and bursts, parts tear off and spin away. 0-1s: from the first frame the missile's white-hot exhaust blazes and streams back past the lens while Earth's curve and the clouds slide away below and behind, and far above the battle is alive: tiny space vessels and fighters swerving, streams of tracer crossing, white flashes and orange explosions bursting among them. 1-4s: the battle grows steadily larger as the missile closes on it, the space vessels and fighters swelling from specks into clear shapes, tracer streams crossing close, explosions blooming bigger and brighter, a space vessel breaking apart in a burst of fire just ahead, debris flashing past. Throughout: constant motion, a slight camera shake, lit by the exhaust, Earth's blue glow and the explosions ahead, the missile, its plume, the tracers and explosions drawn in detail, powerful impacts, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s109-1",
+  "shot": "s109",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 4,
+  "resolution": "720p",
+  "image": "media/plates/v2/s109-1-6af1f41af6b305b32b377a43.jpg",
+  "note": "Lati, 12 Nov: same pose, looking up, micro-movements, sakura petals falling",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Wide-angle lens, a locked camera. Everyone and everything in the frame keeps moving from the first frame to the last, gently. 0-1s: from the first frame the woman with the black bob, white blouse, black suspenders and black gloves stands still under the sakura in the same pose, looking up at the white light filling the sky, her chest rising with a slow breath, a strand of hair stirring in the breeze, sakura petals drifting down all around her. 1-4s: she blinks once slowly and her eyes follow something high in the sky, her lips parting slightly, the light on her face brightening and softening, petals falling past her and settling on the ground, the blossoms on the branches trembling. Throughout: constant gentle motion, lit by the soft white light from the sky, her face, hair, petals and blossoms drawn in detail, perfect character, lighting and style consistency."
+ },
+ {
+  "id": "s095q-b",
+  "shot": "s095",
+  "kind": "motion",
+  "model": "bytedance/seedance-2.0",
+  "duration": 5,
+  "resolution": "720p",
+  "image": "media/plates/v2/quiet-2-6af4f99796046094b7e6e1ac.jpg",
+  "note": "Lati, 12 Nov: the calm spot 141.05-146.10, Q\u00b7B: weightless floating debris, the mech tumbling slowly, Earth panning outside, displays flickering",
+  "prompt": "1980s theatrical sci-fi anime film, hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain, deliberate 12fps limited animation, ink smear frames and speed lines on the fastest moves, extreme foreshortening, wide-angle perspective. Close-up lens inside the mech's cockpit, the camera moving with the cockpit as it turns. Everything in the frame keeps moving from the first frame to the last, slowly and silently. 0-1s: from the first frame the loose screw, the bead of water and the strips of torn insulation drift weightless past the pilot's face, turning slowly in the air, while outside the windows Earth begins to slide across the view as the mech tumbles slowly end over end. 1-5s: Earth keeps panning steadily across the windows, its blue curve rolling from one window to the next, the sunlight sweeping across the pilot's helmet and the cockpit as the mech turns; the pilot sits still, gazing out, blinking slowly, a small breath fogging the edge of the visor; the displays below flicker on and off with amber light, the debris keeps drifting and spinning gently, a new bead of water floating up past the lens. Throughout: slow constant motion, silence, lit by Earth's blue glow, the sweeping sunlight and the flickering amber displays, the floating debris, the pilot's face and the helmet drawn in detail, perfect character, lighting and style consistency.",
+  "lint_skip": "a quiet cockpit: no targets, no hits (the battle sentences don't apply)"
+ }
+]

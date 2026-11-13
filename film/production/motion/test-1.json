@@ -1,0 +1,10 @@
+[
+ {
+  "id": "T1-D",
+  "kind": "motion",
+  "duration": 8,
+  "resolution": "720p",
+  "prompt": "8-second continuous sequence from a 1980s theatrical sci-fi anime film: hand-drawn cel animation, dense detailed linework, two-tone cel shading, soft film grain; no 3D look, no logos, no text. Warp space is a swirling, rotating tunnel of teal and neon-cyan light streaming past at mind-boggling speed, lightning arcs striking the hulls, speed lines; nothing is ever static. Hard cuts land on the beat. 0-2.5 s: the off-white lead space vessel with clay-orange accent lines tears through the tunnel, the camera racing alongside, lightning crawling over its hull. 2.5-4.7 s: cut inside its bridge: through the wide viewport the tunnel streams past, consoles flicker, the crew bracing in silhouette. 4.7-5.8 s: whip pan to the dark delta-wing space vessel with a rainbow stripe and rainbow exhaust, overtaking. 5.8-7.0 s: cut to the half-white, half-black space vessel trailing a rosette of light, the matte-black angular space vessel with white edges beside it. 7.0-8.0 s: the tunnel collapses in a flash, every vessel drops out of warp, speed stops dead against a quiet starfield.",
+  "image": "media/images/ships-grok/claude-1.jpg"
+ }
+]

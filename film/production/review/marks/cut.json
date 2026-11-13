@@ -1,0 +1,31 @@
+{
+ "clip": "cut",
+ "song_offset": null,
+ "saved": "2026-11-13 15:51:19",
+ "marks": [
+  {
+   "t": 36.243,
+   "song": 36.243,
+   "shot": "s020",
+   "note": "third short starts here"
+  },
+  {
+   "t": 56.944,
+   "song": 56.944,
+   "shot": "s032",
+   "note": "third short ends here"
+  },
+  {
+   "t": 105,
+   "song": 105,
+   "shot": "s067",
+   "note": "second short starts here"
+  },
+  {
+   "t": 128.542,
+   "song": 128.542,
+   "shot": "s083",
+   "note": "second short ends here"
+  }
+ ]
+}

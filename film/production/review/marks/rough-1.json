@@ -1,0 +1,22 @@
+{
+ "clip": "media/motion/test-1/rough-1.mp4",
+ "song_offset": 0.0,
+ "saved": "2026-11-08 02:09:15",
+ "marks": [
+  {
+   "t": 4.788,
+   "song": 4.788,
+   "note": "usable until here, rest drifts"
+  },
+  {
+   "t": 5.932,
+   "song": 5.932,
+   "note": "from here"
+  },
+  {
+   "t": 7.025,
+   "song": 7.025,
+   "note": "to here is usable too, gpt and grok ship flying"
+  }
+ ]
+}
