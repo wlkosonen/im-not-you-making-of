@@ -51,3 +51,7 @@ film 3's working repo by its new `production/tools/export_public.py` (film 2's m
 release plans and posts, the username and drive paths replaced, refusing to finish on any key, .env value or email
 address; 246 files, 71 MB), and `making-of/`, everything that was here, moved. A README at the top explains both.
 The making-of renders from its new folder (frames checked).
+
+> "username is fine really. push away." (Lati, 13 Nov 2026)
+
+Claude (Kiln, local): pushed. The making-of's code keeps its paths as they are.
